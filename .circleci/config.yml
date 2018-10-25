@@ -28,6 +28,7 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
+            aws s3 sync . s3://tesarek.me --exclude "*" --include "*.md"
 
       - store_artifacts:
           path: test-reports
