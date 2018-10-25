@@ -10,6 +10,7 @@
 - nice urls (*no .html*)
 - https only
 - publish content by pushing to git repo
+- write content in markdown
 - CDN
 
 ## S3
