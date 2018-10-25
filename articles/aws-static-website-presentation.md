@@ -69,6 +69,53 @@ exports.handler = (event, context, callback) => {
 };
 ```
 
+## CircleCI
+
+- add CircleCI integration to your Github
+- in AWS IAM create new user with write access to S3
+- in `workflow > build settings > environment variables` fill in following variables
+  - `AWS_ACCESS_KEY_ID`
+  - `AWS_SECRET_ACCESS_KEY`
+  - `AWS_DEFAULT_REGION`
+- create directory `.circleci`
+- create file `.circleci/requirements.txt` with content `awscli`
+- create file `.circleci/config.yml` with content:
+
+```
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/python:3.6.1
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum ".circleci/requirements.txt" }}
+          - v1-dependencies-
+
+      - run:
+          name: install dependencies
+          command: |
+            python3 -m venv venv
+            . venv/bin/activate
+            pip install -r .circleci/requirements.txt
+
+      - save_cache:
+          paths:
+            - ./venv
+          key: v1-dependencies-{{ checksum ".circleci/requirements.txt" }}
+
+      - run:
+          name: sync with s3
+          command: |
+            . venv/bin/activate
+            aws s3 sync . s3://bucket.name --exclude "*" --include "*.md"
+```
+
 ## Pricing
 All prices are per month
 
