@@ -138,6 +138,12 @@ All prices are per month
 - $0.50 per hosted zone
 - $0.400 per 1,000,000 DNS requests
 
+### CircleCI
+- free for one project
+
+### Github
+- free for public projects
+
 ### Pricing example
 **Average sized blog**
 
