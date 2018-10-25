@@ -12,7 +12,7 @@
 
 **Training**
 
-- 100 roundhouse kicks with each leg to a heavy bag
+- 500m rowing
 - 60 min gymnastics
 
 
