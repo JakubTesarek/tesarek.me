@@ -24,11 +24,7 @@
 - 2,000m rowing / 7:15 (2s improvement since last time)
 - 85 roundhouse kicks with each leg to a heavy bag
 
-I planned to do 100 kicks with each leg but after 85 a huge hematoma formed on my righ instep so I stopped. I can walk and it doesn't hurt much. I'm icing the foot.
-
-### Afternoon
-
--  60min gymnastics in jump park
+I planned to do 100 kicks with each leg but after 85 a huge hematoma formed on my righ instep so I stopped. I can walk and it doesn't hurt much. I'm icing the foot. I had to cancel a private gymnastics lesson in jumpark. I don't want to injur myself even more.
 
 Pull-ups up today: 21,550
 
