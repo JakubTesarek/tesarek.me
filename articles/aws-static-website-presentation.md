@@ -2,6 +2,16 @@
 
 **Use only US-East (N. Virginia). Some functions are not available elsewhere.**
 
+## Goal
+
+- create static website using AWS technology
+- no VPS
+- accessible on www and non-www domains
+- nice urls (*no .html*)
+- https only
+- publish content by pushing to git repo
+- CDN
+
 ## S3
 - 2 buckets for www and non-www version
 - set public access to buckets
