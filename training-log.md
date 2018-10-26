@@ -1,6 +1,6 @@
 # Training Log
 
-## 26 October 2018 - plan
+## 26 October 2018
 [Morning warmup](/articles/morning-routine), weight: 82.6kg
 
 [My foot injury](/media/26-10-2018-foot-injury.png) is getting better. The sweeling in gone, the foot is just bruised and doesn't hurt anymore.
@@ -9,13 +9,17 @@
 
 **Workout Circuit - time challange**
 
+I expected I'll be able to finish the challange in 1 hour. I have to repeat it some time and improve my time.
+
 - 5x pull-up, 10x push-up, 5x dip
 - 30 rounds
 - Rest as needed
+- Total time: 1:23:03
 
 **Training**
 
-- 500m rowing
+- 250m rowing warmup
+- 500m rowing/1:30 (new PR)
 - 60 min gymnastics
 
 
@@ -24,7 +28,7 @@
 
 ### Morning
 
-- 2,000m rowing / 7:15 (2s improvement since last time)
+- 2,000m rowing / 7:15 (new PR, 2s improvement since last time)
 - 85 roundhouse kicks with each leg to a heavy bag
 
 I planned to do 100 kicks with each leg but after 85 a [huge hematoma formed on my righ instep](/media/25-10-2018-foot-injury.png) so I stopped. I can walk and it doesn't hurt much. I'm icing the foot. I had to cancel a private gymnastics lesson in jumpark. I don't want to injur myself even more.
