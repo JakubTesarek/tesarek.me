@@ -89,4 +89,5 @@
 - Karesovka 1200 reps/1:00:00 (25/7/2018)
 - 41x burpee/2:00 (4/9/2018)
 - 1,000x burpee/2:00:00 (New Year Challange 1/1/2018)
+- 500m indoor rowing/1:30 (26/10/2018)
 - 2,000m indoor rowing/7:15 (25/10/2018)
