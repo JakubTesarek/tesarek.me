@@ -1,6 +1,9 @@
 # Training Log
 
 ## 26 October 2018 - plan
+[Morning warmup](/articles/morning-routine), weight: 82.6kg
+
+[My foot injury](/media/26-10-2018-foot-injury.png) is getting better. The sweeling in gone, the foot is just bruised and doesn't hurt anymore.
 
 ### Afternoon
 
@@ -24,9 +27,10 @@
 - 2,000m rowing / 7:15 (2s improvement since last time)
 - 85 roundhouse kicks with each leg to a heavy bag
 
-I planned to do 100 kicks with each leg but after 85 a huge hematoma formed on my righ instep so I stopped. I can walk and it doesn't hurt much. I'm icing the foot. I had to cancel a private gymnastics lesson in jumpark. I don't want to injur myself even more.
+I planned to do 100 kicks with each leg but after 85 a [huge hematoma formed on my righ instep](/media/25-10-2018-foot-injury.png) so I stopped. I can walk and it doesn't hurt much. I'm icing the foot. I had to cancel a private gymnastics lesson in jumpark. I don't want to injur myself even more.
 
 Pull-ups up today: 21,550
+
 
 ## 24 October 2018
 [Morning warmup](/articles/morning-routine), weight: 83.1kg
