@@ -1,5 +1,13 @@
 # Training Log
 
+## 27 October 2018
+[Morning warmup](/articles/morning-routine), weight: 82.5kg
+
+Rest Day
+
+Pull-ups up today: 21,780
+
+
 ## 26 October 2018
 [Morning warmup](/articles/morning-routine), weight: 82.6kg
 
@@ -21,6 +29,8 @@ I expected I'll be able to finish the challange in 1 hour. I have to repeat it s
 - 250m rowing warmup
 - 500m rowing/1:30 (new PR)
 - 60 min gymnastics
+
+Pull-ups up today: 21,710
 
 
 ## 25 October 2018
