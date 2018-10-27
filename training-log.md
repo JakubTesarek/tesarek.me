@@ -5,7 +5,7 @@
 
 Rest Day
 
-Pull-ups up today: 21,780
+Pull-ups up today: 21,720
 
 
 ## 26 October 2018
