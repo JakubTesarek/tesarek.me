@@ -4,7 +4,9 @@
 ## 28 October 2018
 [Morning warmup](/articles/morning-routine), weight: 83.5kg
 
-Pull-ups up today: 21,730
+2 hours indoors climbing
+
+Pull-ups up today: 21,745
 
 
 ## 27 October 2018
