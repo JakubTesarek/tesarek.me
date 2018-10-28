@@ -1,5 +1,12 @@
 # Training Log
 
+
+## 28 October 2018
+[Morning warmup](/articles/morning-routine), weight: 83.5kg
+
+Pull-ups up today: 21,730
+
+
 ## 27 October 2018
 [Morning warmup](/articles/morning-routine), weight: 82.5kg
 
