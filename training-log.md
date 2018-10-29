@@ -1,10 +1,17 @@
 # Training Log
 
+## 29 October 2018
+[Morning warmup](/articles/morning-routine), weight: 83.9kg
+
+Pull-ups up today: 21,755
+
 
 ## 28 October 2018
 [Morning warmup](/articles/morning-routine), weight: 83.5kg
 
-2 hours indoors climbing
+Today I've cheated on my diet. I think it was because of stress and I was just too tired.
+
+- 2 hours indoors climbing
 
 Pull-ups up today: 21,745
 
