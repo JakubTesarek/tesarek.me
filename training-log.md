@@ -3,13 +3,23 @@
 ## 29 October 2018
 [Morning warmup](/articles/morning-routine), weight: 83.9kg
 
-Pull-ups up today: 21,755
+### Afternoon
+
+- 2x3 minutes rope jumping
+- 3 rounds: 6x pull-up, 12x push-up
+- 3 rounds: 6x chin-up, 5x pistol squat (each leg)
+- raven holds to head stands
+- muscle-up attempts
+
+Pull-ups up today: 21,800
 
 
 ## 28 October 2018
 [Morning warmup](/articles/morning-routine), weight: 83.5kg
 
 Today I've cheated on my diet. I think it was because of stress and I was just too tired.
+
+### Afternoon
 
 - 2 hours indoors climbing
 
