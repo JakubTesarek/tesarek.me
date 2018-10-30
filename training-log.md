@@ -1,5 +1,14 @@
 # Training Log
 
+## 30 October 2018
+[Morning warmup](/articles/morning-routine), weight: 83.9kg
+
+### Morning
+
+- 60 minutes gymnastics
+
+Pull-up up today: 21,810
+
 ## 29 October 2018
 [Morning warmup](/articles/morning-routine), weight: 83.9kg
 
