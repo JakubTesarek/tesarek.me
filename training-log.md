@@ -1,11 +1,25 @@
 # Training Log
 
+## 1 November 2018
+[Morning warmup](/articles/morning-routine), weight: 83.2kg
+
+### Afternoon
+
+- 60 minutes gymnastics training in Jump Park
+
+Pull-ups up today: 21,830
+
+
 ## 31 October 2018
 [Morning warmup](/articles/morning-routine), weight: 83.7kg
 
 ### Morning
 
 - 60 minutes kickbox training
+
+## Afternoon
+
+- 5km run in park with my dog
 
 Pull-up up today: 21,820
 
@@ -21,7 +35,7 @@ My wife bought me some sweet baked goods in Wine&Food because I had a very stres
 
 ### Afternoon
 
-- 75 minutes kickbox trainign
+- 75 minutes kickbox training
 
 Pull-up up today: 21,810
 
