@@ -3,6 +3,16 @@
 ## 1 November 2018
 [Morning warmup](/articles/morning-routine), weight: 83.2kg
 
+### Morning
+
+- 2,000m rowing/7:14 (new PR, improvement by 1s)
+- 1 min max push-ups: 43 (new PR, improvement by 4)
+- 22x push-up
+- 100 situps/5:06 (50/2:19)
+- 1 min max squats: 49
+- 16x squat
+- 15 min stretching
+
 ### Afternoon
 
 - 60 minutes gymnastics training in Jump Park

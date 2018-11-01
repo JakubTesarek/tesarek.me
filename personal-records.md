@@ -84,10 +84,20 @@
 - 1km/32:18:00 breastroke (3/2/2018)
 
 ## Other
-- 44x sit-up/1:30 (4/9/2018)
+
+### Sit-ups
+- 44/1:30 (4/9/2018)
+- 50/2:19 (1/11/2018)
+- 100/7:14 (1/11/2018)
+
+### Burpees
+- 41/2:00 (4/9/2018)
+- 1,000/2:00:00 (New Year Challange 1/1/2018)
+
+### Indoor Rowing
+- 500m/1:30 (26/10/2018)
+- 2,000m/7:14 (1/11/2018)
+
+### Miscellaneous
 - 6:15 elbow plank (15/5/2018)
 - Karesovka 1200 reps/1:00:00 (25/7/2018)
-- 41x burpee/2:00 (4/9/2018)
-- 1,000x burpee/2:00:00 (New Year Challange 1/1/2018)
-- 500m indoor rowing/1:30 (26/10/2018)
-- 2,000m indoor rowing/7:15 (25/10/2018)
