@@ -3,22 +3,24 @@
 ## 2 November 2018
 
 ### Morning warmup
-
-- 35 push-up
-- 35 squat
-- 35 sit-ups
-- 10 pull-ups
-- cold shower
+[Morning warmup](/articles/morning-routine), weight: 82.9kg
 
 ### Morning
 
+- 2x15 push-ups
 - 60 minutes kickbox trainig
 
 ### Afternoon
 
+- 500m rowing/1:31
+- 7x7 pull-ups, dips, push-ups/10:20
+- 65 sit-ups
+- 2x30 squats, 5x atg squat
+- 100 roundhouse kicks with each leg to a heavybag
+- 51x pull-up/6:30
 - 60 minuntes gymnastics
 
-Pull-ups up today: 21,840
+Pull-ups up today: 21,940
 
 
 ## 1 November 2018
