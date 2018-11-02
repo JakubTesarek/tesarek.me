@@ -11,5 +11,7 @@ Create your own morning routine and get disciplined.
 - 35x Bodyweight squat
 - 35x Push-up
 - 10x Pull-up
-- 3min Elbow plank
+- 35x Sit-up
 - Cold shower
+
+Edit: In November 2018 I've changed 3 miunutes of plank for 35 sit-ups for the [30 days of discipline challange](/articles/30-day-of-discipline)
