@@ -1,5 +1,26 @@
 # Training Log
 
+## 2 November 2018
+
+### Morning warmup
+
+- 35 push-up
+- 35 squat
+- 35 sit-ups
+- 10 pull-ups
+- cold shower
+
+### Morning
+
+- 60 minutes kickbox trainig
+
+### Afternoon
+
+- 60 minuntes gymnastics
+
+Pull-ups up today: 21,840
+
+
 ## 1 November 2018
 [Morning warmup](/articles/morning-routine), weight: 83.2kg
 
