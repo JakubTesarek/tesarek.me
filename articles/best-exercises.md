@@ -1,4 +1,4 @@
-# Preferred Excerice List
+# List of best excercises
 
 I put together a list of my favorite exercises. I split them into categories by the function they provide, not necessary the muscle group they hit. Every group has at least one movement you can do without any equipment (except maybe a ledge or a tree branch to hand on). You can always incorporate more exercises to your training but if you had to choose just one from each group to train, it would be enough to strengthen your whole body.
 
