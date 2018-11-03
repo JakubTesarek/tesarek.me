@@ -1,5 +1,6 @@
 # Articles
 
+- [List of best excercises](/articles/best-exercises)
 - [30 days of discipline challange](/articles/30-day-of-discipline)
 - [You get what you are afraid the most](/articles/what-are-you-afraid-of)
 - [Story: Dog sitting](/articles/dog-sitting)
