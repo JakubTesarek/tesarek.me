@@ -15,6 +15,8 @@ Pull-ups up today: 21,955
 ## 2 November 2018
 [Morning warmup](/articles/morning-routine), weight: 82.9kg
 
+I talked with my kickbox trainer today about my first amateur fight. He thinks it's possible that I'll have my first fight at the end of next year. I basically have to do 3 things - get good enough so I can start training with A team, have with hard sparring sessions, convince the gym owner that I'm ready.
+
 ### Morning
 
 - 2x15 push-ups
