@@ -3,7 +3,14 @@
 ## 4 November 2018
 [Morning warmup](/articles/morning-routine), weight: 82.9kg
 
-Pull-ups up today: 21,965
+### Afternoon
+
+- 65x sit-up
+- 65x squat
+- Bring Sally Up push-up challange - to 2nd break + 2x push-up
+- 90 minutes group kickbox training
+
+Pull-ups up today: 21,968
 
 
 ## 3 November 2018
@@ -26,7 +33,7 @@ I talked with my kickbox trainer today about my first amateur fight. He thinks i
 ### Morning
 
 - 2x15 push-ups
-- 60 minutes kickbox trainig
+- 60 minutes kickbox training
 
 ### Afternoon
 
