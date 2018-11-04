@@ -35,4 +35,4 @@ jobs:
           name: sync with s3
           command: |
             . venv/bin/activate
-            aws s3 sync . s3://tesarek.me --exclude "*" --include "*.md"
+            aws s3 sync . s3://tesarek.me --exclude "*" --include "*.md" --include "sitemap.xml"

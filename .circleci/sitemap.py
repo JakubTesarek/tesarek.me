@@ -38,14 +38,17 @@ def create_xml_url(loc, lastmod, changefreq='weekly', priority=1.0):
     '''
 
 
-xml = ''
-for file in get_files():
-    xml += create_xml_url(get_url(file), get_lastmod_time(file))
+def create_xml():
+    xml = ''
+    for file in get_files():
+        xml += create_xml_url(get_url(file), get_lastmod_time(file))
 
-xml = f'''
-    <?xml version="1.0" encoding="UTF-8"?>
-    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-        {xml}
-    </urlset>
-'''
-print(xml)
+    return f'''
+        <?xml version="1.0" encoding="UTF-8"?>
+        <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+            {xml}
+        </urlset>
+    '''
+
+with open('sitemap.xml', 'w') as f:
+    f.write(create_xml())
