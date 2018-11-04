@@ -1,5 +1,11 @@
 # Training Log
 
+## 4 November 2018
+[Morning warmup](/articles/morning-routine), weight: 82.9kg
+
+Pull-ups up today: 21,965
+
+
 ## 3 November 2018
 [Morning warmup](/articles/morning-routine), weight: 82.4kg
 
