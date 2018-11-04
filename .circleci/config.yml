@@ -26,16 +26,6 @@ jobs:
           key: v1-dependencies-{{ checksum ".circleci/requirements.txt" }}
 
       - run:
-          name: git version
-          command: |
-            git --version
-
-      - run:
-          name: git help
-          command: |
-            git log --help
-
-      - run:
           name: generate sitemap
           command: |
             . venv/bin/activate

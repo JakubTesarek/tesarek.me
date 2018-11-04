@@ -17,7 +17,7 @@ def get_url(file):
 
 def get_lastmod_time(file):
     result = subprocess.run(
-        ['git', 'log', '-1', '--format="%ad"', '--date=iso8601-strict', '--', file],
+        ['git', 'log', '-1', '--format="%ad"', '--date=iso8601', '--', file],
         stdout=subprocess.PIPE
     )
     return result.stdout.decode('utf-8').strip().replace('"', '')
