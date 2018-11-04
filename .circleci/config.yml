@@ -25,11 +25,12 @@ jobs:
             - ./venv
           key: v1-dependencies-{{ checksum ".circleci/requirements.txt" }}
 
-      - sitemap:
+      - run:
           name: generate sitemap
           command: |
             . venv/bin/activate
             python ./circleci/sitemap.py
+
       - run:
           name: sync with s3
           command: |
