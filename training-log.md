@@ -3,6 +3,8 @@
 ## 4 November 2018
 [Morning warmup](/articles/morning-routine), weight: 82.9kg
 
+I gained some weight since yesterday despite eating just 2 meals. Today visited a halloween party in my gym and had some salty snacks and peanuts coated in sugar. It was nowhere near a full meal. ut it was definitely a cheat. I ate it just because it was there.
+
 ### Afternoon
 
 - 65x sit-up
