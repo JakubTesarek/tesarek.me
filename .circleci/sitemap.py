@@ -2,9 +2,12 @@ import glob
 import re
 import subprocess
 from os.path import dirname
+from datetime import datetime
+
 
 HOST = 'https://tesarek.me/'
 EXCLUDE = ['error-pages']
+
 
 def get_files():
     files = glob.glob('**/*.md', recursive=True)
@@ -20,14 +23,15 @@ def get_lastmod_time(file):
         ['git', 'log', '-1', '--format="%ad"', '--date=iso8601', '--', file],
         stdout=subprocess.PIPE
     )
-    return result.stdout.decode('utf-8').strip().replace('"', '')
+    time_string = result.stdout.decode('utf-8').strip().replace('"', '')
+    return datetime.strptime(time_string, '%Y-%m-%d %H:%M:%S %z')
 
 
 def create_xml_url(loc, lastmod, changefreq='weekly', priority=1.0):
     return f'''
         <url>
             <loc>{loc}</loc>
-            <lastmod>{lastmod}</lastmod>
+            <lastmod>{lastmod.isoformat()}</lastmod>
             <changefreq>{changefreq}</changefreq>
             <priority>{priority}</priority>
         </url>
