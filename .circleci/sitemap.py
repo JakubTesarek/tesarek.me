@@ -28,14 +28,12 @@ def get_lastmod_time(file):
 
 
 def create_xml_url(loc, lastmod, changefreq='weekly', priority=1.0):
-    return f'''
-        <url>
-            <loc>{loc}</loc>
-            <lastmod>{lastmod.isoformat()}</lastmod>
-            <changefreq>{changefreq}</changefreq>
-            <priority>{priority}</priority>
-        </url>
-    '''
+    return f'''<url>
+        <loc>{loc}</loc>
+        <lastmod>{lastmod.isoformat()}</lastmod>
+        <changefreq>{changefreq}</changefreq>
+        <priority>{priority}</priority>
+    </url>'''
 
 
 def create_xml():
@@ -43,12 +41,10 @@ def create_xml():
     for file in get_files():
         xml += create_xml_url(get_url(file), get_lastmod_time(file))
 
-    return f'''
-        <?xml version="1.0" encoding="UTF-8"?>
-        <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-            {xml}
-        </urlset>
-    '''
+    return f'''<?xml version="1.0" encoding="UTF-8"?>
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+        {xml}
+    </urlset>'''
 
 with open('sitemap.xml', 'w') as f:
     f.write(create_xml())
