@@ -1,5 +1,19 @@
 # Training Log
 
+## 5 November 2018
+[Morning warmup](/articles/morning-routine), weight: 82.8kg
+
+### Morning
+
+- 2x35 squat
+- 2x35 push-up
+- 2x35 boxing sit-up
+- 100x roundhouse kick from each leg
+- pull-ups: 5xBW, 5x8kg, 5x12kg, 5x5x16kg (~1 min rest)
+
+Pull-ups up today: 21,978
+
+
 ## 4 November 2018
 [Morning warmup](/articles/morning-routine), weight: 82.9kg
 
