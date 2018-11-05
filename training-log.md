@@ -9,6 +9,7 @@
 - 2x35 push-up
 - 2x35 boxing sit-up
 - 100x roundhouse kick from each leg
+- 10x scapulla retraction
 - pull-ups: 5xBW, 5x8kg, 5x12kg, 5x5x16kg (~1 min rest)
 
 Pull-ups up today: 21,978
