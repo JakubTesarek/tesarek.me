@@ -1,9 +1,33 @@
 # Training Log
 
+## 5 November 2018
+[Morning warmup](/articles/morning-routine), weight: 82.8kg
+
+### Morning
+
+- 2x35 squat
+- 2x35 push-up
+- 2x35 boxing sit-up
+- 100x roundhouse kick from each leg
+- 10x scapulla retraction
+- pull-ups: 5xBW, 5x8kg, 5x12kg, 5x5x16kg (~1 min rest), 4xBW
+
+Pull-ups up today: 22,022
+
+
 ## 4 November 2018
 [Morning warmup](/articles/morning-routine), weight: 82.9kg
 
-Pull-ups up today: 21,965
+I gained some weight since yesterday despite eating just 2 meals. Today visited a halloween party in my gym and had some salty snacks and peanuts coated in sugar. It was nowhere near a full meal. ut it was definitely a cheat. I ate it just because it was there.
+
+### Afternoon
+
+- 65x sit-up
+- 65x squat
+- Bring Sally Up push-up challange - to 2nd break + 2x push-up
+- 90 minutes group kickbox training
+
+Pull-ups up today: 21,968
 
 
 ## 3 November 2018
@@ -26,7 +50,7 @@ I talked with my kickbox trainer today about my first amateur fight. He thinks i
 ### Morning
 
 - 2x15 push-ups
-- 60 minutes kickbox trainig
+- 60 minutes kickbox training
 
 ### Afternoon
 
