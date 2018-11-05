@@ -4,6 +4,7 @@
 [Morning warmup](/articles/morning-routine), weight: 82.8kg
 
 ### Morning
+I didn't train weighted pull-ups for a while so it was quite hard. My roundhouse kick is getting better though. I need to focus more on keeping my hands up, following my leg with my shoulder on the same side and launching forward from the kicking leg.
 
 - 2x35 squat
 - 2x35 push-up
@@ -20,7 +21,12 @@ Pull-ups up today: 22,022
 
 I gained some weight since yesterday despite eating just 2 meals. Today visited a halloween party in my gym and had some salty snacks and peanuts coated in sugar. It was nowhere near a full meal. ut it was definitely a cheat. I ate it just because it was there.
 
+The afternoon kickbox training was great. The main group of people who go there are actual fighters and they take the training seriously. They are also in great shape and I would learn a lot in there. They also train more often and I want to train more anyway. But I also want to keep training technique with Filip because this training gives me a lot. I don't know if he would be willing to train with me if I start training elsewhere.
+
+Another advantage of training with Penta is that it's above E.R.S workout gym so I could do a strength training and boxin in one gym. On other hand they don't have a speedbag for general use so I would not have access to this.
+
 ### Afternoon
+> Excercise of the day: Stay in your guard and then squat down and as you go up do a push kick. Alternate legs with each leg. Alternatively you can do a sprawl instead of squat.
 
 - 65x sit-up
 - 65x squat
