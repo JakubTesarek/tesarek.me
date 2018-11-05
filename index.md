@@ -5,7 +5,7 @@ title: Jakub Tesarek - personal website
 # Jakub Tesarek
 [jakub@tesarek.me](mailto:jakub@tesarek.me)
 
-I'm programmer and minimalist.
+Minimalist. Programmer. Fighter.
 
 ## Pages
 - [Personal records](/personal-records)
