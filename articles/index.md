@@ -1,5 +1,6 @@
 # Articles
 
+- [Access aliased bash command](/articles/access-aliased-command)
 - [List of best exercises](/articles/best-exercises)
 - [30 days of discipline challange](/articles/30-day-of-discipline)
 - [You get what you are afraid the most](/articles/what-are-you-afraid-of)
