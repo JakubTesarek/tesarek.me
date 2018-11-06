@@ -9,9 +9,17 @@
 
 ### Afternoon
 
+Today kickbox training was very tough. 1. there was a lot of people so we did a lot of cardio. 2. I haven't eat much since I'm still cutting weight. At the end of the training I was seriously running out of energy.
+
+On speedbag I tried some new combos, mainly a double-hit and putting both my fists on one side of my head.
+
+- 2x35 squat
+- 2x35 push-up
+- 2x35 sit-up
+- 10min speedback
 - 75min kickbox training
 
-Pull-ups up today: 22,032
+Pull-ups up today: 22,033
 
 
 ## 5 November 2018
