@@ -1,5 +1,19 @@
 # Training Log
 
+## 6 November 2018
+[Morning warmup](/articles/morning-routine), weight: 82.1kg
+
+### Morning
+
+- 75min gymnastics training
+
+### Afternoon
+
+- 75min kickbox training
+
+Pull-ups up today: 22,032
+
+
 ## 5 November 2018
 [Morning warmup](/articles/morning-routine), weight: 82.8kg
 
