@@ -1,5 +1,9 @@
 # Training Log
 
+## 7 November 2018
+[Morning warmup](/articles/morning-routine), weight: 81.5kg
+
+
 ## 6 November 2018
 [Morning warmup](/articles/morning-routine), weight: 82.1kg
 
