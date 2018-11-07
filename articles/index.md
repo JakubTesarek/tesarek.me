@@ -1,5 +1,6 @@
 # Articles
 
+- [My eating rules](/articles/eating-rules)
 - [Access aliased bash command](/articles/access-aliased-command)
 - [List of best exercises](/articles/best-exercises)
 - [30 days of discipline challange](/articles/30-day-of-discipline)
