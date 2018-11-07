@@ -5,6 +5,8 @@
 
 ### Morning
 
+I maybe broke a pinky toe on my right foot in dynamic leg stretching. I accidently kicked a bosu ball.
+
 - 60min personal kickbox training
 
 ### Afternoon
