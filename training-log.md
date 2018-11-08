@@ -3,6 +3,8 @@
 ## 8 November 2018
 [Morning warmup](/articles/morning-routine), weight: 81.5kg
 
+[The broken pinky](/media/08-11-2018-foot-injury.png) hurts more then yesterday. I had to cancel today and tomorrow training. Instead I'm just going to the gym in the office and workout with some free weights.
+
 ### Morning
 I kept rest around 1 minute.
 
