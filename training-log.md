@@ -3,6 +3,20 @@
 ## 8 November 2018
 [Morning warmup](/articles/morning-routine), weight: 81.5kg
 
+### Morning
+I kept rest around 1 minute.
+
+- 2x35 squat
+- 2x35 push-up
+- 2x35 sit-up
+- Military press 10x20kg, 5x30kg, 5x5x40kg
+- Pull-up 5x10
+- Towel neck pull 5x10x12kg
+- Dumbell shrugs 3x20x25kg
+- Standing dumbell flyes 3x12x6kg
+
+Pull-ups up today: 22,110
+
 
 ## 7 November 2018
 [Morning warmup](/articles/morning-routine), weight: 81.5kg
