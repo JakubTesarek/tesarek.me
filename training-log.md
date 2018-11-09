@@ -3,7 +3,9 @@
 ## 9 November 2018
 [Morning warmup](/articles/morning-routine), weight: 81.6kg
 
-I stoped losing weight. In last 3 days I even gained 0.1kg. It can be because I didn't do any high intensity workout in those last 3 days because of my injury. I cannot reduce my food any more. Yeasterday I had one small chickpeas salad and chicken tortilla for lunch; and steamed brocolli with small pork steak and one slice of wholewheat bread and one orange for dinner. I was barely full so reducing my portion size is not possible. 
+I stoped losing weight. In last 3 days I even gained 0.1kg. It can be because I didn't do any high intensity workout in those last 3 days because of my injury. I cannot reduce my food any more. Yeasterday I had one small chickpeas salad and chicken tortilla for lunch; and steamed brocolli with small pork steak and one slice of wholewheat bread and one orange for dinner. I was barely full so reducing my portion size is not possible.
+
+Today I was on [InBody measurement](/media/09-11-2018-inbody.png).
 
 ### Afternoon
 
