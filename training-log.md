@@ -3,7 +3,21 @@
 ## 10 November 2018
 [Morning warmup](/articles/morning-routine), weight: 82.7kg
 
-Pull-ups up today: 22,130
+### Street workout games LIVE
+
+Everything was judged extremely strict. Any head movement was classified as no-rep.
+
+- 9x pull-up
+- 16x dip
+- 40x push-up
+
+### Afternoon
+
+- 2x35 squat
+- 2x35 push-up
+- 2x35 sit-up
+
+Pull-ups up today: 22,155
 
 
 ## 9 November 2018
