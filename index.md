@@ -24,4 +24,5 @@ Minimalist. Programmer. Fighter.
 
 ## Links
 - [Github](https://github.com/JakubTesarek)
+- [Twitter](https://twitter.com/JakubTesarek)
 - [Wedding photos](/wedding)
