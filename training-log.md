@@ -3,7 +3,19 @@
 ## 12 November 2018
 [Morning warmup](/articles/morning-routine), weight: 83.0kg
 
-Pull-ups up today: 22,175
+### Afternoon
+
+- Benchpress 10x20kg, 10x40kg, 10x10x55kg (60s rest)
+- Pull-up 5xBW, 5x8kg, 5x5x16kg, 5x8BW (90s rest)
+- Towel neck pull 3x15x12kg
+- Rowing 500m/1:40, 500m/1:50
+- Squat 2x35
+- Push-up 2x35
+- Dip 2x35
+- Neck "No's" laying on back 60x
+- Neck "No's" laying on each side 60x
+
+Pull-ups up today: 22,250
 
 
 ## 11 November 2018
