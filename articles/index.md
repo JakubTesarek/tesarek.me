@@ -1,5 +1,6 @@
 # Articles
 
+- [Be a lion, not a meerkat](/articles/be-lion-not-meerkat)
 - [My eating rules](/articles/eating-rules)
 - [Access aliased bash command](/articles/access-aliased-command)
 - [List of best exercises](/articles/best-exercises)
