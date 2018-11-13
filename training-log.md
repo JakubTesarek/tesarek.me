@@ -1,5 +1,23 @@
 # Training Log
 
+## 13 November 2018
+[Morning warmup](/articles/morning-routine), weight: 83.1kg
+
+### Morning
+
+- Military press 10x20kg, 5x40kg, 5x5x45kg
+- Squat 10x20kg, 5x50kg, 3x70kg, 5x5x80kg, 70xBW
+- Deadlift 5x60kg, 5x80kg, 5x5x100kg
+- Push-up 2x35
+- Sit-up 2x35
+
+### Afternoon
+
+- 75min kickbox
+
+Pull-ups up today: 22,270
+
+
 ## 12 November 2018
 [Morning warmup](/articles/morning-routine), weight: 83.0kg
 
@@ -11,7 +29,7 @@
 - Rowing 500m/1:40, 500m/1:50
 - Squat 2x35
 - Push-up 2x35
-- Dip 2x35
+- Sit-up 2x35
 - Neck "No's" laying on back 60x
 - Neck "No's" laying on each side 60x
 
