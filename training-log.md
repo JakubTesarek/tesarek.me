@@ -1,5 +1,23 @@
 # Training Log
 
+## 15 November 2018
+[Morning warmup](/articles/morning-routine), weight: 82.7kg
+
+I planned to have another kickboxing training in the evening. But my back delts are very sore and I would probably not be able to keep my hands up. Especially when I have another training tomorrow.
+
+### Morning
+
+- Rowing 500m/1:49
+- Pull-up 3x5BW, 5x8kg, 5x5x16kg (2:30 rest)
+- Bend-over rows 10x20kg, 10x30kg, 10x40kg, 5x5x50kg (2:00 rest)
+- Squat 2x35
+- Push-up 2x35
+- Sit-up 2x35
+- 15 min stretching
+
+Pull-ups up to today: 22,347
+
+
 ## 14 November 2018
 [Morning warmup](/articles/morning-routine), weight: 82.7kg
 
