@@ -1,5 +1,27 @@
 # Training Log
 
+## 16 November 2018
+[Morning warmup](/articles/morning-routine), weight: 82.3kg
+
+### Afternoon
+- 60 minutes private kickbox training
+- Push-up 35x
+- Sit-up 35x
+- Squat 35x
+- Circuit training (30s rest, one excercise after another)
+  - Sit-up with 3kg wall-ball 5x10
+  - Squat on bosu ball 5x10
+  - Inverted row on TRX 5x10
+  - Clean and jerk 5x10x20kg
+  - Push-up with resistance band 5x10
+  - Wheel roll-out from knees 5x10
+  - Shoulder press 5x10x10kg
+  - Bicep curl 5x10x10kg
+- 15min dynamic legs workout
+
+Pull-ups up to today: 22,357
+
+
 ## 15 November 2018
 [Morning warmup](/articles/morning-routine), weight: 82.7kg
 
