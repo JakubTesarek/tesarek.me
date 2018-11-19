@@ -1,5 +1,21 @@
 # Training Log
 
+## 19 November 2018
+[Morning warmup](/articles/morning-routine), weight: 84.0kg
+
+### Morning
+
+- Benchpress 10x20kg, 10x40kg, 5x50kg, 5x70kg, 4x80kg, 4x80kg, 3x80kg, 4x80kg, 3x80kg
+- Scapulla retraction 10x
+- Pull-up 5xBW, 5x8kg, 3x12kg, 3x20kg, 4x20kg, 4x20kg, 3x20kg, 3x20kg, 2x10xBW
+- Bend-over rows 10x40kg, 5x55kg, 5x8x60kg
+- Squat 2x35
+- Push-up 2x35
+- Sit-up 2x35
+
+Pull-ups up to today: 22,437
+
+
 ## 18 November 2018
 [Morning warmup](/articles/morning-routine), weight: 84.3kg
 
