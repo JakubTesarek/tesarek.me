@@ -1,5 +1,33 @@
 # Training Log
 
+## 21 November 2018
+[Morning warmup](/articles/morning-routine), weight: 83.6kg
+
+### Morning
+
+- 60min private kickbox training
+- Squat 2x35
+- Push-up 2x35
+- Sit-up 2x35
+
+Pull-ups up to today: 22,448
+
+
+## 20 November 2018
+[Morning warmup](/articles/morning-routine), weight: 83.6kg
+
+### Afternoon
+
+We ended kickbox training with a sparring session. 4x1min of box followed by 4x1 of clinching. I was quite good at clinching but horrible at box. My second opponent hit me few times pretty hard, kicked in clinch etc. I wasn't willing to go to exchanges after that.
+
+- Squat 2x35
+- Push-up 2x35
+- Sit-up 2x35
+- 75min group kickbox training
+
+Pull-ups up to today: 22,448
+
+
 ## 19 November 2018
 [Morning warmup](/articles/morning-routine), weight: 84.0kg
 
@@ -12,6 +40,10 @@
 - Squat 2x35
 - Push-up 2x35
 - Sit-up 2x35
+
+### Afternoon
+
+- 45min walk with Django
 
 Pull-ups up to today: 22,437
 
