@@ -1,9 +1,17 @@
 # Training Log
 
+## 22 November 2018
+[Morning warmup](/articles/morning-routine), weight: 84.6kg
+
+Pull-ups up to today: 22,458
+
+
 ## 21 November 2018
 [Morning warmup](/articles/morning-routine), weight: 83.6kg
 
 ### Morning
+
+[I injured my little finger](/media/21-11-2018-finger-injury.png) at the end of today kickbox training. I was catching a ball during ball sit-ups and it hit my finger. It made a cracking noise but probably isn't broken. I can still move with it but it's painfull.
 
 - 60min private kickbox training
 - Squat 2x35
