@@ -3,7 +3,17 @@
 ## 22 November 2018
 [Morning warmup](/articles/morning-routine), weight: 84.6kg
 
-Pull-ups up to today: 22,458
+[My finger is getting colorfull](/media/22-11-2018-finger-injury.png).
+
+### Afternoon
+
+- Bench press 10x40kg, 5x60kg, 1x90kg, 5x80kg, 5x80kg, 8x70kg, 7x70kg, 6x70kg
+- Pull-up 5xBW, 5x4x20kg, 7x6BW
+- Push-up 2x35
+- Squat 2x35
+- Sit-up 2x35
+
+Pull-ups up to today: 22,525
 
 
 ## 21 November 2018
