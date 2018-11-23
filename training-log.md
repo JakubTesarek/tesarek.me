@@ -1,5 +1,27 @@
 # Training Log
 
+
+## 23 November 2018
+I oveslept and had to skip morning warmup to get to a training, weight: 84.9kg
+
+### Morning
+- 60min private kickbox training session
+
+### Afternoon
+I planned to go to a group kickbox training but it was canceled so I did a strenght training instead.
+
+Someone adviced me that I'm deadlift with feet too wide apart and hands too close together. I tried to narrow my stance and it actually helped. I can engage my glutes much better and therefore I'm not pulling with my lower back so much.
+
+- Deadlift 10x60kg, 5x80kg, 3x100kg, 3x120kg, 3x130kg, 2x140kg, 2x140kg, 2x140kg, 2x140kg, 4x140kg
+- Squat 10x20kg, 8x50kg, 5x70kg, 5x8x80kg
+- Pull-up 15x5BW (5/1min)
+- Squat 3x35
+- Push-up 3x35
+- Sit-up 3x35
+
+Pull-ups up to today: 22,600
+
+
 ## 22 November 2018
 [Morning warmup](/articles/morning-routine), weight: 84.6kg
 
