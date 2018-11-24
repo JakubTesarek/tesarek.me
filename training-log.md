@@ -1,5 +1,12 @@
 # Training Log
 
+## 22 November 2018
+[Morning warmup](/articles/morning-routine), weight: 83.7kg
+
+## Afternoon
+
+- 2.5 hours walk with Django on Petřín
+
 
 ## 23 November 2018
 I oveslept and had to skip morning warmup to get to a training, weight: 84.9kg
