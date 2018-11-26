@@ -15,6 +15,9 @@
 - Push-up 2x35
 - Sit-up 2x35
 
+Pull-ups up to today: 22,724
+
+
 ## 25 November 2018
 [Morning warmup](/articles/morning-routine), weight: 84.7kg
 
