@@ -3,6 +3,21 @@
 ## 25 November 2018
 [Morning warmup](/articles/morning-routine), weight: 84.7kg
 
+### Morning
+- Rowing 500m/1:33, 500m/1:50, sprints 3x100m fast/100m slow
+- Pull-up 5xBW, 5x8kg, 21x4x12kg (4x/1min)
+- Bend-over row 2x8x50kg, 3x8x50kg
+- Dumbell shrug 5x8x25kg
+- Towel neck pull 3x15x12kg
+- Neck "No's" laying on back 2x50
+- Neck "No's" laying on each side 2x25
+- Squat 2x35
+- Push-up 2x35
+- Sit-up 2x35
+
+## 25 November 2018
+[Morning warmup](/articles/morning-routine), weight: 84.7kg
+
 ### Afternoon
 
 - Squat 3x35
