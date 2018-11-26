@@ -1,11 +1,27 @@
 # Training Log
 
-## 22 November 2018
+## 25 November 2018
+[Morning warmup](/articles/morning-routine), weight: 84.7kg
+
+### Afternoon
+
+- Squat 3x35
+- Push-up 3x35
+- Sit-up 3x35
+- 45min walk with Django
+
+Pull-ups up to today: 22,620
+
+
+## 24 November 2018
 [Morning warmup](/articles/morning-routine), weight: 83.7kg
 
 ## Afternoon
 
 - 2.5 hours walk with Django on Petřín
+- 1.5 hour sauna
+
+Pull-ups up to today: 22,610
 
 
 ## 23 November 2018
