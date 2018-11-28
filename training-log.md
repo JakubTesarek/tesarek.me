@@ -1,5 +1,20 @@
 # Training Log
 
+## 28 November 2018
+[Morning warmup](/articles/morning-routine), weight: 85.1kg
+
+### Morning
+- 1 hour private kickbox training
+- Squat 2x35
+- Push-up 2x35
+- Sit-up 2x35
+
+### Afternoon
+- Pull-up 100x (3/30s)
+
+Pull-ups up to today: 22,956
+
+
 ## 27 November 2018
 [Morning warmup](/articles/morning-routine), weight: 83.0kg
 
