@@ -11,7 +11,7 @@
   - sit-up
 
 ### Afternoon
-- 1hour private kick-box training
+- 1 hour private kick-box training
 
 Pull-ups up to today: 23,246
 
