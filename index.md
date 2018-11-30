@@ -12,6 +12,7 @@ Minimalist. Programmer. Fighter.
 - [Training log](/training-log)
 
 ## Articles
+- [Make them look away](/articles/make-them-look-away)
 - [Be a lion, not a meerkat](/articles/be-lion-not-meerkat)
 - [My eating rules](/articles/eating-rules)
 - [Access aliased bash command](/articles/access-aliased-command)
