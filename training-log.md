@@ -1,5 +1,21 @@
 # Training Log
 
+## 30 November
+[Morning warmup](/articles/morning-routine), weight: 83.7kg
+
+### Morning 
+- 30min EMOM "karešovka"
+  - strict pull-up 30x4
+  - squat 30x4
+  - strict push-up, chest touching the ground 30x4
+  - sit-up
+
+### Afternoon
+- 1hour private kick-box training
+
+Pull-ups up to today: 23,246
+
+
 ## 29 November 2018
 [Morning warmup](/articles/morning-routine), weight: 85.5kg
 
