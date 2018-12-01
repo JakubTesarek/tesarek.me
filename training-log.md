@@ -1,6 +1,16 @@
 # Training Log
 
 ## 30 November
+[Morning warmup](/articles/morning-routine), weight: 85.0kg
+
+### Afternoon
+- 3 hours walk with Django
+- Pull-up 100x (5/1min)
+
+Pull-ups up to today: 23,356
+
+
+## 30 November
 [Morning warmup](/articles/morning-routine), weight: 83.7kg
 
 ### Morning 
