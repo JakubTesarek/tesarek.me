@@ -4,7 +4,7 @@
 [Morning warmup](/articles/morning-routine), weight: 83.7kg
 
 ### Morning 
-- 30min EMOM "karešovka"
+- 30min EMOM "karesovka"
   - strict pull-up 30x4
   - squat 30x4
   - strict push-up, chest touching the ground 30x4
