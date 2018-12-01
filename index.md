@@ -10,8 +10,8 @@ Minimalist. Programmer. Fighter.
 ## Pages
 - [Personal records](/personal-records)
 - [Training log](/training-log)
-  - [November 2018](/november-2018)
-  - [October 2018](/october-2018)
+  - [November 2018](/training-log-november-2018)
+  - [October 2018](/training-log-october-2018)
 
 ## Articles
 - [Make them look away](/articles/make-them-look-away)
