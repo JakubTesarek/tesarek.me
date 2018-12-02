@@ -1,6 +1,6 @@
 # Training Log
 
-## 1 December
+## 2 December
 [Morning warmup](/articles/morning-routine), weight: 83.9kg
 
 ### Afternoon
