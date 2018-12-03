@@ -1,5 +1,25 @@
 # Training Log
 
+## 3 December
+[Morning warmup](/articles/morning-routine), weight: 84.7kg
+
+### Morning
+[Chris Heria ABS workout](https://youtu.be/IJEzIhgMCX4)
+
+- Warmup, 3 rounds
+  - Dynamic burpee 10x
+  - Switching mountain climber 50x
+  - In-out jump 20x
+- Heavy bag round-kick 100x each leg
+- Abs workout, 3 rounds
+  - Crucifix 20x
+  - Plank side-to-side 30x
+  - L-sit kick 20x
+  - V-up 20x
+  - L-sit leg switch 20x
+  - Flutter kick 40x
+  - L-sit hold 20s
+
 ## 2 December
 [Morning warmup](/articles/morning-routine), weight: 83.9kg
 
