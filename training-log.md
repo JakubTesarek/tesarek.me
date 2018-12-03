@@ -19,6 +19,11 @@
   - L-sit leg switch 20x
   - Flutter kick 40x
   - L-sit hold 20s
+  
+### Afternoon
+- Pull-up 240/1hour (4/1min)
+
+Pull-ups up to today: 23,716
 
 ## 2 December
 [Morning warmup](/articles/morning-routine), weight: 83.9kg
