@@ -4,7 +4,12 @@
 [Morning warmup](/articles/morning-routine), weight: 83.7kg
 
 ### Afternoon
+Today my trainer told me I'm starting to look like I can throw a punch.
+
 - 60min private kickbox training
+- Pull-up 289/1:30:00 (~3/1min)
+
+Pull-ups up to today: 24,020
 
 
 ## 4 December
