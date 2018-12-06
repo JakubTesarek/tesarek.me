@@ -1,5 +1,29 @@
 # Training Log
 
+
+## 6 December
+[Morning warmup](/articles/morning-routine), weight: 83.9kg
+
+### Afternoon
+- Warmup, 3 rounds
+  - Dynamic burpee 10x
+  - Switching mountain climber 50x
+  - In-out jump 20x
+- Heavy bag drills
+  - Round-house kick 25x each leg
+  - Front kick 25x each leg
+  - Head kick 25x each leg
+  - Backfist 25x each hand
+- Pull-up 5xBW, 5xBW, 16x5x8kg (5/1min)
+- Traps circuit, 3 rounds, ~1 min rest after each round
+  - Neck towel pull 8x12kg
+  - Dumbell shrug 8x25kg
+  - Pushup on dumbell handles 20xBW
+- Standing shoulder press 10x20kg, 5x40kg, 4x45kg, 5x40kg, 5x40kg, 5x40kg
+
+Pull-ups up to today: 24,120
+
+
 ## 5 December
 [Morning warmup](/articles/morning-routine), weight: 83.7kg
 
