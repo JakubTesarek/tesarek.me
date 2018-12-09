@@ -1,5 +1,6 @@
 # Articles
 
+- [Best Excercises for Muay Thai](/articles/muay-thai-excercises)
 - [Make them look away](/articles/make-them-look-away)
 - [Be a lion, not a meerkat](/articles/be-lion-not-meerkat)
 - [My eating rules](/articles/eating-rules)
