@@ -1,6 +1,36 @@
 # Training Log
 
 
+## 9 December
+[Morning warmup](/articles/morning-routine), weight: 83.8kg
+
+### Morning
+- Pull-up 100x/16min (6/1min)
+
+Pull-ups up to today: 24,400
+
+
+## 8 December
+[Morning warmup](/articles/morning-routine), weight: 84.4kg
+
+### Morning
+- 2 hours walk with Django
+
+Pull-ups up to today: 24,284
+
+
+## 7 December
+[Morning warmup](/articles/morning-routine)
+
+### Morning
+- Pull-up 140
+
+### Afternoon
+- 1 hour private kickbox training
+
+Pull-ups up to today: 24,274
+
+
 ## 6 December
 [Morning warmup](/articles/morning-routine), weight: 83.9kg
 
