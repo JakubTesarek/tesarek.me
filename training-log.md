@@ -1,5 +1,19 @@
 # Training Log
 
+## 10 December
+[Morning warmup](/articles/morning-routine), weight: 84.6kg
+
+### Morning
+- Dynamic burpee 3x10
+- Rope Jumping 1min, Shadow boxing 1min, rest 1min - 5 rounds
+- Heavy bag roundhouse kick 100x each leg
+- Pull-up 120/15min (4/30s)
+
+### Afternoon
+- 75min group training session
+
+Pull-ups up to today: 24,530
+
 
 ## 9 December
 [Morning warmup](/articles/morning-routine), weight: 83.8kg
