@@ -1,5 +1,22 @@
 # Training Log
 
+## 11 December
+[Morning warmup](/articles/morning-routine), weight: 84.0kg
+
+### Morning
+- Warmup, 3 rounds
+  - 1min rope jumping
+  - burpee 10x
+- Deadlift 10x60kg, 5x90kg, 3x110kg, 2x120kg, 2x130kg, 5x140kg
+- Pull-up 96/16min (3/30sec), max pull-ups 15x
+- Kettlebell clean&jerk 4x5x20kg (each hand), 5x24kg (each hand)
+
+### Afternoon
+- 75min group training session
+
+Pull-ups up to today: 24,651
+
+
 ## 10 December
 [Morning warmup](/articles/morning-routine), weight: 84.6kg
 
