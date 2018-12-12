@@ -1,5 +1,21 @@
 # Training Log
 
+## 12 December
+weight: 83.1kg
+
+### Morning
+- 60min private kickbox training
+
+First time I tried a back-kick. It seems to be my strongest kick so far. I need to watch my hands after throwing a hook. I don't return the glove directly back to my face but I drop it.
+
+### Afternoon
+- ATG Back Squat 10x20kg, 5x40kg, 5x60kg, 5x70kg, 4x80kg, 5x80kg, 5x80kg
+- ATG Front Squat 3x5x60kg
+- Pistol Squat 10xBW, 3x5x8kg (each leg)
+
+Pull-ups up to today: 24,651
+
+
 ## 11 December
 [Morning warmup](/articles/morning-routine), weight: 84.0kg
 
