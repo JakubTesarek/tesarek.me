@@ -1,5 +1,14 @@
 # Training Log
 
+## 13 December
+[Morning warmup](/articles/morning-routine), weight: 84.0kg
+
+### Afternoon
+- Pull-up 457/1hour
+
+Pull-ups up to today: 25,134
+
+
 ## 12 December
 weight: 83.1kg
 
