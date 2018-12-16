@@ -1,5 +1,19 @@
 # Training Log
 
+## 16 December
+[Morning warmup](/articles/morning-routine), weight: 83.6kg
+
+### Morning
+- EMOM, 20 rounds
+  - Pull-up 5x
+  - Decline push-up 5x
+  - Leg raise 5x
+  
+### Afternoon  
+- Walk with Django
+
+Pull-ups up to today: 25,264
+
 
 ## 15 December
 [Morning warmup](/articles/morning-routine), weight: 84.5kg
