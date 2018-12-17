@@ -1,5 +1,32 @@
 # Training Log
 
+## 17 December
+[Morning warmup](/articles/morning-routine), weight: 84.0kg
+
+### Morning
+- Warmup, 3 rounds
+  - Rope jumping 1min
+  - Shadow boxing 1min
+  - Dynamic burpee 10x
+  - Rest 1min
+- Roundhouse kick to heavy bag 50x (each leg)
+- Pull-up 35x3 (3/30s, alternating wide, normal, narrow, chin-ups and hammer grip)
+- Pistol squat 3x8kg, 5x12kg, 3x12kg, 5x12kg (each leg)
+- [Abs routine](https://youtu.be/9VsDP584zyQ)
+  - Heels to heaven 45s
+  - Step through plank 45s
+  - X-man crunch 12x
+  - Alternating thread the needle 10x
+  - Alternating jack knife 45s
+  - Bicycle crunch 10x
+- Push kick to heavy bag 50x (each leg)
+
+### Afternoon
+- 75min group kickbox training
+
+Pull-ups up to today: 25,379
+
+
 ## 16 December
 [Morning warmup](/articles/morning-routine), weight: 83.6kg
 
@@ -8,8 +35,8 @@
   - Pull-up 5x
   - Decline push-up 5x
   - Leg raise 5x
-  
-### Afternoon  
+
+### Afternoon
 - Walk with Django
 
 Pull-ups up to today: 25,264
