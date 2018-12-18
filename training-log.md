@@ -1,5 +1,22 @@
 # Training Log
 
+## 18 December
+[Morning warmup](/articles/morning-routine), weight: 82.9kg
+
+### Morning
+- 8km run in Prokopske udoli
+
+### Afternoon
+- 75min group kickbox session
+- Pull-up 80x (casually after dinner, 5/set)
+
+> I did reasonably well in sparring today. I ate some punches but I didn't get kicked much and didn't get totally obliterated. I still have problems with range. My punches often don't connect simply because I'm too far away.
+>
+> I managed to do some sweeps from a clinch.
+
+Pull-ups up to today: 25,470
+
+
 ## 17 December
 [Morning warmup](/articles/morning-routine), weight: 84.0kg
 
