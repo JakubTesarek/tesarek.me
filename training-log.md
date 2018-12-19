@@ -1,5 +1,29 @@
 # Training Log
 
+## 19 December
+[Morning warmup](/articles/morning-routine), weight: 81.9kg
+
+### Morning
+- 60min private kickbox training
+
+> - We focused on southpaw stance and switching stances mid-combo.
+> - It's sometimes necessery to switch to southpaw when your leading leg gets damaged by low-kicks.
+> - On taller oponnents it sometimes woks to start a combo with a kick and then start punching.
+> - When someone catches your front kick, instead of trying to pull your leg back, you can pull back just a little bit to reload and than push again.
+
+### Afternoon
+- 3 months tryouts
+  - Pull-ups 20x
+  - Dip 34
+  - Pushup 52
+  - Shuttle run 4x10m/0:10.41
+  - Sit-up 50/90s
+  - Burpee 44/2min (chest touches ground)
+- Pull-up 16x5 (5/1min)
+
+Pull-ups up to today: 25,588
+
+
 ## 18 December
 [Morning warmup](/articles/morning-routine), weight: 82.9kg
 
