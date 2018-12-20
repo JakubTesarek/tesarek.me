@@ -1,5 +1,27 @@
 # Training Log
 
+
+## 20 December
+[Morning warmup](/articles/morning-routine), weight: 82.7kg
+
+## Morning
+- Warmup, 3 rounds
+  - Rope jumping 2min
+  - Burpee 10x
+  - Rest 30s
+- Deadlift 10x40kg, 5x70kg, 5x100kg, 5x5x120kg
+- Pistol squat 5x5x8kg
+- Pull-up 100/9:50 ([new PR](/personal-records))
+- Dumbell shrug 3x12x24kg
+
+## Afternoon
+- 60min group kickbox training
+
+> - Training in [Tiger Gym](http://mma-trenink.cz/) for the first time
+
+Pull-ups up to today: 25,698
+
+
 ## 19 December
 [Morning warmup](/articles/morning-routine), weight: 81.9kg
 
@@ -14,11 +36,11 @@
 ### Afternoon
 - 3 months tryouts
   - Pull-ups 20x
-  - Dip 34
-  - Pushup 52
+  - Dip 34 ([new PR](/personal-records))
+  - Pushup 52 ([new PR](/personal-records))
   - Shuttle run 4x10m/0:10.41
-  - Sit-up 50/90s
-  - Burpee 44/2min (chest touches ground)
+  - Sit-up 50/90s ([new PR](/personal-records))
+  - Burpee 44/2min (chest touches ground) ([new PR](/personal-records))
 - Pull-up 16x5 (5/1min)
 
 Pull-ups up to today: 25,588
