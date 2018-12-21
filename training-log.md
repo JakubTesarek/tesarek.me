@@ -1,10 +1,25 @@
 # Training Log
 
 
+## 21 December
+[Morning warmup](/articles/morning-routine), weight: 82.0kg
+
+### Morning
+- Private kickbox training 60min
+
+> - Snap the punches. It's not as important to have strong punch, it has to be quick to bite.
+> - When checking lowkicks don't bring the knee so high, just a little is enough. But pount to toes down/back to for a triangl. The opponnents shin then slides over yours down.
+
+### Afternoon
+- Pull-up 30x4/30min (4/1min, altenating pull-ups and chin-ups)
+
+Pull-ups up to today: 25,830
+
+
 ## 20 December
 [Morning warmup](/articles/morning-routine), weight: 82.7kg
 
-## Morning
+### Morning
 - Warmup, 3 rounds
   - Rope jumping 2min
   - Burpee 10x
@@ -14,10 +29,24 @@
 - Pull-up 100/9:50 ([new PR](/personal-records))
 - Dumbell shrug 3x12x24kg
 
-## Afternoon
-- 60min group kickbox training
+### Afternoon
+- Group kickbox training 60min
+  - 10 burpees after each combo ractice
+  - Technical sprarring 3x3min
+  - Roundhouse kick to heavy bag 20x each leg
+
+#### Combos
+- jab, lowkick - check and contra with you own kick
+- jab, direct, body kick - catch and contra with left direct and right roundhouse kick
+- jab, direct, body kick - catch and contra with knee to the body
+- jab, front kick - contra with pulling and sweep of standing leg
+- jab, direct, missed low kick to backfist
+- jab, direct, missed low kick to back-kick
 
 > - Training in [Tiger Gym](http://mma-trenink.cz/) for the first time
+> - Their style focuses on quick exchanges and aggressive defence
+> - One guy thanked me for great sparring session
+> - During sparring I got hit into chin, hurt until next day
 
 Pull-ups up to today: 25,698
 
