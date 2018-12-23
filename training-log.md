@@ -1,5 +1,22 @@
 # Training Log
 
+## 23 December
+[Morning warmup](/articles/morning-routine), weight: 83.5kg
+
+### Afternoon
+- 5km run with Django
+- Pull-up 240/1hour (4/1min)
+
+Pull-ups up to today: 26,090
+
+
+## 22 December
+[Morning warmup](/articles/morning-routine), weight: 82.9kg
+
+Rest day
+
+Pull-ups up to today: 25,840
+
 
 ## 21 December
 [Morning warmup](/articles/morning-routine), weight: 82.0kg
