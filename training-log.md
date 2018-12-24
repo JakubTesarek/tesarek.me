@@ -1,5 +1,14 @@
 # Training Log
 
+## 24 December
+[Morning warmup](/articles/morning-routine), weight: 82.6kg
+
+### Morning
+- Pull-up 150/30 min (5/1min, alternating pull-ups and chin-ups)
+
+Pull-ups up to today: 26,000
+
+
 ## 23 December
 [Morning warmup](/articles/morning-routine), weight: 83.5kg
 
