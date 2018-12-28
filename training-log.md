@@ -1,5 +1,20 @@
 # Training Log
 
+## 27 December
+[Morning warmup](/articles/morning-routine), weight: 84.9kg
+
+### Morning
+- 1 hour private kickbox training
+
+### Afternoon
+- Rowing 500m/1:40
+- Deadlift 10x50kg, 5x80kg, 3x110kg, 3x130kg, 1x150kg, 1x160kg ([new PR](/personal-records)), 170kg Failed, 165kg Failed, 3x5x130kg ([new PR](/personal-records))
+- Dip 5xBW, 5x12kg, 5x5x20kg
+- Pull-up 120/20min (3/30s, alternating pull-ups and chin-ups)
+
+Pull-ups up to today: 26,250
+
+
 ## 26 December
 ### Evening
 - Pull-up 120/30min (4/1min)
