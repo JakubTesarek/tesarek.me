@@ -1,6 +1,31 @@
 # Training Log
 
-### 29 December
+## 30 December
+weight: 84.1kg
+
+### Morning
+- Run 7km
+
+### Afternoon
+- Turkish getup 3x5x12kg (each side)
+- Pistol squat 3x5x12kg (each side)
+- Goblet squat 25x12kg
+- Uni-lateral shoulder press 3x15x12kg (each side)
+- Bicep curls 2x10x12kg (each side)
+- Towel neck pullos 3x15x12kg
+- Neck "yes" laying on back 50x
+- Neck "yes" laying on stmach 50
+- Push-up, 3x10 from narrow to wide
+  - Diamond push-up
+  - Army push-up
+  - Normal push-up
+  - Wide push-up
+- Pull-up 40x3/20min (3/30s)
+
+Pull-ups up to today: 26,505
+
+
+## 29 December
 [Morning warmup](/articles/morning-routine), weight: 84.4kg
 
 
