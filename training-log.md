@@ -1,5 +1,15 @@
 # Training Log
 
+## 31 December
+[Morning warmup](/articles/morning-routine)
+
+### Afternoon
+- Pull-up 10, 10, 16, 10, 4, 5, 5, 5
+- Push-up 555/41:30 ([new PR](/personal-records))
+
+Pull-ups up to today: 26,580
+
+
 ## 30 December
 weight: 84.1kg
 
