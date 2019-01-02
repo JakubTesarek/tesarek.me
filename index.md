@@ -15,6 +15,7 @@ Minimalist. Programmer. Fighter.
   - [October 2018](/training-log-october-2018)
 
 ## Articles
+- [Goals for year 2019](/articles/goals-2019)
 - [Best Excercises for Muay Thai](/articles/muay-thai-excercises)
 - [Make them look away](/articles/make-them-look-away)
 - [Be a lion, not a meerkat](/articles/be-lion-not-meerkat)
