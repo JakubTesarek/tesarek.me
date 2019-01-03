@@ -62,7 +62,8 @@
 - 1x160kg (27/12/2018, with lifting straps)
 
 ### Overhead Press
-- 2x50kg (30/4/2018)
+- 5x50kg (3/1/2019)
+- 4x55kg (3/1/2019)
 - 1x60kg (25/7/2018)
 
 ## Athletics
