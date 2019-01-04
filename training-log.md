@@ -5,8 +5,9 @@
 
 ### Afternoon
 - 1 hour private kickbox training
+- Pull-up 100/20min (5/1min)
 
-Pull-ups up to today: 26,820
+Pull-ups up to today: 26,920
 
 
 ## 3 January
