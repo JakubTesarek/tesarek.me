@@ -1,5 +1,14 @@
 # Training Log
 
+## 5 January
+[Morning warmup](/articles/morning-routine), weight 83,1kg
+
+### Morning
+- 4 hours walk with Django in Prokopske Udoli
+
+Pull-ups up to today: 26,930
+
+
 ## 4 January
 [Morning warmup](/articles/morning-routine), weight 83,7kg
 
