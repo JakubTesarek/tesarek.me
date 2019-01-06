@@ -1,5 +1,28 @@
 # Training Log
 
+## 6 January
+[Morning warmup](/articles/morning-routine), weight 83,1kg
+
+### Afternoon
+- Warmup, 3 rounds
+  - Rope jumping 2min
+  - Burpee 10x
+  - Rest 30s
+- Deadlift 10x60kg, 5x90kg, 3x120kg, 5x5x130kg
+- Abs Workout, lvl 2 Deontay, 3 rounds, 45s rest
+  - Sit-up 30s
+  - Elbow side plank crunch 30s (both sides)
+  - Sit-up 30s
+  - Laying leg raise 30s
+  - Sit-up 30s
+  - Laying windshield wiper 30s
+- Clean and Jerk 3x25kg, 5x45kg, 2x2x45kg, 4x1x45kg
+- Pull-up 20x5/20min
+- Chin-up 10x5/10min
+
+Pull-ups up to today: 27,090
+
+
 ## 5 January
 [Morning warmup](/articles/morning-routine), weight 83,1kg
 
