@@ -9,9 +9,9 @@
 - 160/20:00 *(13/12/2018)*
 - 240/30:00 *(13/12/2018)*
 - 457/1:00:00 *(13/12/2018)*
-- 736/2:00:00 *([World Pullup Day 22/9/2018](http://www.worldpullupday.com/en))*
-- 1,000/5:00:00 *([World Pullup Day 9/9/2017](http://www.worldpullupday.com/en))*
-- 1,111/6:00:00 *([World Pullup Day 9/9/2017](http://www.worldpullupday.com/en))*
+- 736/2:00:00 *([World Pullup Day](http://www.worldpullupday.com/en) 22/9/2018)*
+- 1,000/5:00:00 *([World Pullup Day](http://www.worldpullupday.com/en) 9/9/2017)*
+- 1,111/6:00:00 *([World Pullup Day](http://www.worldpullupday.com/en) 9/9/2017)*
 - 84x12kg/20:00 *(26/11/2018)*
 - 4x20kg *(19/11/2018)*
 - 2x30kg *(26/3/2018)*
@@ -76,8 +76,8 @@
 - 1km/3:31
 - 5km/23:24
 - 10km/43:52
-- Half Marathon/1:42:15 *([Volkswagen Marathon Prague 6/5/2018](https://www.runczech.com/en/events/volkswagen-marathon-weekend-2018/races/volkswagen-prague-marathon/index.shtml))*
-- Marathon/3:41:24 *([Volkswagen Marathon Prague 6/5/2018](https://www.runczech.com/en/events/volkswagen-marathon-weekend-2018/races/volkswagen-prague-marathon/index.shtml))*
+- Half Marathon/1:42:15 *([Volkswagen Marathon Prague](https://www.runczech.com/en/events/volkswagen-marathon-weekend-2018/races/volkswagen-prague-marathon/index.shtml) 6/5/2018)*
+- Marathon/3:41:24 *([Volkswagen Marathon Prague](https://www.runczech.com/en/events/volkswagen-marathon-weekend-2018/races/volkswagen-prague-marathon/index.shtml) 6/5/2018)*
 
 ### Swimming
 - 25m/0:33 freestyle
