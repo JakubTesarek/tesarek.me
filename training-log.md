@@ -4,7 +4,7 @@
 [Morning warmup](/articles/morning-routine), weight 83,1kg
 
 ### Morning
-- Warmup
+- Warmup, 3 rounds
   - Shadow Boxing 1min
   - Burpee 10x
   - Rest 30s
