@@ -1,5 +1,32 @@
 # Training Log
 
+## 7 January
+[Morning warmup](/articles/morning-routine), weight 83,1kg
+
+### Morning
+- Warmup
+  - Shadow Boxing 1min
+  - Burpee 10x
+  - Rest 30s
+- Box Jump
+  - 10x80cm (box + 20kg plate)
+  - 2x10x86cm (box + 2x20kg plate)
+  - 5x90cm (box + 2x20kg plate + 10kg plate)
+  - 2x10x76cm (box) + 10kg weight vest
+- Pull-up 100/15min (5/45s)
+- Abs Workout, Floyd lvl. 1, 2 rounds, 45s rest
+  - Inchworm 45s
+  - Sit-up 45s
+  - Elbow plank side steps 45s
+  - Tucked laying windshield wiper 45s
+  - Mountain climber 45s
+  - Easy russian sit-up 45s
+  - T elbow plank 45s
+  - Laying single leg raise 45s
+
+Pull-ups up to today: 27,200
+
+
 ## 6 January
 [Morning warmup](/articles/morning-routine), weight 83,1kg
 
@@ -9,7 +36,7 @@
   - Burpee 10x
   - Rest 30s
 - Deadlift 10x60kg, 5x90kg, 3x120kg, 5x5x130kg
-- Abs Workout, lvl 2 Deontay, 3 rounds, 45s rest
+- Abs Workout, Deontay lvl. 2, 3 rounds, 45s rest
   - Sit-up 30s
   - Elbow side plank crunch 30s (both sides)
   - Sit-up 30s
