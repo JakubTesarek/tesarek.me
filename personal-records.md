@@ -19,7 +19,7 @@
 
 ### Push-Ups
 - 52/set *(19/12/2018)*
-- 40/1:00 *(Street Workout Games LIVE 10/11/2018)*
+- 40/1:00 *([Street Workout Games LIVE](https://www.facebook.com/events/261460368044509/) 10/11/2018)*
 - 100/4:40 *(8/3/2018)*
 - 105/5:00 *(3/8/2018)*
 - 140/10:00 *(New Year Challange 31/12/2018)*
