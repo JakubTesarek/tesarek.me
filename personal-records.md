@@ -49,6 +49,7 @@
 - 12x80kg
 - 2x100kg (24/10/2017)
 - 1x110kg (4/9/2018)
+- 5x12kg Pistol squat (2/1/2019)
 
 ### Bench Press
 - 4x80kg (19/11/2018)
@@ -107,3 +108,4 @@
 - 6:15 elbow plank (15/5/2018)
 - Karesovka 1200 reps/1:00:00 (25/7/2018)
 - Grip 600N (10/11/2018)
+- Box jump 90cm
