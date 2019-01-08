@@ -1,5 +1,20 @@
 # Training Log
 
+## 8 January
+[Morning warmup](/articles/morning-routine), weight 82,8kg
+
+### Morning
+- Roundhouse kick to a heavy bag 50x (each leg)
+- Spinning back kick to a heavy bag 50x (each leg)
+- Pistol squat  3x8kg, 3x12kg, 3x16kg, 3x20kg, 3x20kg, 3x20kg, 3x16kg, 3x16kg
+- Pull-up 20x5/15min (5/45s)
+
+### Afternoon
+- 75min group kickbox training
+
+Pull-ups up to today: 27,310
+
+
 ## 7 January
 [Morning warmup](/articles/morning-routine), weight 83,1kg
 
