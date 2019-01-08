@@ -6,6 +6,20 @@ It's not carved into a stone though. I improve my routine, I add or remove stuff
 
 Create your own morning routine and get disciplined.
 
+## January 2019
+In January 2019 I've started training more dynamicly and therefore I started changing my morning routine accordingly.
+
+- Weighting
+- Dynamic stretching
+- 10x Bodyweight pistol squat squat (each leg)
+- 35x Push-up
+- 10x Pull-up
+- 20x Strainght leg sit-up stretch
+- Cold shower
+
+## November 2018
+In November 2018 I've changed 3 miunutes of plank for 35 sit-ups for the [30 days of discipline challange](/articles/30-day-of-discipline)
+
 - Weighting
 - Dynamic stretching
 - 35x Bodyweight squat
@@ -14,4 +28,11 @@ Create your own morning routine and get disciplined.
 - 35x Sit-up
 - Cold shower
 
-Edit: In November 2018 I've changed 3 miunutes of plank for 35 sit-ups for the [30 days of discipline challange](/articles/30-day-of-discipline)
+## October 2018
+- Weighting
+- Dynamic stretching
+- 35x Bodyweight squat
+- 35x Push-up
+- 10x Pull-up
+- 3min elbow plank
+- Cold shower
