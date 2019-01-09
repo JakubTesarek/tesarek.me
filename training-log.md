@@ -1,5 +1,25 @@
 # Training Log
 
+## 9 January
+[Morning warmup](/articles/morning-routine), weight 82,9kg
+
+### Morning
+- 1hour private kickbox training
+
+### Afternoon
+- Abs Workout, Lamon lvl. 1, 3 rounds, 30s rest
+  - High plank knee tap 45s
+  - Sit-up 45s
+  - Spiderman low plank 30s
+  - Inchworm 45s
+  - Scissor kick 30s
+  - Spiderman high plank 30s
+  - Elbow side plank crunch 30s (both sides)  
+- Pull-up 100/15min (5/45s)
+
+Pull-ups up to today: 27,420
+
+
 ## 8 January
 [Morning warmup](/articles/morning-routine), weight 82,8kg
 
