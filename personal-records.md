@@ -38,6 +38,10 @@
 - 7x30kg *(1/10/2017)*
 - 1x48kg *(2/11/2017)*
 
+#### Pistol Squat
+- 5x12kg *(2/1/2019)*
+- 3x20kg *(8/1/2019)*jj
+
 ## Powerlifting
 
 ### Squat
@@ -49,9 +53,6 @@
 - 12x80kg
 - 2x100kg *(24/10/2017)*
 - 1x110kg *(4/9/2018)*
-
-#### Pistol Squat
-- 5x12kg *(2/1/2019)*
 
 ### Bench Press
 - 4x80kg *(19/11/2018)*
@@ -82,20 +83,22 @@
 - Marathon/3:41:24 *([Volkswagen Marathon Prague](https://www.runczech.com/en/events/volkswagen-marathon-weekend-2018/races/volkswagen-prague-marathon/index.shtml) 6/5/2018)*
 
 ### Swimming
-- 25m/0:33 freestyle
-- 25m/0:32 breastroke
-- 50m/1:07 breastroke *(2/10/2017)*
-- 100m/3:20 breastroke *(1/10/2017)*
-- 200m/7:12 breastroke *(1/10/2017)*
-- 400m/13:19 breastroke *(1/10/2017)*
-- 500m/16:09 breastroke *(3/2/2018)*
-- 1km/32:18:00 breastroke *(3/2/2018)*
+#### Freestyle
+- 25m/0:33
+
+#### Breastroke
+- 25m/0:32
+- 50m/1:07 *(2/10/2017)*
+- 100m/3:20 *(1/10/2017)*
+- 200m/7:12 *(1/10/2017)*
+- 400m/13:19 *(1/10/2017)*
+- 500m/16:09 *(3/2/2018)*
+- 1km/32:18:00 *(3/2/2018)*
 
 ## Other
 
 ### Sit-ups
 - 50/1:30 *(19/12/2018)*
-- 50/2:19 *(1/11/2018)*
 - 100/7:14 *(1/11/2018)*
 
 ### Burpees
@@ -110,4 +113,4 @@
 - 6:15 elbow plank *(15/5/2018)*
 - Karesovka 1200 reps/1:00:00 *(25/7/2018)*
 - Grip 600N *(10/11/2018)*
-- Box jump 90cm
+- Box jump 90cm *(7/1/2018)*
