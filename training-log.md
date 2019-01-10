@@ -1,5 +1,34 @@
 # Training Log
 
+## 10 January
+[Morning warmup](/articles/morning-routine), weight 83,3kg
+
+### Morning
+- Abs workout, 2 rounds, 45s each excercise, 15s rest
+  - Mountain climbers
+  - Sit-ups
+  - Crunches
+  - Leg raises
+  - Reverse crunches
+  - Elbow side crunches
+  - Elbow side plank (both sides)
+- Pull-up 100/15min (5/45s)
+- Chin-up, each set different grip 50/10min (5/1min)
+- Stretching
+  - Leg swing 10x (each side)
+  - Middle split hold 30s
+  - Side split 30s (each side)
+  - Hamstring stretch 30s (each side)
+  - Butterfly 30s
+  - Leg hug 30s (each side)
+  - Frog stretch 30s
+
+### Afternoon
+- 90min group kickbox training
+
+Pull-ups up to today: 27,580
+
+
 ## 9 January
 [Morning warmup](/articles/morning-routine), weight 82,9kg
 
