@@ -1,5 +1,26 @@
 # Training Log
 
+## 12 January
+[Morning warmup](/articles/morning-routine), weight 83,9kg
+
+### Morning
+- 2 hours walk with Django
+
+### Afternoon
+- Pull-up 200/40min (5/1min)
+
+Pull-ups up to today: 27,800
+
+
+## 11 January
+[Morning warmup](/articles/morning-routine), weight 83,6kg
+
+### Afternoon
+- 60min group kickbox training
+
+Pull-ups up to today: 27,590
+
+
 ## 10 January
 [Morning warmup](/articles/morning-routine), weight 83,3kg
 
@@ -24,7 +45,7 @@
   - Frog stretch 30s
 
 ### Afternoon
-- 90min group kickbox training
+- 60min group kickbox training
 
 Pull-ups up to today: 27,580
 
