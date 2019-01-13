@@ -22,7 +22,7 @@
 - 40/1:00 *([Street Workout Games LIVE](https://www.facebook.com/events/261460368044509/) 10/11/2018)*
 - 100/4:40 *(8/3/2018)*
 - 105/5:00 *(3/8/2018)*
-- 140/10:00 *(New Year Challange 31/12/2018)*
+- 201/10:00 *(13/1/2019)*
 - 210/15:00 *(New Year Challange 31/12/2018)*
 - 280/20:00 *(New Year Challange 31/12/2018)*
 - 350/25:00 *(New Year Challange 31/12/2018)*
@@ -40,7 +40,7 @@
 
 #### Pistol Squat
 - 5x12kg *(2/1/2019)*
-- 3x20kg *(8/1/2019)*jj
+- 3x20kg *(8/1/2019)*
 
 ## Powerlifting
 
@@ -60,7 +60,7 @@
 
 ### Deadlift
 - 10x110kg
-- 5x130 *(27/12/2018)*
+- 5x135 *(13/1/2019)*
 - 4x140kg *(23/11/2018)*
 - 1x150kg *(15/2/2018, confirmed 29/11/2018)*
 - 1x160kg *(27/12/2018, with lifting straps)*
@@ -69,6 +69,16 @@
 - 5x50kg *(3/1/2019)*
 - 4x55kg *(3/1/2019)*
 - 1x60kg *(25/7/2018)*
+
+
+## Olympic Lifts
+
+### Snatch
+- 40kg *(13/1/2019)*
+
+### Clean and Jerk
+- 50kg *(13/1/2019)*
+
 
 ## Athletics
 
