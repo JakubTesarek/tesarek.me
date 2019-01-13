@@ -1,5 +1,28 @@
 # Training Log
 
+## 13 January
+[Morning warmup](/articles/morning-routine), weight 84,7kg
+
+### Afternoon
+- Jump Rope 3x3min, 2min rest
+- Farmers walk 3x10mx100kg, 3x20mx100kg, 30mx100kg
+- Deadlift 10x60kg, 5x90kg, 3x110kg, 5x135kg ([new PR](/personal-records)), 4x135kg, 4x135kg, 3x135kg, 3x135kg
+- Clean and Jerk 5x1x40kg, 5x1x50kg ([new PR](/personal-records))
+- Snatch 2x1x30kg, 5x1z40kg ([new PR](/personal-records))
+- Abs workout, 2 rounds, 45s each excercise, 15s rest
+  - Mountain climbers
+  - Sit-ups
+  - Crunches
+  - Leg raises
+  - Reverse crunches
+  - Elbow side crunches
+  - Elbow side plank (both sides)
+- Pull-up 100/19min (4/45s)
+- Push-up 201/10min (10/30s, [new PR](/personal-records))
+
+Pull-ups up to today: 27,910
+
+
 ## 12 January
 [Morning warmup](/articles/morning-routine), weight 83,9kg
 
