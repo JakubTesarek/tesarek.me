@@ -18,7 +18,8 @@
   - Elbow side plank (both sides)
 
 ### Afternoon
-- Group Kickbox Training 60min
+- Group Kickbox Training 75min
+- Roundhouse kick to heavy bag 100x (each leg)
 
 Pull-ups up to today: 28,010
 
