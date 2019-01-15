@@ -1,5 +1,27 @@
 # Training Log
 
+## 15 January
+[Morning warmup](/articles/morning-routine), weight 83,7kg
+
+### Morning
+- Bench Press 10x40kg, 8x60kg, 5x70kg, 5x80kg ([new PR](/personal-records)), 1x90kg, 4x80kg, 8x70kg, 8x70kg
+- Close Grip Bench Press 8x20kg, 8x40kg, 5x60kg, 3x70kg, 8x50kg, 7x50kg, 8x50kg
+- Pull-up 5xBW, 5x5x16kg
+- Abs workout, 2 rounds, 45s work, 15s rest
+  - Mountain climbers
+  - Sit-ups
+  - Crunches
+  - Leg raises
+  - Reverse crunches
+  - Elbow side crunches
+  - Elbow side plank (both sides)
+
+### Afternoon
+- Group Kickbox Training 75min
+
+Pull-ups up to today: 28,050
+
+
 ## 14 January
 [Morning warmup](/articles/morning-routine), weight 84,7kg
 
@@ -8,7 +30,7 @@
 - Military press (slight jerk cheat) 8x20kg, 5x30kg, 5x40kg, 3x50kg, 4x50kg, 5x50kg, 3x50kg
 - Kettlebell Clean and Jerk (each hand) 5x12kg, 5x16kg, 3x20kg, 3x24kg, 3x24kg, 3x24kg
 - Pull-up 5xBW, 10x4x12kg (4/1min), 5x8xBW (8/1min), 5xBW
-- Abs workout, 2 rounds, 45s each excercise, 15s rest
+- Abs workout, 2 rounds, 45s work, 15s rest
   - Mountain climbers
   - Sit-ups
   - Crunches
