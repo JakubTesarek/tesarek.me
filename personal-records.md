@@ -12,7 +12,6 @@
 - 736/2:00:00 *([World Pullup Day](http://www.worldpullupday.com/en) 22/9/2018)*
 - 1,000/5:00:00 *([World Pullup Day](http://www.worldpullupday.com/en) 9/9/2017)*
 - 1,111/6:00:00 *([World Pullup Day](http://www.worldpullupday.com/en) 9/9/2017)*
-- 84x12kg/20:00 *(26/11/2018)*
 - 4x20kg *(19/11/2018)*
 - 2x30kg *(26/3/2018)*
 - 1x36kg *(6/9/2018)*
@@ -55,7 +54,7 @@
 - 1x110kg *(4/9/2018)*
 
 ### Bench Press
-- 4x80kg *(19/11/2018)*
+- 5x80kg *(15/1/2019)*
 - 2x90kg *(13/10/2017)*
 
 ### Deadlift
