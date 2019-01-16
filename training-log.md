@@ -1,5 +1,16 @@
 # Training Log
 
+## 16 January
+[Morning warmup](/articles/morning-routine), weight 84,0kg
+
+### Morning
+- Private Kickbox Training 60min
+  - Don't end combo with a right hook
+  - If you eat a body kick there's a chance your opponent will kick again giving you a chance to catch the kick
+
+Pull-ups up to today: 28,060
+
+
 ## 15 January
 [Morning warmup](/articles/morning-routine), weight 83,7kg
 
