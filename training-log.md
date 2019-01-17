@@ -1,5 +1,18 @@
 # Training Log
 
+## 17 January
+[Morning warmup](/articles/morning-routine), weight 83,0kg
+
+### Afternoon
+- Pull-up 2x5
+- Muscle-up 10x3 (purple band, 2min rest)
+- Dynamic pull-up 5x3, 3x5
+- Spinning back-fist to a heavy bag 50x (each arm)
+- Run to Petrin (hill terrain) 10km
+
+Pull-ups up to today: 28,130
+
+
 ## 16 January
 [Morning warmup](/articles/morning-routine), weight 84,0kg
 
