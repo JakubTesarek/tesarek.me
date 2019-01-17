@@ -7,6 +7,14 @@
 - Pull-up 2x5
 - Muscle-up 10x3 (purple band, 2min rest)
 - Dynamic pull-up 5x3, 3x5
+- Abs workout, 45s work, 15s rest
+  - Mountain climbers
+  - Sit-ups
+  - Crunches
+  - Leg raises
+  - Reverse crunches
+  - Elbow side crunches
+  - Elbow side plank (both sides)
 - Spinning back-fist to a heavy bag 50x (each arm)
 - Run to Petrin (hill terrain) 10km
 
