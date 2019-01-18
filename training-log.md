@@ -1,5 +1,25 @@
 # Training Log
 
+## 18 January
+[Morning warmup](/articles/morning-routine), weight 82,9kg
+
+### Morning
+- Private kickbox training 60min
+
+### Afternoon
+- Pull-up 2x5
+- Muscle-up 10x3 (red band, rest as needed ~3min)
+- Abs workout, 45s work, 15s rest
+  - Mountain climbers
+  - Sit-ups
+  - Crunches
+  - Leg raises
+  - Reverse crunches
+  - Elbow side crunches
+  - Elbow side plank (both sides)
+Pull-ups up to today: 28,180
+
+
 ## 17 January
 [Morning warmup](/articles/morning-routine), weight 83,0kg
 
