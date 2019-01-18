@@ -17,6 +17,7 @@
   - Reverse crunches
   - Elbow side crunches
   - Elbow side plank (both sides)
+
 Pull-ups up to today: 28,180
 
 
