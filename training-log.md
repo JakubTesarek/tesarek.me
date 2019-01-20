@@ -1,5 +1,36 @@
 # Training Log
 
+## 20 January
+[Morning warmup](/articles/morning-routine), weight 83,9kg
+
+### Morning
+- Rope Jumping 2x3min
+- Squat 5x50kg, 5x70kg, 5x90kg, 5x100kg ([new PR](/personal-records)), 4x3x100kg
+- Deadlift 3x50kg, 3x80kg, 3x110kg, 3x130kg, 3x140kg, 3x140kg, 2x140kg, 1x140kg
+- Muscle-up (purple band, 2min rest) 3, 3, 2, 4, 4, 3
+- Pull-up 5, 80/10min (4/30s)
+- Abs workout, 2 rounds, 45s work, 15s rest
+  - Mountain climbers
+  - Sit-ups
+  - Crunches
+  - Leg raises
+  - Reverse crunches
+  - Elbow side crunches
+  - Elbow side plank (both sides)
+- Rowing machine (1min rest) 500m/1:43, 500m/1:55, 500m/1:46
+
+Pull-ups up to today: 28,304
+
+
+## 19 January
+[Morning warmup](/articles/morning-routine), weight 83,0kg
+
+### Morning
+- Walk with Django 2 hours
+
+Pull-ups up to today: 28,190
+
+
 ## 18 January
 [Morning warmup](/articles/morning-routine), weight 82,9kg
 
