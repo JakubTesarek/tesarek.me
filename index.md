@@ -9,6 +9,7 @@ Minimalist. Programmer. Fighter.
 
 ## Pages
 - [Personal records](/personal-records)
+- [Fitness progress](/progress)
 - [Training log](/training-log)
   - [December 2018](/training-log-december-2018)
   - [November 2018](/training-log-november-2018)
@@ -31,5 +32,4 @@ Minimalist. Programmer. Fighter.
 
 ## Links
 - [Github](https://github.com/JakubTesarek)
-- [Twitter](https://twitter.com/JakubTesarek)
 - [Wedding photos](/wedding)
