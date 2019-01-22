@@ -4,6 +4,22 @@
 [Morning warmup](/articles/morning-routine), weight 83,6kg
 
 ### Morning
+- Bench Press 3x20kg, 3x40kg, 3x60kg, 3x80kg, 3x85kg, 4x80kg, 3x80kg, 4x80kg, 3x80kg, 7x70kg, 6x70kg, 6x70kg
+- Military press 5x20kg, 5x30kg, 5x40kg, 5x40kg, 3x5x45kg
+- Muscle-up (purple-band) 3
+- Pull-up 80/10min (4/30s)
+- Rowing machine tabata 1040m (8x20s/10s)
+
+### Afternoon
+- Group kickbox training 75min
+
+Pull-ups up to today: 28,554
+
+
+## 21 January
+[Morning warmup](/articles/morning-routine), weight 83,6kg
+
+### Morning
 - Muscle-up (purple band) 10x3
 - Pull-up 5, 5, 100/15min (5/45s)
 - Abs workout, 2 rounds, 45s work, 15s rest
