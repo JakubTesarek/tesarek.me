@@ -1,7 +1,16 @@
 # Training Log
 
+## 22 January
+weight 81,7kg
+
+### Morning
+- Private kickbox training 60min
+
+Pull-ups up to today: 28,554
+
+
 ## 21 January
-[Morning warmup](/articles/morning-routine), weight 83,6kg
+[Morning warmup](/articles/morning-routine), weight 82,5kg
 
 ### Morning
 - Bench Press 3x20kg, 3x40kg, 3x60kg, 3x80kg, 3x85kg, 4x80kg, 3x80kg, 4x80kg, 3x80kg, 7x70kg, 6x70kg, 6x70kg
