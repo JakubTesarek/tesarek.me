@@ -1,5 +1,27 @@
 # Training Log
 
+## 23 January
+[Morning warmup](/articles/morning-routine), weight 81,2kg
+
+### Morning
+- Heavy bag drills 10x3min, 1min rest
+- Clean&Jerk with kettlebell (both hands) 4x12kg, 4x20kg, 3x4x24kg, 3x4x24 (+10kg weight vest)
+- Pull-ups 50/7.5min (5/45s)
+- Abs workout, 2 rounds, 45s work, 15s rest
+  - Sit-ups
+  - Crunches
+  - Bicycle crunches
+  - Leg raises
+  - Reverse crunches
+  - Elbow side crunches
+  - Elbow side plank (both sides)
+
+### Afternoon
+- Group training session 75min
+
+Pull-ups up to today: 28,614
+
+
 ## 22 January
 weight 81,7kg
 
