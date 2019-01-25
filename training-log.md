@@ -4,9 +4,9 @@
 [Morning warmup](/articles/morning-routine), weight 80,0kg
 
 ## Afternoon
-- Pull-up 6xBW, 4x12kg, 2x20kg, 1x28kg, 1x35kg ([new PR](/personal-records)), 40kg Failed, 1x38kg ([new PR](/personal-records))
+- Pull-up 6xBW, 4x12kg, 2x20kg, 1x28kg, 1x35kg ([new PR](/personal-records#pull-ups)), 40kg Failed, 1x38kg ([new PR](/personal-records#pull-ups))
 - Deadlift 5x60kg, 3x100kg, 1x130, 1x150kg, 165kg Fail, 160kg Fail
-- Dip 10xBW, 4x15kg, 2x25kg, 1x35kg, 1x42,5kg, 1x50kg ([new PR](/personal-records))
+- Dip 10xBW, 4x15kg, 2x25kg, 1x35kg, 1x42,5kg, 1x50kg ([new PR](/personal-records#dips))
 - Deadlift (deficit ~5cm) 5x40kg, 5x70kg, 5x90kg, 6x5x100kg
 
 Pull-ups up to today: 28,639
@@ -86,7 +86,7 @@ Pull-ups up to today: 28,454
 
 ### Morning
 - Rope Jumping 2x3min
-- Squat 5x50kg, 5x70kg, 5x90kg, 5x100kg ([new PR](/personal-records)), 4x3x100kg
+- Squat 5x50kg, 5x70kg, 5x90kg, 5x100kg ([new PR](/personal-records#squat)), 4x3x100kg
 - Deadlift 3x50kg, 3x80kg, 3x110kg, 3x130kg, 3x140kg, 3x140kg, 2x140kg, 1x140kg
 - Muscle-up (purple band, 2min rest) 3, 3, 2, 4, 4, 3
 - Pull-up 5, 80/10min (4/30s)
@@ -169,7 +169,7 @@ Pull-ups up to today: 28,060
 [Morning warmup](/articles/morning-routine), weight 83,7kg
 
 ### Morning
-- Bench Press 10x40kg, 8x60kg, 5x70kg, 5x80kg ([new PR](/personal-records)), 1x90kg, 4x80kg, 8x70kg, 8x70kg
+- Bench Press 10x40kg, 8x60kg, 5x70kg, 5x80kg ([new PR](/personal-records#bench-press)), 1x90kg, 4x80kg, 8x70kg, 8x70kg
 - Close Grip Bench Press 8x20kg, 8x40kg, 5x60kg, 3x70kg, 8x50kg, 7x50kg, 8x50kg
 - Pull-up 5xBW, 5x5x16kg
 - Abs workout, 2 rounds, 45s work, 15s rest
@@ -217,9 +217,9 @@ Pull-ups up to today: 28,010
 ### Afternoon
 - Jump Rope 3x3min, 2min rest
 - Farmers walk 3x10mx100kg, 3x20mx100kg, 30mx100kg
-- Deadlift 10x60kg, 5x90kg, 3x110kg, 5x135kg ([new PR](/personal-records)), 4x135kg, 4x135kg, 3x135kg, 3x135kg
-- Clean and Jerk 5x1x40kg, 5x1x50kg ([new PR](/personal-records))
-- Snatch 2x1x30kg, 5x1x40kg ([new PR](/personal-records))
+- Deadlift 10x60kg, 5x90kg, 3x110kg, 5x135kg ([new PR](/personal-records#deadlift)), 4x135kg, 4x135kg, 3x135kg, 3x135kg
+- Clean and Jerk 5x1x40kg, 5x1x50kg ([new PR](/personal-records#clean-and-jerk))
+- Snatch 2x1x30kg, 5x1x40kg ([new PR](/personal-records#snatch))
 - Abs workout, 2 rounds, 45s each excercise, 15s rest
   - Mountain climbers
   - Sit-ups
@@ -229,7 +229,7 @@ Pull-ups up to today: 28,010
   - Elbow side crunches
   - Elbow side plank (both sides)
 - Pull-up 100/19min (4/45s)
-- Push-up 201/10min (10/30s, [new PR](/personal-records))
+- Push-up 201/10min (10/30s, [new PR](/personal-records#push-ups))
 
 Pull-ups up to today: 27,910
 
@@ -394,7 +394,7 @@ Pull-ups up to today: 26,920
 ### Morning
 - Burpee 3x10
 - Spinning back-kick to heavy bag 50x (each leg)
-- Overhead press 10x20kg, 5x30kg, 3x40kg, 4x50kg ([new PR](/personal-records)), 4x55kg ([new PR](/personal-records)), 3x55kg, 5x50kg ([new PR](/personal-records)), 5x50kg, 5x50kg
+- Overhead press 10x20kg, 5x30kg, 3x40kg, 4x50kg ([new PR](/personal-records#overhead-press)), 4x55kg ([new PR](/personal-records#overhead-press)), 3x55kg, 5x50kg ([new PR](/personal-records#overhead-press)), 5x50kg, 5x50kg
 - Pull-up 5xBW, 5xBW, 5x8kg, 3x16kg, 2x24kg, 1x28kg, 1x32kg, 36kg Failed, 5x8xBW/5min, 8x5xBW/8min, 8xBW
 
 ### Afternnon
