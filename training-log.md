@@ -1,5 +1,17 @@
 # Training Log
 
+## 24 January
+[Morning warmup](/articles/morning-routine), weight 80,0kg
+
+## Afternoon
+- Pull-up 6xBW, 4x12kg, 2x20kg, 1x28kg, 1x35kg ([new PR](/personal-records)), 40kg Failed, 1x38kg ([new PR](/personal-records))
+- Deadlift 5x60kg, 3x100kg, 1x130, 1x150kg, 165kg Fail, 160kg Fail
+- Dip 10xBW, 4x15kg, 2x25kg, 1x35kg, 1x42,5kg, 1x50kg ([new PR](/personal-records))
+- Deadlift (deficit ~5cm) 5x40kg, 5x70kg, 5x90kg, 6x5x100kg
+
+Pull-ups up to today: 28,639
+
+
 ## 23 January
 [Morning warmup](/articles/morning-routine), weight 81,2kg
 
