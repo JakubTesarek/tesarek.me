@@ -1,6 +1,24 @@
 # Training Log
 
-## 24 January
+## 27 January
+[Morning warmup](/articles/morning-routine), weight 82,2kg
+
+### Afternoon
+- Pull-up 300/1 hour (5/1min)
+
+Pull-ups up to today: 28,959
+
+
+## 26 January
+[Morning warmup](/articles/morning-routine), weight 80,4kg
+
+### Morning
+- Walk with Django 2 hours
+
+Pull-ups up to today: 28,649
+
+
+## 25 January
 [Morning warmup](/articles/morning-routine), weight 80,0kg
 
 ## Afternoon
@@ -12,7 +30,7 @@
 Pull-ups up to today: 28,639
 
 
-## 23 January
+## 24 January
 [Morning warmup](/articles/morning-routine), weight 81,2kg
 
 ### Morning
@@ -34,7 +52,7 @@ Pull-ups up to today: 28,639
 Pull-ups up to today: 28,614
 
 
-## 22 January
+## 23 January
 weight 81,7kg
 
 ### Morning
@@ -43,7 +61,7 @@ weight 81,7kg
 Pull-ups up to today: 28,554
 
 
-## 21 January
+## 22 January
 [Morning warmup](/articles/morning-routine), weight 82,5kg
 
 ### Morning
