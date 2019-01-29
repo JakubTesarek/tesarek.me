@@ -1,5 +1,23 @@
 # Training Log
 
+## 29 January
+[Morning warmup](/articles/morning-routine), weight 82,1kg
+
+### Morning
+- Heavy bag kickbox 3x3min
+- Pull-up 5xBW, 5x8kg, 5x12kg, 5x5x20kg ([new PR](/personal-records#pull-ups)), 3xBW, 8xBW
+- Deadlift 5x60kg, 5x90kg, 5x5x120kg
+- Abs workout
+  - Sit-up 50x
+  - Side-to-side 50x
+  - Crunch 50x
+  - Side crunch 25x (each side)
+  - Reverse crunch 25x
+  - Plank 3min
+- Rowing machine tabata 8x30s/10s 1040m
+
+Pull-ups up to today: 29,030
+
 
 ## 28 January
 [Morning warmup](/articles/morning-routine), weight 83,1kg
