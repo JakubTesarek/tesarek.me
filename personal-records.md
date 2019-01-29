@@ -12,7 +12,7 @@
 - 736/2:00:00 *([World Pullup Day](http://www.worldpullupday.com/en) 22/9/2018)*
 - 1,000/5:00:00 *([World Pullup Day](http://www.worldpullupday.com/en) 9/9/2017)*
 - 1,111/6:00:00 *([World Pullup Day](http://www.worldpullupday.com/en) 9/9/2017)*
-- 4x20kg *(19/11/2018)*
+- 5x20kg *(29/1/2019)*
 - 2x30kg *(26/3/2018)*
 - 1x38kg *(25/1/2019)*
 
