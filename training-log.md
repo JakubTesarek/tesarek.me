@@ -1,5 +1,20 @@
 # Training Log
 
+
+## 28 January
+[Morning warmup](/articles/morning-routine), weight 83,1kg
+
+### Morning
+- Burpee 3x10
+- Squat 5x20kg, 5x50kg, 5x70kg, 9x80kg, 3x90kg, 5x80kg, 6x80kg, 5x80kg
+- Muscle-up (black band, ~13kg help) 5x3
+
+### Afternoon
+- Group training session 75min
+
+Pull-ups up to today: 28,969
+
+
 ## 27 January
 [Morning warmup](/articles/morning-routine), weight 82,2kg
 
