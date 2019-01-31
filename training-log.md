@@ -1,5 +1,36 @@
 # Training Log
 
+## 31 January
+[Morning warmup](/articles/morning-routine), weight 81,5kg
+
+### Morning
+- Shoulder press 5x20kg, 5x30kg, 5x40kg, 6x5x50kg
+- Pull-up 2x5bw, 5x12kg, 5x5x20kg
+- Abs
+  - Crunch witch raised legs 100x
+  - Side crunch 50x (each side)
+  - Flutter kick 200x
+
+### Afternoon
+- Group kickbox training 75min
+
+Pull-ups up to today: 29,090
+
+
+## 30 January
+[Morning warmup](/articles/morning-routine), weight 81,9kg
+
+### Morning
+- Private kickbox training 1 hour
+
+### Afternoon
+- Group kickbox training 1 hour
+  - 8x2min on heavy bag
+  - 8x2min sparring
+
+Pull-ups up to today: 29,040
+
+
 ## 29 January
 [Morning warmup](/articles/morning-routine), weight 82,1kg
 
