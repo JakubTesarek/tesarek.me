@@ -6,6 +6,18 @@ It's not carved into a stone though. I improve my routine, I add or remove stuff
 
 Create your own morning routine and get disciplined.
 
+
+## February 2019
+Less stretching, more push-ups! It's funny that up until recently 40 push-ups was my [personal record](/personal-records). Now I can do them first thing in the morning.
+
+- Weighting
+- 10x Bodyweight pistol squat squat (each leg)
+- 40x Push-up
+- 10x Pull-up
+- 20x Straight leg sit-up stretch
+- Cold shower
+
+
 ## January 2019
 In January 2019 I've started training more dynamicly and therefore I started changing my morning routine accordingly.
 
@@ -14,7 +26,7 @@ In January 2019 I've started training more dynamicly and therefore I started cha
 - 10x Bodyweight pistol squat squat (each leg)
 - 35x Push-up
 - 10x Pull-up
-- 20x Strainght leg sit-up stretch
+- 20x Straight leg sit-up stretch
 - Cold shower
 
 ## November 2018
