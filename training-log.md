@@ -1,5 +1,26 @@
 # Training Log
 
+## 4 February
+[Morning warmup](/articles/morning-routine), weight 80.9kg
+
+### Morning
+- Warmup, 2 rounds
+  - Jumping jacks, ski jump 1min
+  - Boxer dribbling 1min
+  - Shaddow boxing 1min
+  - Burpees 10
+- Pull-up 5xBW, 5x12kg, 5x20kg, 4x superset (4x24kg, 4x12kg)
+- Knee raises 10x10kg, 10x15kg, 10xleg raises
+- Windshield wipers 3x12
+- Rowing machine 2000m/7:49
+- Roundhouse kick to a heavy bag 100x each leg
+
+### Afternoon
+- Kickbox group training 75min
+
+Pull-ups up to today: 29,187
+
+
 ## 3 February
 [Morning warmup](/articles/morning-routine), weight 80.3kg
 
