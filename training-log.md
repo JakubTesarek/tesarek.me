@@ -1,5 +1,24 @@
 # Training Log
 
+## 5 January
+[Morning warmup](/articles/morning-routine), weight 79.9kg **(First time in 3 years I was under 80kg!)**
+
+### Morning
+- Running on treadmill 5km/28min
+- Dynamic pull-up 6x5
+- Muscle-up (white band, ~12kg) 5x3
+- Towel neck pull 3x20x12kg
+- Dumbell shrug 3x20x25kg
+- Bar dip 3x8
+- Rotations with barbell 3x20x20kg
+- Toe touch 3x20
+
+### Afternoon
+- Kickbox group training 75min
+
+Pull-ups up to today: 29,227
+
+
 ## 4 February
 [Morning warmup](/articles/morning-routine), weight 80.9kg
 
