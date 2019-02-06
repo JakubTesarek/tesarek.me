@@ -1,5 +1,21 @@
 # Training Log
 
+## 6 January
+Weight 79.9kg
+
+I skipped morning warm-up because I was late to my morning training. I also slept very poorly. My dog wasn't feeling good and was waking me every 2 hours.
+
+I'm starting to feel like I'm having a flu. I have this weird feeling in my throat. But I still plan to go to evening training. I'll have a full rest day tomorrow.
+
+### Morning
+- Kickbox private training 60min
+
+### Afternoon
+- Kickbox group training 75min
+
+Pull-ups up to today: 29,227
+
+
 ## 5 January
 [Morning warmup](/articles/morning-routine), weight 79.9kg **(First time in 3 years I was under 80kg!)**
 
