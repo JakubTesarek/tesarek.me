@@ -61,6 +61,7 @@
 - 10x110kg
 - 5x135 *(13/1/2019)*
 - 4x140kg *(23/11/2018)*
+- 5x140kg *(10/2/2019, with lifting straps)*
 - 1x150kg *(15/2/2018, confirmed 29/11/2018)*
 - 1x160kg *(27/12/2018, with lifting straps)*
 
