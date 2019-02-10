@@ -1,5 +1,35 @@
 # Training Log
 
+
+## 10 January
+Weight 82.3kg
+
+### Afternoon
+- Deadlift 10x70kg, 7x110kg, 5x130kg, 5x140kg ([new PR](/personal-records)), 4x140kg, 4x140kg, 4x140kg
+- Loglift 2x60kg, 4x60kg, 4x60kg, 4x60kg, 3x60kg
+- Pull-up 20x5 (~35s rest)
+
+Pull-ups up to today: 29,327
+
+
+## 9 January
+Weight 81.7kg
+
+Pull-ups up to today: 29,227
+
+
+## 8 January
+Weight 80.1kg
+
+Pull-ups up to today: 29,227
+
+
+## 7 January
+Weight 79.7kg
+
+Pull-ups up to today: 29,227
+
+
 ## 6 January
 Weight 79.9kg
 
