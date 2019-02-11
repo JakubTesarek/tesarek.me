@@ -1,5 +1,13 @@
 # Training Log
 
+## 11 January
+Weight 82.1kg
+
+### Afternoon
+- Kickbox group training 75min
+
+Pull-ups up to today: 29,337
+
 
 ## 10 January
 Weight 82.3kg
