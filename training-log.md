@@ -1,7 +1,26 @@
 # Training Log
 
+## 12 January
+[Morning warmup](/articles/morning-routine), weight 80.9kg
+
+For lunch I ate a beans salad with 2 large chicken tortillas and 50g of whey protein. I could eat just one of the tortillas and I would be as much as full. I ate two just because I'm used to but it's not necessery.
+
+### Morning
+- Run on treadmill 5km/30min
+- Dynamic pull-up 2x3
+- Muscle-up (white thin band) 5x3
+- Pull-over + bar dips 5x8
+- Front lever raises 3x5
+- Pull-up 20x4/15min (4/45s)
+
+### Afternoon
+- Kickbox group training 75min
+
+Pull-ups up to today: 29,433
+
+
 ## 11 January
-Weight 82.1kg
+[Morning warmup](/articles/morning-routine), weight 82.1kg
 
 ### Afternoon
 - Kickbox group training 75min
