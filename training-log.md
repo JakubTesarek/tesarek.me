@@ -1,5 +1,19 @@
 # Training Log
 
+## 13 January
+Weight 80.7kg
+
+I skipped morning warmup because I was running late on morning training. I slept badly and I woke up multiple times during the night. I still fell I'm not 100% after the sicknes.
+
+### Morning
+- Private kickbox training
+
+### Afternoon
+- Group kickbox training with fighters
+
+Pull-ups up to today: 29,433
+
+
 ## 12 January
 [Morning warmup](/articles/morning-routine), weight 80.9kg
 
