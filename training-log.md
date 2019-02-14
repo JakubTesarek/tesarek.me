@@ -1,5 +1,22 @@
 # Training Log
 
+## 14 January
+[Morning warmup](/articles/morning-routine), weight 80.8kg
+
+### Morning
+- Squat 10x20kg, 5x60kg, 5x8x80kg
+- Muscle-up (with thin white band) 5x3
+- Pull-up 5, Max out (2.5min rest) 18, 13, 10, 10, 10
+- Abs, 3 rounds
+ - 10x knee raise
+ - 15x side crunch (both sides)
+
+### Afternoon
+- Group kickbox training
+
+Pull-ups up to today: 29,509
+
+
 ## 13 January
 Weight 80.7kg
 
