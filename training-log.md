@@ -1,5 +1,18 @@
 # Training Log
 
+## 15 January
+Weight 80.8kg
+
+### Morning
+- Private kickbox training 1 hour
+
+### Afternoon
+- Run 8.5km/45min
+- Walk with Django 1 hour
+
+Pull-ups up to today: 29,509
+
+
 ## 14 January
 [Morning warmup](/articles/morning-routine), weight 80.8kg
 
@@ -12,7 +25,7 @@
  - 15x side crunch (both sides)
 
 ### Afternoon
-- Group kickbox training
+- Group kickbox training 75min
 
 Pull-ups up to today: 29,509
 
