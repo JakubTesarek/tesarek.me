@@ -1,5 +1,33 @@
 # Training Log
 
+## 18 January
+[Morning warmup](/articles/morning-routine), weight 81.7kg
+
+### Morning
+- Run
+- Outdoor training
+
+### Afternoon
+- Group kickbox training 75min
+
+Pull-ups up to today: 29,539
+
+
+## 17 January
+[Morning warmup](/articles/morning-routine), weight 81.8kg
+
+Pull-ups up to today: 29,529
+
+
+## 16 January
+[Morning warmup](/articles/morning-routine), weight 79.6kg
+
+### Morning
+- 18km walk with Django in Karlstejn
+
+Pull-ups up to today: 29,519
+
+
 ## 15 January
 Weight 80.8kg
 
