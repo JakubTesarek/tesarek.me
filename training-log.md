@@ -4,13 +4,17 @@
 [Morning warmup](/articles/morning-routine), weight 81.7kg
 
 ### Morning
-- Run
-- Outdoor training
+- Run in Stromovka 5km/~30min
+- Muscle-up 5x5 (red band)
+- Circuit training, 5 rounds
+ - Pull-up 10x
+ - Dip 10x
+ - Push-up 10x
 
 ### Afternoon
 - Group kickbox training 75min
 
-Pull-ups up to today: 29,539
+Pull-ups up to today: 29,592
 
 
 ## 17 January
