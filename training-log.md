@@ -1,5 +1,20 @@
 # Training Log
 
+## 19 January
+[Morning warmup](/articles/morning-routine), weight 81.7kg
+
+### Morning
+- Deadlift 10x70kg, 5x100kg, 3x120kg, 5x5x140kg
+- Military Press 10x20kg, 5x40kg, 5x50kg, 4x5x55kg
+- Zercher Squat 5x20kg, 3x60kg, 5x5x60kg
+- Pull-up 10x5/7,5min (5/45s)
+
+### Afternoon
+- Group kickbox training 75min
+
+Pull-ups up to today: 29,652
+
+
 ## 18 January
 [Morning warmup](/articles/morning-routine), weight 81.7kg
 
