@@ -5,8 +5,9 @@
 
 ### Morning
 - Private kicbox training 1 hour
+- Pull-up 30x4 (4/1min)
 
-Pull-ups up to today: 29,682
+Pull-ups up to today: 29,802
 
 
 ## 21 January
