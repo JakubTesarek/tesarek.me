@@ -1,6 +1,6 @@
 # Training Log
 
-## 24 January
+## 24 February
 [Morning warmup](/articles/morning-routine), weight 81.3kg
 
 
@@ -20,7 +20,7 @@
 Pull-ups up to today: 29,850
 
 
-## 23 January
+## 23 February
 [Morning warmup](/articles/morning-routine), weight 80.9kg
 
 ### Afternoon
@@ -29,7 +29,7 @@ Pull-ups up to today: 29,850
 Pull-ups up to today: 29,812
 
 
-## 22 January
+## 22 February
 [Morning warmup](/articles/morning-routine), weight 83.3kg
 
 ### Morning
@@ -39,7 +39,7 @@ Pull-ups up to today: 29,812
 Pull-ups up to today: 29,802
 
 
-## 21 January
+## 21 February
 [Morning warmup](/articles/morning-routine), weight 82.6kg
 
 ### Afternoon
@@ -48,7 +48,7 @@ Pull-ups up to today: 29,802
 Pull-ups up to today: 29,672
 
 
-## 20 January
+## 20 February
 [Morning warmup](/articles/morning-routine), weight 81.5kg
 
 ### Morning
@@ -57,7 +57,7 @@ Pull-ups up to today: 29,672
 Pull-ups up to today: 29,662
 
 
-## 19 January
+## 19 February
 [Morning warmup](/articles/morning-routine), weight 81.7kg
 
 ### Morning
@@ -72,7 +72,7 @@ Pull-ups up to today: 29,662
 Pull-ups up to today: 29,652
 
 
-## 18 January
+## 18 February
 [Morning warmup](/articles/morning-routine), weight 81.7kg
 
 ### Morning
@@ -89,13 +89,13 @@ Pull-ups up to today: 29,652
 Pull-ups up to today: 29,592
 
 
-## 17 January
+## 17 February
 [Morning warmup](/articles/morning-routine), weight 81.8kg
 
 Pull-ups up to today: 29,529
 
 
-## 16 January
+## 16 February
 [Morning warmup](/articles/morning-routine), weight 79.6kg
 
 ### Morning
@@ -104,7 +104,7 @@ Pull-ups up to today: 29,529
 Pull-ups up to today: 29,519
 
 
-## 15 January
+## 15 February
 Weight 80.8kg
 
 ### Morning
@@ -117,7 +117,7 @@ Weight 80.8kg
 Pull-ups up to today: 29,509
 
 
-## 14 January
+## 14 February
 [Morning warmup](/articles/morning-routine), weight 80.8kg
 
 ### Morning
@@ -134,7 +134,7 @@ Pull-ups up to today: 29,509
 Pull-ups up to today: 29,509
 
 
-## 13 January
+## 13 February
 Weight 80.7kg
 
 I skipped morning warmup because I was running late on morning training. I slept badly and I woke up multiple times during the night. I still fell I'm not 100% after the sicknes.
@@ -148,7 +148,7 @@ I skipped morning warmup because I was running late on morning training. I slept
 Pull-ups up to today: 29,433
 
 
-## 12 January
+## 12 February
 [Morning warmup](/articles/morning-routine), weight 80.9kg
 
 For lunch I ate a beans salad with 2 large chicken tortillas and 50g of whey protein. I could eat just one of the tortillas and I would be as much as full. I ate two just because I'm used to but it's not necessery.
@@ -167,7 +167,7 @@ For lunch I ate a beans salad with 2 large chicken tortillas and 50g of whey pro
 Pull-ups up to today: 29,433
 
 
-## 11 January
+## 11 February
 [Morning warmup](/articles/morning-routine), weight 82.1kg
 
 ### Afternoon
@@ -176,7 +176,7 @@ Pull-ups up to today: 29,433
 Pull-ups up to today: 29,337
 
 
-## 10 January
+## 10 February
 Weight 82.3kg
 
 ### Afternoon
@@ -187,25 +187,25 @@ Weight 82.3kg
 Pull-ups up to today: 29,327
 
 
-## 9 January
+## 9 February
 Weight 81.7kg
 
 Pull-ups up to today: 29,227
 
 
-## 8 January
+## 8 February
 Weight 80.1kg
 
 Pull-ups up to today: 29,227
 
 
-## 7 January
+## 7 February
 Weight 79.7kg
 
 Pull-ups up to today: 29,227
 
 
-## 6 January
+## 6 February
 Weight 79.9kg
 
 I skipped morning warm-up because I was late to my morning training. I also slept very poorly. My dog wasn't feeling good and was waking me every 2 hours.
@@ -221,7 +221,7 @@ I'm starting to feel like I'm having a flu. I have this weird feeling in my thro
 Pull-ups up to today: 29,227
 
 
-## 5 January
+## 5 February
 [Morning warmup](/articles/morning-routine), weight 79.9kg **(First time in 3 years I was under 80kg!)**
 
 ### Morning
