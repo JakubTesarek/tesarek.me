@@ -1,5 +1,34 @@
 # Training Log
 
+## 24 January
+[Morning warmup](/articles/morning-routine), weight 81.3kg
+
+
+### Afternoon
+- Rowing 1000m/3:26
+- Dynamic pull-up 3
+- Muscle-up (the weakest red band) 5x3
+- Deadlift 5x70kg, 1x100kg
+- Circuit training, 5 rounds, rest as needed
+ - Deadlift 5x100kg
+ - Kettlebell clean and jerk 5x24kg (each hand)
+ - Pull-up 5x12kg
+- Bend-over rows superset with reverse grip bend-over rows 5x8x50kg+8x50kg
+- Windshield wipers + TRX side crunches 5x10+20
+- Roundhouse kick to heavy bag 50x (each leg)
+
+Pull-ups up to today: 29,850
+
+
+## 23 January
+[Morning warmup](/articles/morning-routine), weight 80.9kg
+
+### Afternoon
+- Walk wirh Django on Petrin 3 hours
+
+Pull-ups up to today: 29,812
+
+
 ## 22 January
 [Morning warmup](/articles/morning-routine), weight 83.3kg
 
