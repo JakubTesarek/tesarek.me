@@ -1,5 +1,23 @@
 # Training Log
 
+## 25 February
+[Morning warmup](/articles/morning-routine), weight 80.9kg
+
+### Morning
+- Bench Press 10x20kg, 5x40kg, 5x50kg, 5x5x70kg + dropset 10x50kg; 20x30kg
+- Plate Press 10x10kg, 10x15kg, 3x8x20kg
+- Dumbell Seated Shoulder Press 5x8kg, 5x12kg, 5x16kg, 3x8x18kg + dropset 8x10kg; 8x8kg
+- Dumbell Biceps Curls 10x10kg, 3x12x12k (each hand)
+- Dragon Flag 3x5
+- L-sit max hold 10s, 14s, 15s
+- Stretching 10min
+
+### Afternoon
+- Group kickbox training 75min
+
+Pull-ups up to today: 29,860
+
+
 ## 24 February
 [Morning warmup](/articles/morning-routine), weight 81.3kg
 
