@@ -1,5 +1,14 @@
 # Training Log
 
+## 26 February
+[Morning warmup](/articles/morning-routine), weight 81.0kg
+
+### Morning
+- Run in Stromovka 60min
+
+Pull-ups up to today: 29,870
+
+
 ## 25 February
 [Morning warmup](/articles/morning-routine), weight 80.9kg
 
