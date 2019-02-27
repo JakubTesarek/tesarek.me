@@ -1,6 +1,18 @@
 # Training Log
 
 ## 26 February
+[Morning warmup](/articles/morning-routine), weight 81.5kg
+
+### Morning
+- Kickbox private training 60min
+
+### Afternoon
+- Kickbox group training 75min
+
+Pull-ups up to today: 29,880
+
+
+## 26 February
 [Morning warmup](/articles/morning-routine), weight 81.0kg
 
 ### Morning
