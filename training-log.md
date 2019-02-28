@@ -1,6 +1,18 @@
 # Training Log
 
-## 26 February
+## 28 February
+[Morning warmup](/articles/morning-routine), weight 82.8kg
+
+### Morning
+- Run on treadmill 5km/30min (5% incline)
+- Muscle-up (white thin band) 5x3
+- Deadlift 5x70kg, 5x100kg, 5x5x130kg
+- Squat 10x20kg, 10x10x65kg (90s rest)
+
+Pull-ups up to today: 29,890
+
+
+## 27 February
 [Morning warmup](/articles/morning-routine), weight 81.5kg
 
 ### Morning
