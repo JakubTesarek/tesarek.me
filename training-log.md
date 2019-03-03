@@ -1,5 +1,20 @@
 # Training Log
 
+
+## 3 March
+[Morning warmup](/articles/morning-routine)
+
+### Afternoon
+- Pull-up 105/25min
+- Stationary wheelchair bike 1km/6:31
+- Log press 20x1x60kg (rep/45s)
+- Incline dumbell press 10x12kg, 10x20kg, 5x22kg, 3x10x25kg
+- Roundhouse kick to heavy bag 100 (each leg)
+- Backfist to heavy bag 100 (each hand)
+
+Pull-ups up to today: 30,000
+
+
 ## 1 March
 Weight 81.7kg
 
@@ -9,5 +24,4 @@ Weight 81.7kg
 ### Afternoon
 - Private kickbox training 60min
 
-
-Pull-ups up to today: 29,892
+Pull-ups up to today: 29,895
