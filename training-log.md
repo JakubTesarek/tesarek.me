@@ -1,5 +1,18 @@
 # Training Log
 
+## 4 March
+[Morning warmup](/articles/morning-routine), weight 82.7kg
+
+### Morning
+- Muscle-up 10x1 (with slight kip, no assistance, ~3 min rest)
+- Negative ring muscle-up 4x3
+- Bar dip (from pull-over) 3x10
+- Dynamic pull-up  5x5 (chest touch the bar)
+- Treadmill 3km/18min (variable 0-10% incline)
+
+### Afternoon
+- Group kickbox training 75min
+
 
 ## 3 March
 [Morning warmup](/articles/morning-routine)
@@ -12,7 +25,7 @@
 - Roundhouse kick to heavy bag 100 (each leg)
 - Backfist to heavy bag 100 (each hand)
 
-Pull-ups up to today: 30,000
+**Pull-ups up to today: 30,000**
 
 
 ## 1 March
