@@ -3,6 +3,15 @@
 ## 7 March
 Weight 81.4kg
 
+### Afternoon
+> fasted training (one muffin for breakfast but nothing else until evening)
+- Deadlift 5x70kg, 10x10x105kg (90s rest)
+- Pull-up 5xBW, 5x8kg, 5x5x12kg
+- Heavy bag
+  - Roundhouse kick 50x each leg
+  - Spinning backfist 50x each hand
+  - Push kick 50x each leg
+
 
 ## 6 March
 [Morning warmup](/articles/morning-routine), weight 81.9kg
