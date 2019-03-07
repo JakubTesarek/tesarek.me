@@ -1,5 +1,19 @@
 # Training Log
 
+## 7 March
+Weight 81.4kg
+
+
+## 6 March
+[Morning warmup](/articles/morning-routine), weight 81.9kg
+
+### Morning
+- Private kickbox training 60min
+
+### Afternoon
+- Group kickbox training 60min
+
+
 ## 5 March
 [Morning warmup](/articles/morning-routine), weight 82.2kg
 
