@@ -1,6 +1,8 @@
 # Training Log
 
 ## 7 March
+> I skipped morning warmup because I was running late for driving lesson
+
 Weight 81.4kg
 
 ### Afternoon
