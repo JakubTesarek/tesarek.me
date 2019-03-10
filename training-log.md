@@ -1,5 +1,26 @@
 # Training Log
 
+## 10 March
+
+### Afternoon
+- Dynamic Pull-up 3
+- Muscle-up
+  - Thinnest red band 2, 1, 1
+  - Red band 3, 3
+- Squat 10x20kg, 5x50kg, 5x70kg, 4x90kg, 3x100kg, 110kg Fail, 3x100kg, 5x90kg, 5x90kg, 5x90kg
+- Log press 70kg, 2x70kg, 75kg Fail, 3x65kg, 3x65kg
+- Suitcase carry 40kg x 12m, 50kg x 24m, 55kg x 24m, 55kg x 12m, 55kg x 12m
+
+
+## 8 March
+
+### Morning
+- Group kickbox training
+
+### Afternoon
+- Private kickbox training
+
+
 ## 7 March
 > I skipped morning warmup because I was running late for driving lesson
 
