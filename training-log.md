@@ -1,5 +1,24 @@
 # Training Log
 
+
+## 11 March
+
+### Morning
+- Run on treadmill 3km/17min
+- Box jump 20x
+- Circuit training; pyramid 1-10; weight vest 10kg
+  - Pushup
+  - Clean and jerk with kettlebell 20kg
+  - Pull-up
+- Circuit training, 3 rounds
+  - Hanging leg raise 10x
+  - Crunch (crossed legs above ground) 20x
+  - Windshield wiper 10x
+
+### Afternoon
+- Kickbox group training 75min
+
+
 ## 10 March
 
 ### Afternoon
