@@ -1,5 +1,22 @@
 # Training Log
 
+## 13 March
+[Morning warmup](/articles/morning-routine), weight 83,5
+
+### Morning
+- Dynamic pull-up 3
+- Muscle-up (white thin band, no magnesium, slippery bar) 2, 2, 1, 1, 2, 1, 1
+- Pulls 10x50kg, 2x8x60kg, 3x7x60kg
+- Military press 10x20kg, 8x30kg, 5x40kg, 3x5x50kg
+- Landmine pull 10x25kg, 10x40kg, 5xx6x50kg
+- Bench press 10x50kg, 5x70kg, 5x5x75kg
+
+
+## 12 March
+[Morning warmup](/articles/morning-routine)
+
+### Afternoon
+- Group kickbox training
 
 ## 11 March
 
