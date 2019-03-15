@@ -1,5 +1,22 @@
 # Training Log
 
+## 15 March
+[Morning warmup](/articles/morning-routine), weight 82,6
+
+### Afternoon
+- Private kickbox training 60min
+
+
+## 14 March
+[Morning warmup](/articles/morning-routine), weight 83,8
+
+### Morning
+- Private kickbox training 60min
+
+### Afternoon
+- Group kickbox training 75min
+
+
 ## 13 March
 [Morning warmup](/articles/morning-routine), weight 83,5
 
