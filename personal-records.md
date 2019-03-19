@@ -63,7 +63,7 @@
 - 4x140kg *(23/11/2018)*
 - 5x140kg *(10/2/2019, with lifting straps)*
 - 1x150kg *(15/2/2018, confirmed 29/11/2018)*
-- 1x160kg *(27/12/2018, with lifting straps)*
+- 1x170kg *(19/3/2019, with lifting straps)*
 
 ### Overhead Press
 - 5x50kg *(3/1/2019)*
@@ -104,6 +104,7 @@
 - 400m/13:19 *(1/10/2017)*
 - 500m/16:09 *(3/2/2018)*
 - 1km/32:18:00 *(3/2/2018)*
+
 
 ## Other
 
