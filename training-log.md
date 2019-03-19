@@ -1,5 +1,27 @@
 # Training Log
 
+
+## 19 March
+[Morning warmup](/articles/morning-routine), weight 84,6
+
+### Morning
+> Pulling training - Deadlift and Muscle-up progression.
+
+- Treadmill run 3km/16min
+- Pull-up (chest to bar) 10x3
+- Muscle-up (thin white band) 5x3
+- Deadlift 5x70kg, 5x100kg, 3x130kg, 1x150kg, 1x165kg ([new PR](/personal-records#deadlift)), 1x170kg ([new PR](/personal-records#deadlift)), 1x170kg ([video](https://www.youtube.com/watch?v=QI51f4GlXgY)), 4x140kg, 3x5x120kg
+
+### Afternoon
+- Group kickbox training 75min
+
+
+## 18 March
+[Morning warmup](/articles/morning-routine), weight 84,7
+
+## 17 March
+Weight 81,7
+
 ## 15 March
 [Morning warmup](/articles/morning-routine), weight 82,6
 
