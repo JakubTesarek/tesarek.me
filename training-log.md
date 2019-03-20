@@ -1,8 +1,13 @@
 # Training Log
 
+## 20 March
+[Morning warmup](/articles/morning-routine), weight 84.0kg
+
+### Afternoon
+- Group kickbox training with fighters 75min
 
 ## 19 March
-[Morning warmup](/articles/morning-routine), weight 84,6
+[Morning warmup](/articles/morning-routine), weight 84.6kg
 
 ### Morning
 > Pulling training - Deadlift and Muscle-up progression.
@@ -17,20 +22,20 @@
 
 
 ## 18 March
-[Morning warmup](/articles/morning-routine), weight 84,7
+[Morning warmup](/articles/morning-routine), weight 84.7kg
 
 ## 17 March
 Weight 81,7
 
 ## 15 March
-[Morning warmup](/articles/morning-routine), weight 82,6
+[Morning warmup](/articles/morning-routine), weight 82.6kg
 
 ### Afternoon
 - Private kickbox training 60min
 
 
 ## 14 March
-[Morning warmup](/articles/morning-routine), weight 83,8
+[Morning warmup](/articles/morning-routine), weight 83.8kg
 
 ### Morning
 - Private kickbox training 60min
@@ -40,7 +45,7 @@ Weight 81,7
 
 
 ## 13 March
-[Morning warmup](/articles/morning-routine), weight 83,5
+[Morning warmup](/articles/morning-routine), weight 83.5kg
 
 ### Morning
 - Dynamic pull-up 3
