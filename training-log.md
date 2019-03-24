@@ -1,5 +1,45 @@
 # Training Log
 
+## 24 March
+Weight 84.0kg
+
+### Morning
+- Walk with Django 1 hour
+
+### Afternoon
+- Walk with Django 1 hour
+
+
+## 23 March
+Weight 83.3kg
+
+### Morning
+- Walk with Django 1 hour
+
+### Afternoon
+Pull-up 2x5xbw, 3x12kg, 3x20kg, 2x24kg, 1x32kg, 1x32kg, 3x24kg, 3x24kg
+Squat 10xBW, 5x20kg, 5x60kg, 3x80kg, 2x100kg, 1x110kg, 115kg F, 2x100kg, 3x100kg
+Dip 3xBW, 5xBW, 4x20kg, 2x32kg, 2x40kg, 1x45kg, 3x32kg, 3x32kg
+Roundhouse kick to heavy bag 100x each leg
+
+
+## 22 March
+[Morning warmup](/articles/morning-routine), weight 82.1kg
+
+### Afternoon
+- Private kickbox training 1 hour
+
+
+## 21 March
+[Morning warmup](/articles/morning-routine), weight 83.4kg
+
+### Morning
+- Private kickbox training 1 hour
+
+### Afternoon
+- Group kickbox training 75min
+
+
 ## 20 March
 [Morning warmup](/articles/morning-routine), weight 84.0kg
 
