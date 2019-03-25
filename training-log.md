@@ -1,5 +1,19 @@
 # Training Log
 
+## 25 March
+Weight 84.9kg
+
+### Morning
+- Deadlift 5x70kg, 5x100kg, 5x120kg, 3x5x140kg (2.5min rest), 2x4x140kg
+- Dynamic pull-up 6x3
+- Chin-up 5x8
+- Dumbell row 3x10x25kg
+- Windshield wiper 3x15
+
+### Afternoon
+- Group kickbox training 75min
+
+
 ## 24 March
 Weight 84.0kg
 
