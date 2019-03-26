@@ -1,6 +1,17 @@
 # Training Log
 
-## 25 March
+## 26 March (2/100 day challange)
+Weight 83.3kg
+
+### Morning
+- Karesovka, EMOM 60x, 1140 reps total
+  - Pull-up 4x
+  - Jumping squat 5x
+  - Knee raise 5x
+  - Push-up 5x
+
+
+## 25 March (1/100 day challange)
 Weight 84.9kg
 
 ### Morning
