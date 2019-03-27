@@ -1,7 +1,22 @@
 # Training Log
 
+## 27 March (3/100 day challange)
+[Morning warmup](/articles/morning-routine), 83.2kg
+
+### Morning
+- Bench press 10x20kg, 8x50kg, 8x70kg, 6x70kg, 8x70kg, 6x70kg, 5x70kg
+- Military press 10x20kg, 8x30kg, 6x40kg, 5x45kg, 5x45kg, 5x45kg, 7x45kg, 6x45kg
+- Superset 4x
+ - Towel neck pull 8x16kg
+ - Dumbell shrug 16x30kg
+- Roundhouse kick to a heavy bag 100x each leg
+
+### Afternoon
+- Group kickbox session with fighters 75min
+
+
 ## 26 March (2/100 day challange)
-Weight 83.3kg
+[Morning warmup](/articles/morning-routine), weight 83.3kg
 
 ### Morning
 - Karesovka, EMOM 60x, 1140 reps total
@@ -12,7 +27,7 @@ Weight 83.3kg
 
 
 ## 25 March (1/100 day challange)
-Weight 84.9kg
+[Morning warmup](/articles/morning-routine), weight 84.9kg
 
 ### Morning
 - Deadlift 5x70kg, 5x100kg, 5x120kg, 3x5x140kg (2.5min rest), 2x4x140kg
