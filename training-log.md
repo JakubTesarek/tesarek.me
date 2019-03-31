@@ -1,6 +1,28 @@
 # Training Log
 
-## 27 March (3/100 day challange)
+## 30 March
+[Morning warmup](/articles/morning-routine), 83.2kg
+
+### Afternoon
+- Walk with Django 60min
+
+
+## 29 March
+[Morning warmup](/articles/morning-routine), 84.7kg
+
+### Afternoon
+- Private kickbox training 60min
+- Walk with Django 60min
+
+
+## 28 March
+[Morning warmup](/articles/morning-routine), 83.3kg
+
+### Afternoon
+- Group kickbox training 75min
+
+
+## 27 March
 [Morning warmup](/articles/morning-routine), 83.2kg
 
 ### Morning
@@ -11,11 +33,8 @@
  - Dumbell shrug 16x30kg
 - Roundhouse kick to a heavy bag 100x each leg
 
-### Afternoon
-- Group kickbox session with fighters 75min
 
-
-## 26 March (2/100 day challange)
+## 26 March
 [Morning warmup](/articles/morning-routine), weight 83.3kg
 
 ### Morning
@@ -26,7 +45,7 @@
   - Push-up 5x
 
 
-## 25 March (1/100 day challange)
+## 25 March
 [Morning warmup](/articles/morning-routine), weight 84.9kg
 
 ### Morning
