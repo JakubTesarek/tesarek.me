@@ -1,5 +1,12 @@
 # Training Log
 
+## 2 April
+Weight 83,3kg
+
+### Afternoon
+ - Group kickbox training 75min
+
+
 ## 1 April
 [Morning warmup](/articles/morning-routine), weight 83,2kg
 
@@ -12,6 +19,3 @@
  - Head raise on side 50x each side
  
  > My trap-bar deadlift is weaker then normal deadlift. Tomáš, trainer in Sparring Point reccomended to tray deadlift agains immovable object for ~3 reps.
- 
- ### Afternoon
- - Group kickbox training 75min
