@@ -1,7 +1,14 @@
 # Training Log
 
+## 3 April
+Weight 83.4kg
+
+### Afternoon
+ - Group kickbox training with fighters 75min
+
+
 ## 2 April
-Weight 83,3kg
+Weight 83.3kg
 
 ### Afternoon
  - Group kickbox training 75min
