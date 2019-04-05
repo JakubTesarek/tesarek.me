@@ -1,5 +1,31 @@
 # Training Log
 
+## 5 April
+[Morning warmup](/articles/morning-routine), weight 82.3kg
+
+## Morning
+Run (hill terrain) 10km
+
+## Afternoon
+Muscle-up 2, 3, 2, 2, 3, 2, 1
+Finger assisted one arm push-up 3, 3
+Band assisted one arm push-up (orange band) 2x3
+Bench press 10x40kg, planned 10x10x55kg with 90s rest: 8x10x55kg + 9x55kg + 8x55kg
+Ab wheel rollout (from knees) 3x8
+Dragon flag 5x3
+Elbow plank 3x2:00 (30s rest)
+
+
+## 4 April
+Weight 84.1kg
+
+### Morning
+ - Proivate kickbox training 75min
+
+### Afternoon
+ - Group kickbox training 75min
+
+
 ## 3 April
 Weight 83.4kg
 
