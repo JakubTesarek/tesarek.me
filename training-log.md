@@ -1,6 +1,14 @@
 # Training Log
 
 ## 6 April
+Weight 81.4kg
+
+### Morning
+- Run in Stromovka 4km
+- Muscle-up 8x2
+
+
+## 6 April
 Weight 80.4kg
 
 ### Morning
