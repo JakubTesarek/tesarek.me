@@ -12,6 +12,10 @@ Weight 82.1kg
 - Cesar salad with chicken
 - Sandwitch with spinach, ham and eggs
 
+### Snack
+- Whey protein 50g
+- Plain rice cakes
+
 ### Afternoon
 - Kickbox group training 75min
 
