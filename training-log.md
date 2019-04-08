@@ -1,5 +1,21 @@
 # Training Log
 
+## 7 April
+Weight 82.1kg
+
+### Morning
+- Deadlift 5x60kg, 5x90kg, 2x5x130kg, 4x8x110kg
+- Military press 8x20kg, 5x30kg, 5x8x40kg
+- Roundhouse kick to a heavy bag 50x each leg
+
+### Lunch
+- Cesar salad with chicken
+- Sandwitch with spinach, ham and eggs
+
+### Afternoon
+- Kickbox group training 75min
+
+
 ## 6 April
 Weight 81.4kg
 
