@@ -1,3 +1,5 @@
+# Training log
+
 ## [2019](/training-log/2019)
 - [April](/training-log/2019/april)
 - [March](/training-log/2019/march)
