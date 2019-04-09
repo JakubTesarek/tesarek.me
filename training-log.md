@@ -7,7 +7,7 @@ Weight 81.7kg
 - Walk with Django 1 hour
 
 ### Lunch
-- Genovese salad (Bageterie Boulevard)
+- Genovese salad (Bageterie Boulevard), 2 hard boiled eggs
 
 ### Afternoon
 - Group kickbox training 75min
