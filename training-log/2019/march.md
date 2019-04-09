@@ -1,3 +1,5 @@
+> [training log](/training-log/) - [2019](/training-log/2019/)
+
 # Training Log
 
 ## 30 March
