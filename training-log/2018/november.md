@@ -1,4 +1,4 @@
-> [training log](/training-log/) - [2018](/training-log/2018)
+> [training log](/training-log/) - [2018](/training-log/2018/)
 
 # Training Log
 
