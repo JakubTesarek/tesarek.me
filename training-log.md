@@ -1,5 +1,21 @@
 # Training Log
 
+## 8 April
+Weight 81.7kg
+
+### Morning
+- Walk with Django 1 hour
+
+### Lunch
+- Genovese salad (Bageterie Boulevard)
+
+### Afternoon
+- Group kickbox training 75min
+
+### Dinner
+- 4 Eggs omelette with 350g vegetables, mustard, wholegrain bread roll
+
+
 ## 7 April
 Weight 82.1kg
 
@@ -18,6 +34,9 @@ Weight 82.1kg
 
 ### Afternoon
 - Kickbox group training 75min
+
+### Dinner
+- 4 Eggs omelette with 350g vegetables, mustard
 
 
 ## 6 April
