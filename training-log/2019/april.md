@@ -11,6 +11,10 @@ Weight 81.7kg
 ### Lunch
 - Genovese salad (Bageterie Boulevard), 2 hard boiled eggs
 
+## Snack
+- Banana
+- Whey protein 50g
+
 ### Afternoon
 - Group kickbox training 75min
 
