@@ -10,13 +10,7 @@ Minimalist. Programmer. Fighter.
 ## Pages
 - [Personal records](/personal-records)
 - [Fitness progress](/progress)
-- [Training log](/training-log/april-2019)
-  - [March 2019](/training-log/march-2019)
-  - [February 2019](/training-log/february-2019)
-  - [January 2019](/training-log/january-2019)
-  - [December 2018](/training-log/december-2018)
-  - [November 2018](/training-log/november-2018)
-  - [October 2018](/training-log/october-2018)
+- [Training log - April 2019](/training-log/2019/april)
 
 ## Articles
 - [Goals for year 2019](/articles/goals-2019)
