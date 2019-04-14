@@ -2,6 +2,18 @@
 
 # Training Log
 
+## 14 April
+Weight 84.9kg
+
+## Afternoon
+- Muscle-up (red band) 1, 3, 3, 1, 2, 1, 1, 1
+- Superset, 5 rounds
+  - Kettlebell clean and jerk 8x24kg (each hand)
+  - Kettlebell swing 8x24kg
+  - Turkish getup 3x12kg (each side)
+- Pull-up 5x10
+
+
 ## 8 April
 Weight 81.7kg
 
