@@ -2,10 +2,22 @@
 
 # Training Log
 
+## 15 April
+Weight 85.5kg
+
+### Morning
+- Muscle-up (orange band) 1, 2, 3, 3, 3, 2, 1
+- Hip thrust 8x50kg, 8x80kg, 3x8x100kg
+- Squat 10xBW, 5x60kg, 5x80kg, 5x5x90kg (120s rest)
+
+### Afternoon
+- Group kickbox training 75min
+
+
 ## 14 April
 Weight 84.9kg
 
-## Afternoon
+### Afternoon
 - Muscle-up (red band) 1, 3, 3, 1, 2, 1, 1, 1
 - Superset, 5 rounds
   - Kettlebell clean and jerk 8x24kg (each hand)
