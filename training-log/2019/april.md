@@ -2,6 +2,17 @@
 
 # Training Log
 
+## 16 April
+Weight 83.6kg
+
+### Morning
+- Run 10km in Prokopske Udoli
+- Push-up 100/4:13 ([new PR](/personal-records#push-up))
+
+### Afternoon
+- Group kickbox training 75min
+
+
 ## 15 April
 Weight 85.5kg
 
