@@ -2,6 +2,29 @@
 
 # Training Log
 
+## 18 April
+Weight 82.3kg
+
+### Morning
+- Bench press 10x20kg, 5x50kg, 5x5x70kg
+- Incline dumbell bench press 5x18kg, 5x25kg, 3x8x25kg
+- Pull-up 5xBW, 5x8kg, 5x12kg, 5x5x16kg
+- Dumbell hammer curl 9x12kg, 10x12kg, 8x12kg, 9x12kg
+
+### Afternoon
+- Group kickbox training 75min
+
+
+## 17 April
+Weight 83.4kg
+
+### Morning
+- Private kickbox training 60min
+
+### Afternoon
+- Advanced group kickbox training 75min
+
+
 ## 16 April
 Weight 83.6kg
 
