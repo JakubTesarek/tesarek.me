@@ -2,6 +2,19 @@
 
 # Training Log
 
+
+## 21 April
+Weight 82.7kg
+
+
+## 20 April
+Weight 82.7kg
+
+
+## 19 April
+- Hike with Django 4 hours
+
+
 ## 18 April
 Weight 82.3kg
 
