@@ -5,6 +5,18 @@
 ## 23 April
 Weight 82.8kg
 
+### Morning
+- Run 5km
+- Muscle-up F, 1, 1, 1, 1, 1, F, 1, F
+- Max-out circuit, 3 rounds, rest as needed
+ - Dip 20, 9, 11
+ - Pull-up 12, 11, 9
+ - Push-up 34, 22, 23
+
+### Afternoon
+- Kickbox group training 75min
+
+
 ## 22 April
 Weight 82.1kg
 
