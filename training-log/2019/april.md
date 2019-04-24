@@ -5,6 +5,10 @@
 ## 24 April
 Weight 81.5kg
 
+### Morning
+- Private kickbox training 60min
+
+
 ## 23 April
 Weight 82.8kg
 
