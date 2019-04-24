@@ -9,9 +9,11 @@ Weight 81.5kg
 Weight 82.8kg
 
 ### Morning
+> Training outside in Central Park
+
 - Run 5km
 - Muscle-up F, 1, 1, 1, 1, 1, F, 1, F
-- Max-out circuit, 3 rounds, rest as needed
+- Max-out circuit, 3 rounds, rest as needed (~2 min)
  - Dip 20, 9, 11
  - Pull-up 12, 11, 9
  - Push-up 34, 22, 23
@@ -23,15 +25,37 @@ Weight 82.8kg
 ## 22 April
 Weight 82.1kg
 
+### Afternoon
+> Training outside in Stromovka Park
+
+- Muscle-up (red band) 3, 3, 2, 3, 3, 3, 3, 3, 3, 3
+
+- Pyramid 5-10
+ - Burpee
+ - Pushup
+ - Toe touches
+ - Pullup
+
+- Pull-over to bar dip 3x10
+- Shadow boxing 5x3min (1min rest)
+- Stretching
+
 ## 21 April
 Weight 82.7kg
+
+### Morning
+- Walk with Django 1 hour
 
 
 ## 20 April
 Weight 82.7kg
 
+### Morning
+- Walk with Django 1 hour
 
 ## 19 April
+
+### Morning
 - Hike with Django 4 hours
 
 
