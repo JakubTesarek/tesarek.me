@@ -2,6 +2,13 @@
 
 # Training Log
 
+## 29 April
+Weight 83.5kg
+
+## 25 April
+Weight 82.1kg
+
+
 ## 24 April
 Weight 81.5kg
 
