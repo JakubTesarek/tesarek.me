@@ -11,8 +11,8 @@ Weight 82.7kg
 - Bend-over rows 10x40kg,5x70kg, 7x60kg, 8x60kg, 9x60kg, 8x60kg
 - Kickbox circuit, 5 rounds, no rest
   - Shadow boxing 2min
-  - Roundhouse kick to heavy bag - right leg 1min
-  - Roundhouse kick to heavy bag - left leg 1min
+  - Roundhouse kick to heavy bag; right leg 1min
+  - Roundhouse kick to heavy bag; left leg 1min
 
 ## May 6
 Weight 85.7kg
