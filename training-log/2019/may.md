@@ -2,6 +2,13 @@
 
 # Training Log
 
+## May 13
+Weight 82.5kg
+
+### Evening
+- Kickbox group training 75min
+
+
 ## May 10
 Weight 81.6kg
 
