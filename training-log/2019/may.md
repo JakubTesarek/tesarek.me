@@ -2,6 +2,20 @@
 
 # Training Log
 
+
+## May 19
+### Afternoon
+- Warmup
+- Deadlift 5x60kg, 2x5x90kg,  5x5x110kg
+- Handstands practice 15min
+- Heavy bag training 5x3min/2min rest
+- Stretching 10min
+
+## May 17
+### Afternoon
+- Private kickbox training 75min
+
+
 ## May 16
 Weight 83.9kg
 
