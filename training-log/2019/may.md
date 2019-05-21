@@ -3,6 +3,21 @@
 # Training Log
 
 
+## May 21
+Weight 81.7kg
+
+
+## May 20
+### Noon
+- Muscle-up (orange band) 5x3
+- Pull-up 5xBW, 5x5x12kg
+- Legs warmup, roller
+- Stretching
+
+### Evening
+- Kickbox group training 75min
+
+
 ## May 19
 ### Afternoon
 - Warmup
