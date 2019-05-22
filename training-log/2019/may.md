@@ -6,6 +6,7 @@
 Weight 82.6kg
 
 ### Noon
+- Heavy bag training 5x3min/1min rest
 - Stretching
 
 ### Afternoon
