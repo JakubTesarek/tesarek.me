@@ -2,6 +2,14 @@
 
 # Training Log
 
+## May 23
+Weight 81.8kg
+
+### Morning
+- Private kickbox training 60min
+- Stretching
+
+
 ## May 22
 Weight 82.6kg
 
