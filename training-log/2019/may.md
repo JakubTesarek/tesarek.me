@@ -2,6 +2,13 @@
 
 # Training Log
 
+## May 24
+Weight 82.0kg
+
+### Noon
+- Run 5km with Django in Stromovka
+
+
 ## May 23
 Weight 81.8kg
 
