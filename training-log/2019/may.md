@@ -1,6 +1,36 @@
 > [training log](/training-log/) - [2019](/training-log/2019/)
 
 # Training Log
+## May 31
+Weight 83.6kg
+
+### Afternnon
+Weight training with Vojta in Bitevní Pole
+- Circuit
+  - Muscle-up 5xblack band
+  - Pull-up 10x10kg
+  - Dip 10x15kg
+  - Push-up 20x
+  - Goblet squat 30x30kg
+- Pull-up 2x10x10kg
+- Dip 2x10x15kg
+- Planche push-up 3x5
+- Deadlift 5x60kg, 4x90kg, 3x110kg, 2x130kg, 1x130kg, 1x140kg
+- Deadlift with  fat grip 5x60kg, 2x1x100kg
+
+## May 29
+### Morning
+- Private kickbox training 60min
+
+## May 28
+### Afternoon
+- Group kickbox training 75min
+
+
+## May 25
+### Noon
+- Run with Django in Divoká Šárka 10km
+
 
 ## May 24
 Weight 82.0kg
