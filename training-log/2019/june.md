@@ -1,7 +1,23 @@
 > [training log](/training-log/) - [2019](/training-log/2019/)
 
+
 # Training Log
-## May 1
+
+## May 7
+### Afternoon
+- Private kickbox training 60min
+
+
+## May 5
+### Evening
+- Group kickbox training with fighters 75min (sparring)
+
+## May 4
+### Evening
+- Group kickbox training 75min
+
+
+## May 2
 ### Afternoon
 - Pull-up 3xBW, 5x5x12kg
 - Ab-wheel rollout 5x5
