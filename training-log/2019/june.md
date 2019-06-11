@@ -3,21 +3,49 @@
 
 # Training Log
 
-## May 7
+## June 10
+Weight 83.3kg
+
+### Noon
+- Lay down leg raise 2x15 (1 min rest)
+- Squat 5x5x80kg (3min rest)
+- Sumu squat with kettlebell 3x15x48kg (2 min rest)
+- Bulgarian split squat 3x8 (each leg, rest just to swich legs)
+- Hamstring hyperextension 3x10 (2 min rest)
+- Hamstring band pull 3x5 (each leg, rest just to switch legs)
+- Strict pull-up 3x5 (90s rest)
+
+
+## June 9
+### Afternoon
+- Pull-up 5x5x16kg (3min rest)
+- Benchpress 3x6x70kg (3min rest)
+- Overhead press 3x6x40kg (3 min rest)
+- Pec deck 15x35kg, 12x35kg, 12x35kg (~1 min rest)
+- Pull-up with neutral grip 3x7, 1s hold at the top (~2 min rest)
+- Double crunches 3x20 (~45s rest)
+
+
+## June 8
+### Afternoon
+- Strength training with Vojta in VT Gym 2 hours
+
+
+## June 7
 ### Afternoon
 - Private kickbox training 60min
 
 
-## May 5
+## June 5
 ### Evening
 - Group kickbox training with fighters 75min (sparring)
 
-## May 4
+## June 4
 ### Evening
 - Group kickbox training 75min
 
 
-## May 2
+## June 2
 ### Afternoon
 - Pull-up 3xBW, 5x5x12kg
 - Ab-wheel rollout 5x5
