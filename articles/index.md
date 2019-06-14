@@ -1,5 +1,6 @@
 # Articles
 
+- [Pycon 2019](/articles/pycon-2019)
 - [Goals for year 2019](/articles/goals-2019)
 - [Best Excercises for Muay Thai](/articles/muay-thai-excercises)
 - [Make them look away](/articles/make-them-look-away)
