@@ -21,6 +21,7 @@ by Sviatoslav Sydorenko
 - Github apps have access to more API endpoints that are normally hidden from user
 - Use serverles when possible, Github will support natively on their own platform: https://github.com/features/actions
 
+
 ### Time series Forecasting in Python
 by Petr Simecek
 
@@ -38,10 +39,12 @@ by Petr Simecek
 - Dimensionality problem - There are sometimes more variables than entry points
 - Lately ML is crushing statistics
 
+
 ### The theory and practice of Generative Adversarial Networks (GANs)
 by Jakub Langr
 
 - Introduction to ML
+
 
 #### Unsupervised learning:
 
@@ -72,8 +75,15 @@ by Flavio Pecoco
 - Do small and focused changes
 - Take the faster path, not the shortest one
 
+
 ### Debuggin binaries with Python
 by Pevel Simerda
 
 - `$ gdb -angs ping prgcont.cz`
+- No idea what he's talking about
 
+
+### \#! Bang, Bang!
+by Miro Hroncok
+
+- DONT!
