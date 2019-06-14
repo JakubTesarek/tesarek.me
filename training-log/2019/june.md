@@ -8,7 +8,7 @@ Weight 83.3kg
 
 ### Noon
 - Lay down leg raise 2x15 (1 min rest)
-- Squat 5x5x80kg (3min rest)
+- Squat 5x20kg, 5x40kg, 3x60kg, 5x5x80kg (3min rest)
 - Sumu squat with kettlebell 3x15x48kg (2 min rest)
 - Bulgarian split squat 3x8 (each leg, rest just to swich legs)
 - Hamstring hyperextension 3x10 (2 min rest)
