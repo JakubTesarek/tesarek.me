@@ -50,3 +50,30 @@ by Jakub Langr
 - Discriminator tries to guess which of two samples (real data vs. generated) is real
 - The error get propagated back to the generator which get better at generating but also to discriminatom which gets better at guessing
 - Fitness function for generator is just inverted value of fitness function of the discriminator
+
+
+### Inheriting code ... and I don't mean classes
+by Flavio Pecoco
+
+- What are the use-cases? What does the code supposed to do?
+- How where things done? What paradigms it follows?
+- Learn how the users are using the software
+- Evaluate if rewriting is and viable option
+    - Good language/ecosystem
+    - Would rewrite be faster
+    - Easier to rewrite it?
+    - Enable other team members to contribute?
+    - Good language/ecosystem
+    - Would rewrite be faster
+    - Easier to maintain it?
+- Write down guidelines
+- Document everything
+- All existing tests muss past, if the don't exist, write them
+- Do small and focused changes
+- Take the faster path, not the shortest one
+
+### Debuggin binaries with Python
+by Pevel Simerda
+
+- `$ gdb -angs ping prgcont.cz`
+
