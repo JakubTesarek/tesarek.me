@@ -146,22 +146,34 @@ by Miroslav Sedivy
 
 - 440 timezones: `len(pytz.common_timezones)`
 - www.iana.org/time-zones
-
-
-### On the edge of leadership (keynote)
-by Miroslav Cimpersak
+- Summer time/standard time, there is no 'winter time', except once in whole world - 1946-1947 in Czechoslovakia
 
 
 ### Keep formating consistent with Black
 by Angelina Nikiforova
 
-
-### Maintaining peace by preparing for war
-by Luka Raljevic
+- Not only checker, it automatically reformats
+- `black --dif <file>` print diff after reformat
+- Black prefers double quotes over single quotes
+- black.now.sh - online tool
+- google pycodestyle - pyguide.md
+- YAPF - pyton formater by google, other alternatives White (No configuration at all), autopep8
+- Black is not very configurable
 
 
 ### Intro to search using Python
 by Nick Lang
+
+- "The way to find a needle in a haystack is to sit down."
+- Inverted index
+- Analyze
+    - replace weird characters
+    - remove punctuation
+    - lowercase
+    - split by word boundaries
+    - remove stop-words
+    - snowball: steming - convert to root form
+- Search - run the term through analazyre
 
 
 ### Performance tuning in Python
