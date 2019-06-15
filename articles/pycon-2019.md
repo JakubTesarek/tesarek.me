@@ -3,7 +3,7 @@ https://cz.pycon.org/2019/
 
 ## Friday
 
-### Leveraging technology and laziness
+### Leveraging technology and laziness (keynote)
 by Josef Svoboda
 
 - Predicting financial markets is difficult (Duh!)
@@ -76,7 +76,7 @@ by Flavio Pecoco
 - Take the faster path, not the shortest one
 
 
-### Debuggin binaries with Python
+### Debugging binaries with Python
 by Pevel Simerda
 
 - `$ gdb -angs ping prgcont.cz`
@@ -87,3 +87,45 @@ by Pevel Simerda
 by Miro Hroncok
 
 - DONT!
+- There is no shebang that works the same on all machines
+- Self destructing file
+- Use setup.py instead
+
+
+## Saturday
+
+### Parallels between career building and home remodeling (keynote)
+by Jakie Kazil
+
+
+### Electronics with Python for beginners
+by Jan Bednarik
+
+
+### To comment or not? A data-driven look at attitude toward code comments
+by Veronica Hanus
+
+
+### A day has only 24+-1 hours
+by Miroslav Sedivy
+
+
+### On the edge of leadership (keynote)
+by Miroslav Cimpersak
+
+
+### Keep formating consistent with Black
+by Angelina Nikiforova
+
+
+### Maintaining peace by preparing for war
+by Luka Raljevic
+
+
+### Intro to search using Python
+by Nick Lang
+
+
+### Performance tuning in Python
+by Jan Skoda
+
