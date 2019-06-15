@@ -97,17 +97,55 @@ by Miro Hroncok
 ### Parallels between career building and home remodeling (keynote)
 by Jakie Kazil
 
+- Ask for informational interview
+- You will survive
+- Never be afraid of anything
+- Be intentional about your direction
+
+#### Excercise
+
+**Priorities**
+
+- teeth
+- dog
+- dbgr
+- driving licence
+- muay-thai
+- marriage
+- work
+- granma new knees
+- weightloss
+
+**Want to do but not doing right now**
+
+- nothing, I'm doing everything I want
+
 
 ### Electronics with Python for beginners
 by Jan Bednarik
+
+- Breadboard - prototyping board
+- Digital 0 = 0V, 1 = 3.3V or 5V
+- Micropython (Python 3.6)
+- Interactive SHELL on the board so you can change the code directly
+- Available boards: PyBoard, BBC micro:bit, Pycom.iOT (wifi) Adafruit CircuitPython (CircuitPython = alternative to MicroPython)
+- micropython.org/unicorn (interactive tutorial)
+- learn.adafruit.com (200 tutorials)
+- hackaday website (people share their projects)
 
 
 ### To comment or not? A data-driven look at attitude toward code comments
 by Veronica Hanus
 
+- Code tells how, comment tells why
+- Be nice to beginner, educate them, you was one too
+
 
 ### A day has only 24+-1 hours
 by Miroslav Sedivy
+
+- 440 timezones: `len(pytz.common_timezones)`
+- www.iana.org/time-zones
 
 
 ### On the edge of leadership (keynote)
