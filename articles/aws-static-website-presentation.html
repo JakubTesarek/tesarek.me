@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="How to implement serverless static website using only AWS tools">
+        <title>Static websites in AWS | Jakub Tesárek</title>
+        <link rel="stylesheet" href="../style/main.css" />
+        <link rel="stylesheet" href="../style/color-brewer.css">
+        <script src="../script/highlight.pack.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+    </head>
+    <body>
+        <header>
+            <menu>
+                <ul class="navigation">
+                    <li><a href="https://tesarek.me">Home</a></li>
+                    <li><a href="https://tesarek.me#publications">Publications</a></li>
+                    <li><a href="https://tesarek.me/resume">Resume</a></li>
+                </ul>
+            </menu>
+        </header>
+        <main>
+            <article class="content">
+                <h1>Static Websites in AWS</h1>
+                <p>This is a summary from my presentation How to build static website using AWS native tools.</p>
+                <aside><p>Use only US-East (N. Virginia). Some functions are not available elsewhere.</p></aside>
+
+                <h2>Goal</h2>
+                <ul>
+                    <li>create static website using AWS technology</li>
+                    <li>no VPS</li>
+                    <li>accessible on www and non-www domainsp
+                    <li>nice urls (no .html)</li>
+                    <li>https only</li>
+                    <li>publish content by pushing to git repo</li>
+                    <li>write content in markdown</li>
+                    <li>CDN</li>
+                </ul>
+
+                <h2>S3</h2>
+                <ul>
+                    <li>2 buckets for www and non-www version</li>
+                    <li>set public access to buckets</li>
+                    <li>set bucket policy on main bucket to make documents public</li>
+                    <li>enable static website hosting on main bucket</li>
+                    <li>enable requests redirects from secondary bucket</li>
+                    <li>you can sync <code>local/*.md</code> with S3 using AWS-CLI: <code>aws s3 sync local s3://bucket.name --exclude "*" --include "*.md"</code></li>
+                </ul>
+
+                <pre><code class="json"> {
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::bucket.name/*.html"
+        }
+    ]
+} </code></pre>
+
+                <h2>Route 53</h2>
+                <ul>
+                    <li>create new hosted zone for your domains</li>
+                    <li>switch NS servers to AWS</li>
+                    <li>setup MX records if necessery</li>
+                    <li>setup A record alias to CloudFront distribution (when ready)</li>
+                </ul>
+
+                <h2>ACM</h2>
+                <ul>
+                    <li>request new certificate for your domain</li>
+                    <li>confirm your ownership of the domain</li>
+                </ul>
+
+                <h2>CloudFront</h2>
+                <ul>
+                    <li>create new CloudFront distribution</li>
+                    <li>setup redirect from http to https</li>
+                    <li>use ACM provided certificate</li>
+                    <li>set origin to your main S3 bucket</li>
+                    <li>for debugging purpose disable caching</li>
+                    <li>go back to Route 53 and set A record alias to the CloudFront distribution</li>
+                </ul>
+
+                <h2>Lambda</h2>
+                <ul>
+                    <li>create new Lambda@Edge</li>
+                    <li>use CloudFront trigger</li>
+                    <li>insert url rewrite rules</li>
+                </ul>
+
+                <pre><code class="javascript">'use strict';
+exports.handler = (event, context, callback) => {
+    var request = event.Records[0].cf.request;
+    var uri = request.uri;
+
+    // Add /index.html to directory listings
+    uri = uri.replace(/\/$/, '\/index.html');
+
+    // Add .html when suffix missing
+    uri = uri.replace(/\/([a-z0-9_\-]+)$/i, '/$1.html')
+
+    console.log("Old URI: " + request.uri);
+    console.log("New URI: " + uri);
+    request.uri = uri;
+    return callback(null, request);
+
+};</code></pre>
+
+                <h2>CircleCI</h2>
+                <ul>
+                    <li>add CircleCI integration to your Github</li>
+                    <li>in AWS IAM create new user with write access to S3</li>
+                    <li>
+                        in workflow &gt; build settings &gt; environment variables fill in following variables
+                        <ul>
+                            <li><code>AWS_ACCESS_KEY_ID</code></li>
+                            <li><code>AWS_SECRET_ACCESS_KEY</code></li>
+                            <li><code>AWS_DEFAULT_REGION</code></li>
+                        </ul>
+                    </li>
+                    <li>create directory <code>.circleci</code></li>
+                    <li>create file <code>.circleci/requirements.txt</code> with content: <code>awscli</code></li>
+                    <li>create file <code>.circleci/config.yml</code> with content:</li>
+                </ul>
+
+                <pre><code class="yaml">version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/python:3.6.1
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum ".circleci/requirements.txt" }}
+          - v1-dependencies-
+
+      - run:
+          name: install dependencies
+          command: |
+            python3 -m venv venv
+            . venv/bin/activate
+            pip install -r .circleci/requirements.txt
+
+      - save_cache:
+          paths:
+            - ./venv
+          key: v1-dependencies-{{ checksum ".circleci/requirements.txt" }}
+
+      - run:
+          name: sync with s3
+          command: |
+            . venv/bin/activate
+            aws s3 sync . s3://bucket.name --exclude "*" --include "*.md"</code></pre>
+
+                <h2>Pricing</h2>
+                All prices are per month
+
+                <h3>S3</h3>
+                <ul>
+                    <li>2,000 put requests in free tier / then $0.005 per 1,000 requests</li>
+                    <li>20,000 get requests in free tier / then $0.0004 per 1,000 requests</li>
+                    <li>5GB of storage in free tier / then $0.023 per GB</li>
+                    <li>deletes are free</li>
+                </ul>
+
+                <h3>Cloudfront</h3>
+                <ul>
+                    <li>2,000,000 requests in free tier / then ~$0.0100 per 10,000 requests</li>
+                    <li>50GB out in free tier / then ~$0.080 per 1GB</li>
+                </ul>
+
+                <h3>Lambda</h3>
+                <ul>
+                    <li>free tier doesn't expire</li>
+                    <li>1,000,000 executions is free / then $0.20 per 1,000,000 executions</li>
+                    <li>400,000 GB-seconds is free / then $0.00001667 per GB-second</li>
+                </ul>
+
+                <h3>Route 53</h3>
+                <ul>
+                    <li>$0.50 per hosted zone</li>
+                    <li>$0.400 per 1,000,000 DNS requests</li>
+                </ul>
+
+                <h3>CircleCI</h3>
+                <ul>
+                    <li>free for one project</li>
+                </ul>
+
+                <h3>Github</h3>
+                <ul>
+                    <li>free for public projects</li>
+                </ul>
+
+                <h3>Pricing example</h3>
+                <h4>Average sized blog</h4>
+                <ul>
+                    <li>200 pages</li>
+                    <li>250kB/page</li>
+                    <li>10,000 pageviews/month (50% USA, 50% Europe)</li>
+                    <li>500 page updates/month</li>
+                    <li>no caching</li>
+                </ul>
+
+                <h4>Monthly TCO</h4>
+                <ul>
+                    <li>S3: $0.05</li>
+                    <li>Route 53: $0.50</li>
+                    <li>CloudFront: $0.28</li>
+                    <li>Lambda: fits in free tier</li>
+                    <li>Total: $0,83/month</li>
+                </ul>
+
+                <h2>Bonus</h2>
+                <p>You can automate S3 to generate html from md files.</p>
+
+                <ul>
+                    <li>create new Lambda function</li>
+                    <li>use S3 trigger</li>
+                    <li>limit trigger to .md files only</li>
+                    <li>create new IAM role with read/write access to S3</li>
+                    <li>insert compiler code:</li>
+                </ul>
+
+                <pre><code class="python">
+import urllib.parse
+import boto3
+import re
+import markdown2
+
+
+s3 = boto3.client('s3')
+
+def get_header(metadata):
+    return f'''
+&lt;html&gt;
+    &lt;header&gt;
+        &lt;title&gt;{metadata['title']}&lt;/title&gt;
+    &lt;/header&gt;
+&lt;body style="font-size: 130%"&gt;
+    '''
+
+
+def get_footer():
+    return '''
+    &lt;/body&gt;
+&lt;/html&gt;
+    '''
+
+
+def get_title(key):
+    title = re.sub('^.*/', '', key)
+    title = re.sub('\.\w+$', '', key)
+    return title.replace('-', ' ')
+
+
+def get_html_key(key):
+    return re.sub('\.md$', '.html', key)
+
+
+def write_html(bucket, key, content):
+    content = content.encode("utf-8")
+    bucket_name = bucket
+    s3.put_object(Bucket=bucket, Key=key, Body=content, ContentType='text/html')
+
+
+def get_html(key, md_body):
+    html_body = markdown2.markdown(md_body, extras=[
+            'fenced-code-blocks',
+            'header-ids',
+            'metadata'
+        ])
+    metadata = html_body.metadata
+    metadata.setdefault('title', get_title(key))
+    return get_header(html_body.metadata) + html_body + get_footer()
+
+
+def get_md(bucket, key):
+    response = s3.get_object(Bucket=bucket, Key=key)
+    return response['Body'].read().decode('utf-8')
+
+
+def parse_event(event):
+    bucket = event['Records'][0]['s3']['bucket']['name']
+    key = urllib.parse.unquote_plus(
+        event['Records'][0]['s3']['object']['key'],
+        encoding='utf-8'
+    )
+    return bucket, key
+
+
+def lambda_handler(event, context):
+    try:
+        bucket, key = parse_event(event)
+        md_body = get_md(bucket, key)
+        html_key = get_html_key(key)
+        html_body = get_html(key, md_body)
+        write_html(bucket, html_key, html_body)
+        return True
+    except Exception as e:
+        print(e)
+        raise e</code></pre>
+            </article>
+        </main>
+        <footer>
+            <section>
+                <a class="icon external" href="mailto:jakub@tesarek.me">&#xf0e0;</a>
+                <a class="icon external" href="https://www.instagram.com/tesarekjakub/">&#xf16d;</a>
+                <a class="icon external" href="https://github.com/JakubTesarek">&#xf300;</a>
+                <a class="icon external" href="https://www.linkedin.com/in/jakubtesarek/">&#xf30c;</a>
+            </section>
+        </footer>
+    </body>
+</html>
