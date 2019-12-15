@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+@font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.eot?48521159');
+    src: url('../font/fontello.eot?48521159#iefix') format('embedded-opentype'),
+        url('../font/fontello.woff?48521159') format('woff'),
+        url('../font/fontello.ttf?48521159') format('truetype'),
+        url('../font/fontello.svg?48521159#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+blockquote {
+    margin-left: 0;
+    padding-left: 2em;
+    padding-right: 0.8em;
+    position: relative;
+}
+
+
+blockquote::before {
+    content: "“";
+    display: block;
+    position: absolute;
+    color: #aaa;
+    left: 0em;
+    top: -0.3em;
+    font-size: 300%;
+}
+
+blockquote::after {
+    content: "„";
+    display: block;
+    position: absolute;
+    color: #aaa;
+    left: 100%;
+    top: 0.2em;
+    font-size: 300%;
+}
+
+blockquote cite {
+    display: block;
+    text-align: right;
+}
+
+blockquote cite::before {
+    content: "-- ";
+    margin-left: 2em;
+}
+
+code i {
+    font-style: normal;
+    display: inline-block;
+    width: 100%;
+}
+
+code i.add {
+    border-left: 2px solid #6ab04c;
+}
+
+code i.add:hover {
+    background-color: #d8f0d8;
+}
+
+html {
+    font-size: 115%;
+}
+
+html, body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+#error_page {
+    height: 100%;
+    padding: 0;
+}
+
+#error_page section {
+    width: auto;
+    text-align: center;
+}
+
+#error_page h1 {
+    font-size: 800%;
+    margin: 0;
+}
+
+#error_page h2 {
+    margin: 0;
+}
+
+
+.icon {
+    font-family: 'fontello';
+}
+
+code {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 95%;
+    color: #444;
+}
+
+aside {
+    color: #444;
+    font-style: italic; 
+}
+
+#bio {
+    border: 1px solid #ccc;
+    background-color: #eee;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*font-size: 150%;*/
+    text-align: center;
+}
+
+#bio section {
+    max-width: 1000px;
+    padding: 1em;
+}
+
+h1, h2, h3, h4 {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+h3 {
+    font-size: 150%;
+}
+
+#bio h1 {
+    margin: 0.3em;
+}
+
+#bio h2 {
+    font-size: 130%;
+    margin-top: 0;
+}
+
+#bio img {
+    width: 150px;
+    border-radius: 50%;
+    border: 8px solid white;
+}
+
+
+.content {
+    width: 100%;
+    max-width: 1000px;
+}
+
+p {
+    text-align: justify;
+    line-height: 140%;
+}
+
+main h2 {
+    font-weight: normal;
+    text-align: left;
+}
+
+menu {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: black;
+}
+
+#publications h3 {
+    margin: 0;
+}
+
+#publications article p {
+    margin: 0.5em 0 0.5em 0;
+}
+
+#publications article {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+#publications article:last-of-type {
+    border-bottom: none;
+}
+
+a {
+    color: inherit;
+}
+
+#publications article a {
+    text-decoration: none;
+}
+
+#publications article {
+    filter: opacity(65%);
+}
+
+#publications article:hover {
+    filter: none;
+}
+
+footer {
+    border-top: 1px solid #ccc;
+    background-color: #333;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 150%;
+    text-align: center;
+    padding: 1em 0 1em 0;
+}
+
+footer a {
+    color: #888;
+    text-decoration: none;
+    padding: 0 0.5em 0 0.5em;
+}
+
+footer a:hover {
+    color: #aaa;
+}
+
+
+@media all and (max-width: 800px) {
+    .navigation {
+        justify-content: space-around;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .navigation {
+        flex-direction: column;
+    }
+
+    .navigation a { 
+        text-align: center; 
+        padding: 10px;
+    }
+}
