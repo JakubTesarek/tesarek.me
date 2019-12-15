@@ -1,3 +1,4 @@
+/* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
 @font-face {
@@ -11,13 +12,221 @@
     font-style: normal;
 }
 
+/* Layout */
+html {
+    font-size: 115%;
+}
+
+html, body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+/* Error pages */
+#error_page {
+    height: 100%;
+    padding: 0;
+}
+
+#error_page section {
+    width: auto;
+    text-align: center;
+}
+
+#error_page h1 {
+    font-size: 800%;
+    margin: 0;
+}
+
+#error_page h2 {
+    margin: 0;
+}
+
+.content {
+    width: 100%;
+    max-width: 1000px;
+}
+
+/* General styling */
+.icon {
+    font-family: 'fontello';
+}
+
+h1, h2, h3, h4 {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+h3 {
+    font-size: 150%;
+}
+
+aside {
+    color: #444;
+    font-style: italic;
+}
+
+p {
+    text-align: justify;
+    line-height: 140%;
+}
+
+a {
+    color: inherit;
+}
+
+/* Index */
+/* Index - bio */
+#bio {
+    border: 1px solid #ccc;
+    background-color: #eee;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#bio section {
+    max-width: 1000px;
+    padding: 1em;
+}
+
+#bio h1 {
+    margin: 0.3em;
+}
+
+#bio h2 {
+    font-size: 130%;
+    margin-top: 0;
+}
+
+#bio img {
+    width: 150px;
+    border-radius: 50%;
+    border: 8px solid white;
+}
+
+/* Index - publications */
+#publications h3 {
+    margin: 0;
+}
+
+#publications article {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    filter: opacity(65%);
+}
+
+#publications article:hover {
+    filter: none;
+}
+
+#publications article:last-of-type {
+    border-bottom: none;
+}
+
+#publications article p {
+    margin: 0.5em 0 0.5em 0;
+}
+
+#publications article a {
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid #ccc;
+    background-color: #333;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 150%;
+    text-align: center;
+    padding: 1em 0 1em 0;
+}
+
+footer a {
+    color: #888;
+    text-decoration: none;
+    padding: 0 0.5em 0 0.5em;
+}
+
+footer a:hover {
+    color: #aaa;
+}
+
+
+/* Main menu */
+menu {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: black;
+}
+
+@media all and (max-width: 800px) {
+    .navigation {
+        justify-content: space-around;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .navigation {
+        flex-direction: column;
+    }
+
+    .navigation a {
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+/* Articles */
+/* Articles - Quotes */
 blockquote {
     margin-left: 0;
     padding-left: 2em;
     padding-right: 0.8em;
     position: relative;
 }
-
 
 blockquote::before {
     content: "“";
@@ -49,6 +258,13 @@ blockquote cite::before {
     margin-left: 2em;
 }
 
+/* Articles - Code */
+code {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 95%;
+    color: #444;
+}
+
 code i {
     font-style: normal;
     display: inline-block;
@@ -61,220 +277,4 @@ code i.add {
 
 code i.add:hover {
     background-color: #d8f0d8;
-}
-
-html {
-    font-size: 115%;
-}
-
-html, body {
-    font-family: 'Source Sans Pro', sans-serif;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
-
-main {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2em;
-}
-
-#error_page {
-    height: 100%;
-    padding: 0;
-}
-
-#error_page section {
-    width: auto;
-    text-align: center;
-}
-
-#error_page h1 {
-    font-size: 800%;
-    margin: 0;
-}
-
-#error_page h2 {
-    margin: 0;
-}
-
-
-.icon {
-    font-family: 'fontello';
-}
-
-code {
-    font-family: 'Source Code Pro', monospace;
-    font-size: 95%;
-    color: #444;
-}
-
-aside {
-    color: #444;
-    font-style: italic; 
-}
-
-#bio {
-    border: 1px solid #ccc;
-    background-color: #eee;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /*font-size: 150%;*/
-    text-align: center;
-}
-
-#bio section {
-    max-width: 1000px;
-    padding: 1em;
-}
-
-h1, h2, h3, h4 {
-    font-weight: normal;
-}
-
-h1 {
-    font-size: 250%;
-}
-
-h2 {
-    font-size: 200%;
-}
-
-h3 {
-    font-size: 150%;
-}
-
-#bio h1 {
-    margin: 0.3em;
-}
-
-#bio h2 {
-    font-size: 130%;
-    margin-top: 0;
-}
-
-#bio img {
-    width: 150px;
-    border-radius: 50%;
-    border: 8px solid white;
-}
-
-
-.content {
-    width: 100%;
-    max-width: 1000px;
-}
-
-p {
-    text-align: justify;
-    line-height: 140%;
-}
-
-main h2 {
-    font-weight: normal;
-    text-align: left;
-}
-
-menu {
-    padding: 0;
-    margin: 0;
-    text-transform: uppercase;
-}
-
-.navigation {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.navigation a {
-    text-decoration: none;
-    display: block;
-    padding: 1em;
-    color: black;
-}
-
-#publications h3 {
-    margin: 0;
-}
-
-#publications article p {
-    margin: 0.5em 0 0.5em 0;
-}
-
-#publications article {
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 1em;
-    padding-top: 1em;
-}
-
-#publications article:last-of-type {
-    border-bottom: none;
-}
-
-a {
-    color: inherit;
-}
-
-#publications article a {
-    text-decoration: none;
-}
-
-#publications article {
-    filter: opacity(65%);
-}
-
-#publications article:hover {
-    filter: none;
-}
-
-footer {
-    border-top: 1px solid #ccc;
-    background-color: #333;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 150%;
-    text-align: center;
-    padding: 1em 0 1em 0;
-}
-
-footer a {
-    color: #888;
-    text-decoration: none;
-    padding: 0 0.5em 0 0.5em;
-}
-
-footer a:hover {
-    color: #aaa;
-}
-
-
-@media all and (max-width: 800px) {
-    .navigation {
-        justify-content: space-around;
-    }
-}
-
-@media all and (max-width: 500px) {
-    .navigation {
-        flex-direction: column;
-    }
-
-    .navigation a { 
-        text-align: center; 
-        padding: 10px;
-    }
 }
