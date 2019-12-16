@@ -91,7 +91,9 @@ p {
 
 a {
     color: inherit;
+    text-decoration: none;
 }
+
 
 /* Index */
 /* Index - bio */
@@ -226,6 +228,7 @@ blockquote {
     padding-left: 2em;
     padding-right: 0.8em;
     position: relative;
+    font-style: italic;
 }
 
 blockquote::before {
@@ -244,7 +247,7 @@ blockquote::after {
     position: absolute;
     color: #aaa;
     left: 100%;
-    top: 0.2em;
+    bottom: -0.2em;
     font-size: 300%;
 }
 
@@ -277,4 +280,19 @@ code i.add {
 
 code i.add:hover {
     background-color: #d8f0d8;
+}
+
+/* Articles - images */
+article img {
+    display: block;
+    max-width: 100%;
+}
+
+/* Articles - links */
+article a {
+    border-bottom: 1px solid #aaa;
+}
+
+article a:hover {
+    border-color: #333
 }

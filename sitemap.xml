@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://tesarek.me</loc>
-        <lastmod>2019-12-15</lastmod>
+        <lastmod>2019-12-16</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://tesarek.me/articles/crazy-python</loc>
+        <lastmod>2019-12-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://tesarek.me/articles/power-of-metaclasses</loc>
-        <lastmod>2019-12-15</lastmod>
+        <lastmod>2019-12-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>

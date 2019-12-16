@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Crazy stuff you can do in Python">
+        <title>Crazy Python | Jakub Tesárek</title>
+        <link rel="stylesheet" href="../style/main.css" />
+        <link rel="stylesheet" href="../style/color-brewer.css">
+        <script src="../script/highlight.pack.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+    </head>
+    <body>
+        <header>
+            <menu>
+                <ul class="navigation">
+                    <li><a href="https://tesarek.me">Home</a></li>
+                    <li><a href="https://tesarek.me#publications">Publications</a></li>
+                    <li><a href="https://tesarek.me/resume">Resume</a></li>
+                </ul>
+            </menu>
+        </header>
+        <main>
+            <article class="content">
+                <h1>Crazy Python</h1>
+                <p>Over the time I spent with Python, I discovered some weird quirks and funny tricks you can do. Some of them
+                    are intentionally put in place by our <a href="https://www.python.org/dev/peps/pep-0401/">Benevolent Dictator Emeritus Vacationing Indefinitely from the Language</a>, some
+                    of them are just a manifestation of how poetic Python is.</p>
+
+                <p>If you are looking for <b>useful</b> tips and tricks, these aren't the droids you are looking for.</p>
+
+                <h2>Hello World!</h2>
+                <p>
+                    Python is very effective language. In fact, it has one of the shortest Hello World
+                    <pre><code class="python">import __hello__ # Hello world!</code></pre>
+                </p>
+
+                <h2>Zen of Python</h2>
+                <p>
+                    Another import trick that not everybody knows is Zen of Python.
+                    <pre><code class="python">import this
+# The Zen of Python, by Tim Peters
+#
+# Beautiful is better than ugly.
+# Explicit is better than implicit.
+# Simple is better than complex.
+# Complex is better than complicated.
+# Flat is better than nested.
+# Sparse is better than dense.
+# Readability counts.
+# Special cases aren't special enough to break the rules.
+# Although practicality beats purity.
+# Errors should never pass silently.
+# Unless explicitly silenced.
+# In the face of ambiguity, refuse the temptation to guess.
+# There should be one-- and preferably only one --obvious way to do it.
+# Although that way may not be obvious at first unless you're Dutch.
+# Now is better than never.
+# Although never is often better than *right* now.
+# If the implementation is hard to explain, it's a bad idea.
+# If the implementation is easy to explain, it may be a good idea.
+# Namespaces are one honking great idea -- let's do more of those!</code></pre>
+
+                <p>Only if more programmers lived by it.</p>
+
+                <h2>Antigravity</h2>
+                <p>
+                    Python comes with Batteries Included &copy;. It just makes sense it also includes antigravity module.
+                    <pre><code class="python">import antigravity</code></pre>
+                    <img src="https://imgs.xkcd.com/comics/python.png" title="Python Antigravity module" />
+                </p>
+
+                <h2>Braces</h2>
+                <p>
+                    If you don't Python's syntax using whitespaces to denotate scopes, you can use curly brackets just like in C or Java.
+                    All you have to do is import braces.
+                    <pre><code class="python">from __future__ import braces</code></pre>
+                </p>
+
+                <h2>Swapping variables</h2>
+                <p>
+                    If you know Java, you probably encountered an exercise to swap two integer values using only one line of code.
+                    This is one possible solution.
+                    <pre><code class="java">int x = 100;
+int y = 19;
+x = x ^ y ^ (y = x);</code></pre>
+                </p>
+                <p>
+                    In Python you can do this much easier and with any variable type (and less semicolons)
+                    <pre><code class="python">x = 100
+y = 19
+x, y = y, x
+# x: 19, y: 100</code></pre>
+                </p>
+
+                <h2>Reversing a list</h2>
+                <p>
+                    This is a well known trick and it's probably one of the first thing someone told when they tried to convince you Python is
+                    the best language in the world. Reversing a <code>list</code> or a <code>string</code> in Python is super simple
+                    <pre><code class="python">s = 'Hello World!'
+s[::-1]
+# '!dlroW olleH'</code></pre>
+
+
+                <h2>Copying a list</h2>
+                <p>
+                    As we saw, list slicing is very powerful. Another thing we can use it for is creating a shallow copy of a list
+                    <pre><code style="python">l = [1, 2, 3]
+c = l[:]
+c.append(4)
+# l: [1, 2, 3]
+# c: [1, 2, 3, 4]</code></pre>
+                </p>
+
+                <h2>Thousands separator</h2>
+                <p>
+                    When reading long number literals can be tricky as you have to make sure you didn't miss any decimal. In Python you can
+                    make it easier for yourself and separate thousands with an underscore
+                    <pre><code style="python">seconds_in_year = 31_536_000 # same as 31536000</code></pre>
+                </p>
+
+
+                <h2>Literal attributes</h2>
+                <p>
+                    As I explained in the article <a href="https://tesarek.me/articles/power-of-metaclasses">Power of metaclasses</a>, everything is an object.
+                    That means you can access attributes and methods of any variable or literal, even strings and integers, using dot syntax
+                    <pre><code style="python">"string".upper() # STRING</code></pre>
+                </p>
+
+                <p>
+                    But with integers Python thinks you are using dot as a decimal separator, so you have to use a little trick
+                    <pre><code class="python">(42).__add__(5) # 47</code></pre>
+
+                <h2>Boolean is an integer</h2>
+                <p>
+                    <code>bool</code> type inherits from <code>int</code> which can sometimes lead to weird bugs
+                    <pre><code class="python">isinstance(False, int) #True
+5 + True # 6</code></pre>
+                </p>
+
+                <h2>Caching of integers</h2>
+                <p>
+                    Speaking of integers, Python caches some integer values. The range changes between versions but usually values
+                    between -5 a 256 are cached, values over 1000 are not cached.
+                    <pre><code class="python">(2 + 5) is 7 # True
+(1000 + 1) is 1001 # False</code></pre>
+                </p>
+
+
+                <h2>Interval comparison</h2>
+                <p>
+                    Great feature that I miss in other languages is an interval comparison. You can test if a value is within an interval using single expression
+                    <pre><code class="python">1 &lt;= variable &lt;= 100 # value is between 1 and 100</code></pre>
+                </p>
+
+                <h2>Metaclasses</h2>
+                <p>
+                    Metaclasses are a huge topic which I explain thoroughly in article <a href="https://tesarek.me/articles/power-of-metaclasses">Power of metaclasses</a>.
+                    It's very easy to abuse. For example, many programmers struggle with inheritance; they're not sure in which order methods are imported from parent classes.
+                    Why not make it easier for them and sort the inheritance tree alphabetically?
+                    <pre><code class="python">class Library(type):
+    def mro(cls):
+        return sorted(
+            super().mro(),
+            key=lambda cls: cls.__name__
+        )
+
+class AClass(metaclass=Library):
+    def hello(self):
+        print('hello', 'A')
+
+class BClass(AClass):
+    def hello(self):
+        print('hello', 'B')
+
+class CClass(BClass):
+    def hello(self):
+        print('hello', 'C')
+
+print(CClass.mro())
+# [&lt;class '__main__.AClass'&gt;,
+#  &lt;class '__main__.BClass'&gt;,
+#  &lt;class '__main__.CClass'&gt;,
+#  &lt;class 'object'&gt;]
+CClass().hello() #hello A</code></pre>
+
+                <h2>Try/Except/Finally/Else</h2>
+                <p>
+                    Even if you came to Python from different language like me, you probably know about the optional <code>else</code> clause for loops
+                    <pre><code class="python">for i in get_list():
+    print(i)
+else:
+    print("no iterations")</code></pre>
+                </p>
+
+                <p>
+                    But you might not have know that you can use <code>else</code> in exception handling
+                    <pre><code class="python">try:
+    print('executed first')
+except:
+    print('executed when exception happens')
+else:
+    print('executed when no exception happens')
+finally:
+    print('always executed at the end')</code></pre>
+                </p>
+
+                <h2>Boolean operators</h2>
+                <p>
+                    Almost all beginner tutorials on explain boolean operators something like this
+                    <blockquote>
+                        The expression <code>A and B</code> is true if both A is true and B is true, and false if either is false.
+                        <cite><a href="https://cscircles.cemc.uwaterloo.ca/9-else-and-or-not/">Computer Science Circles</a></cite>
+                    </blockquote>
+                </p>
+                <p>
+                    It's nice, simple and absolutely wrong explanation. Result of boolean operations in Python is not a boolean but <code>False</code> or one of the operands.
+                    <pre><code class="python">result = 2 &t; 1 and 'string'
+print(result) # string
+# Result of and operand is the last value</code></pre>
+                    <pre><code class="python">result = [1, 2] or 2 &t; 1
+print(result) # [1, 2]
+# Result of "or" operand is the first value that evaluates to True</code></pre>
+                </p>
+
+                <h2>Returning from finally</h2>
+                <p>
+                    I wrote an <a href="https://tesarek.me/articles/try-finally-experiments">extensive article about returning from <code>finally</code></a> before but it's still worth mentioning here.
+                    Code in <code>finally</code> is always executed, even if you already returned from your function. If you then return again from the <code>finally</code> block, it rewrites the original
+                    value.
+                    <pre><code class="python">def test():
+    try:
+        return 'try'
+    finally:
+        return 'finally'
+
+print(test()) # finally</code></pre>
+
+                <p>That's enough craziness for today. If you have your own favorite crazy tricks in Python, send them to me using one of the links in the footer and I'll add them to the list.</p>
+           </article>
+        </main>
+        <footer>
+            <section>
+                <a class="icon external" href="mailto:jakub@tesarek.me">&#xf0e0;</a>
+                <a class="icon external" href="https://www.instagram.com/tesarekjakub/">&#xf16d;</a>
+                <a class="icon external" href="https://github.com/JakubTesarek">&#xf300;</a>
+                <a class="icon external" href="https://www.linkedin.com/in/jakubtesarek/">&#xf30c;</a>
+            </section>
+        </footer>
+    </body>
+</html>
