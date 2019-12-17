@@ -32,13 +32,13 @@
 
                 <h2>Hello World!</h2>
                 <p>
-                    Python is very effective language. In fact, it has one of the shortest Hello World
+                    Python is very effective language. In fact, it has one of the shortest Hello World! No functions needed.
                     <pre><code class="python">import __hello__ # Hello world!</code></pre>
                 </p>
 
                 <h2>Zen of Python</h2>
                 <p>
-                    Another import trick that not everybody knows is Zen of Python.
+                    Another import trick, that not everybody knows, is Zen of Python.
                     <pre><code class="python">import this
 # The Zen of Python, by Tim Peters
 #
@@ -66,15 +66,15 @@
 
                 <h2>Antigravity</h2>
                 <p>
-                    Python comes with Batteries Included &copy;. It just makes sense it also includes antigravity module.
+                    Python comes with Batteries Included<sup>&copy;</sup>. It just makes sense it also includes antigravity module.
                     <pre><code class="python">import antigravity</code></pre>
                     <img src="https://imgs.xkcd.com/comics/python.png" title="Python Antigravity module" />
                 </p>
 
                 <h2>Braces</h2>
                 <p>
-                    If you don't Python's syntax using whitespaces to denotate scopes, you can use curly brackets just like in C or Java.
-                    All you have to do is import braces.
+                    If you don't like Python's syntax using whitespaces to denotate scopes, you can use curly brackets just like in C or Java.
+                    All you have to do, is import braces.
                     <pre><code class="python">from __future__ import braces</code></pre>
                 </p>
 
@@ -87,7 +87,7 @@ int y = 19;
 x = x ^ y ^ (y = x);</code></pre>
                 </p>
                 <p>
-                    In Python you can do this much easier and with any variable type (and less semicolons)
+                    In Python you can do this much easier and with any variable type (and less semicolons).
                     <pre><code class="python">x = 100
 y = 19
 x, y = y, x
@@ -97,7 +97,7 @@ x, y = y, x
                 <h2>Reversing a list</h2>
                 <p>
                     This is a well known trick and it's probably one of the first thing someone told when they tried to convince you Python is
-                    the best language in the world. Reversing a <code>list</code> or a <code>string</code> in Python is super simple
+                    the best language in the world. Reversing a <code>list</code> or a <code>string</code> in Python is super simple.
                     <pre><code class="python">s = 'Hello World!'
 s[::-1]
 # '!dlroW olleH'</code></pre>
@@ -105,7 +105,7 @@ s[::-1]
 
                 <h2>Copying a list</h2>
                 <p>
-                    As we saw, list slicing is very powerful. Another thing we can use it for is creating a shallow copy of a list
+                    As we saw, list slicing is very powerful. Another thing we can use it for is creating a shallow copy of a list.
                     <pre><code style="python">l = [1, 2, 3]
 c = l[:]
 c.append(4)
@@ -115,43 +115,41 @@ c.append(4)
 
                 <h2>Thousands separator</h2>
                 <p>
-                    When reading long number literals can be tricky as you have to make sure you didn't miss any decimal. In Python you can
-                    make it easier for yourself and separate thousands with an underscore
+                    Reading long number literals can be tricky as you have to make sure you didn't miss any decimal. In Python you can
+                    make it easier for yourself and separate thousands with an underscore.
                     <pre><code style="python">seconds_in_year = 31_536_000 # same as 31536000</code></pre>
                 </p>
-
 
                 <h2>Literal attributes</h2>
                 <p>
                     As I explained in the article <a href="https://tesarek.me/articles/power-of-metaclasses">Power of metaclasses</a>, everything is an object.
-                    That means you can access attributes and methods of any variable or literal, even strings and integers, using dot syntax
+                    That means you can access attributes and methods of any variable or literal, even strings and integers, using dot syntax.
                     <pre><code style="python">"string".upper() # STRING</code></pre>
                 </p>
 
                 <p>
-                    But with integers Python thinks you are using dot as a decimal separator, so you have to use a little trick
+                    But with integers Python thinks you are using dot as a decimal separator, so you have to use a little trick.
                     <pre><code class="python">(42).__add__(5) # 47</code></pre>
 
                 <h2>Boolean is an integer</h2>
                 <p>
-                    <code>bool</code> type inherits from <code>int</code> which can sometimes lead to weird bugs
+                    <code>Bool</code> type inherits from <code>int</code> which can sometimes lead to weird bugs.
                     <pre><code class="python">isinstance(False, int) #True
 5 + True # 6</code></pre>
                 </p>
 
                 <h2>Caching of integers</h2>
                 <p>
-                    Speaking of integers, Python caches some integer values. The range changes between versions but usually values
+                    Speaking of integers, Python caches some integer values. The range changes between versions, but usually values
                     between -5 a 256 are cached, values over 1000 are not cached.
                     <pre><code class="python">(2 + 5) is 7 # True
 (1000 + 1) is 1001 # False</code></pre>
                 </p>
 
-
                 <h2>Interval comparison</h2>
                 <p>
-                    Great feature that I miss in other languages is an interval comparison. You can test if a value is within an interval using single expression
-                    <pre><code class="python">1 &lt;= variable &lt;= 100 # value is between 1 and 100</code></pre>
+                    Great feature, that I miss in other languages, is an interval comparison. You can test if a value is within an interval using single expression.
+                    <pre><code class="python">1 &lt;= variable &lt;= 100 # True if value is between 1 and 100</code></pre>
                 </p>
 
                 <h2>Metaclasses</h2>
@@ -187,7 +185,7 @@ CClass().hello() #hello A</code></pre>
 
                 <h2>Try/Except/Finally/Else</h2>
                 <p>
-                    Even if you came to Python from different language like me, you probably know about the optional <code>else</code> clause for loops
+                    Even if you came to Python from different language, like me, you probably know about the optional <code>else</code> clause for loops.
                     <pre><code class="python">for i in get_list():
     print(i)
 else:
@@ -195,7 +193,7 @@ else:
                 </p>
 
                 <p>
-                    But you might not have know that you can use <code>else</code> in exception handling
+                    But you might not have know that you can use <code>else</code> also in exception handling.
                     <pre><code class="python">try:
     print('executed first')
 except:
@@ -208,7 +206,7 @@ finally:
 
                 <h2>Boolean operators</h2>
                 <p>
-                    Almost all beginner tutorials on explain boolean operators something like this
+                    Almost all beginner tutorials on conditions explain boolean operators something like this:
                     <blockquote>
                         The expression <code>A and B</code> is true if both A is true and B is true, and false if either is false.
                         <cite><a href="https://cscircles.cemc.uwaterloo.ca/9-else-and-or-not/">Computer Science Circles</a></cite>
@@ -218,7 +216,7 @@ finally:
                     It's nice, simple and absolutely wrong explanation. Result of boolean operations in Python is not a boolean but <code>False</code> or one of the operands.
                     <pre><code class="python">result = 2 &t; 1 and 'string'
 print(result) # string
-# Result of and operand is the last value</code></pre>
+# Result of "and" operand is the last value</code></pre>
                     <pre><code class="python">result = [1, 2] or 2 &t; 1
 print(result) # [1, 2]
 # Result of "or" operand is the first value that evaluates to True</code></pre>
