@@ -272,10 +272,15 @@ code i {
     font-style: normal;
     display: inline-block;
     width: 100%;
+    position: relative;
 }
 
-code i.add {
-    border-left: 2px solid #6ab04c;
+code i.add::before {
+    content: "";
+    border-left: 3px solid #6ab04c;
+    position: absolute;
+    height: 100%;
+    left: -8px;
 }
 
 code i.add:hover {
@@ -286,6 +291,8 @@ code i.add:hover {
 article img {
     display: block;
     max-width: 100%;
+    border: 1px solid #ccc;
+    margin-top: 1em;
 }
 
 /* Articles - links */
@@ -295,4 +302,25 @@ article a {
 
 article a:hover {
     border-color: #333
+}
+
+/* Articles - tables */
+article table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    border-bottom: 2px solid #ccc;
+}
+
+article td, article th {
+    padding: 0 1em 0 1em;
+}
+
+/* Articles - lists */
+article li {
+    margin-bottom: 0.3em;
+    list-style-type: square;
 }
