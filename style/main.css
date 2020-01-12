@@ -82,6 +82,8 @@ h3 {
 aside {
     color: #444;
     font-style: italic;
+    border-left: 2px solid #ccc;
+    padding-left: 1em;
 }
 
 p {
@@ -315,4 +317,9 @@ article td, article th {
 article li {
     margin-bottom: 0.3em;
     list-style-type: square;
+}
+
+/* Articles - header */
+article header p {
+    font-size: 150%;
 }
