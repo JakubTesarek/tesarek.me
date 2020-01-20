@@ -54,7 +54,7 @@
                     that directory. Imagine server with thousands of directories each one containing a symlink to one shared directory with PHP scripts.
                     It wasn't optimal solution.</p>
                 <p>One of the problems it caused was that we had no idea which tenants were running. We allowed people to create their trial store, but we
-                    had no process of removing them afterwards. One day one of the servers started running out of disc space. The decision was made
+                    had no process of removing them afterwards. One day one of the servers started running out of disk space. The decision was made
                     to start removing old projects. One of our programmers wrote a PHP script that was set to run each day and should recursively
                     remove old projects directories. Are you getting bad feeling about it yet?</p>
                 <p><b>He forgot to set the script, so it doesn't follow symlinks.</b> The first thing the script did was that it removed all the files
