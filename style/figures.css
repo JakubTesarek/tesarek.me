@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap");
+
+:root {
+    --perspective-indent: 10%;
+}
+
+
+.scene table {
+    border-collapse: collapse;
+    color: white;
+    width: initial;
+    border-spacing: initial;
+}
+
+.scene td {
+    font-size: 25px;
+    font-family: "Source Code Pro", monospace;
+    width: 45px;
+    height: 45px;
+    padding: 0;
+    border: 2px solid white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.scene3d {
+    width: 500px;
+    height: 300px;
+    perspective: 400px;
+    position: relative;
+    perspective-origin: 50% 50%;
+    transition: 0.2s;
+}
+
+.scene2d {
+    height: 200px;
+}
+
+.scene3d .panel {
+    transition: 0.2s;
+    float: left;
+    transform: rotateX(45deg);
+    position: absolute;
+}
+
+.scene .index0 {
+  bottom: calc(var(--perspective-indent) * 3);
+  left: calc(var(--perspective-indent) * 3);
+  background: rgb(49, 130, 189);
+  color: white;
+  z-index: 4;
+}
+
+.scene .index1 {
+  bottom: calc(var(--perspective-indent) * 2);
+  left: calc(var(--perspective-indent) * 2);
+  background: rgb(213, 95, 50);
+  color: white;
+  z-index: 3;
+}
+
+.scene .index2 {
+  bottom: var(--perspective-indent);
+  left: var(--perspective-indent);
+  background: rgb(49, 163, 84, 1);
+  color: white;
+  z-index: 2;
+}
+
+.scene .index3 {
+  bottom: 0;
+  left: 0;
+  background: rgb(229, 159, 1, 0.95);
+  color: white;
+  z-index: 1;
+}
+
+.scene3d:hover .index1 {
+  bottom: calc(var(--perspective-indent) * 3);
+  left: calc(var(--perspective-indent) * 4);
+}
+
+.scene3d:hover .index2 {
+  bottom: calc(var(--perspective-indent) * 1.5);
+  left: calc(var(--perspective-indent) * 2);
+}
+
+.scene3d:hover .index0 {
+  bottom: calc(var(--perspective-indent) * 4.5);
+  left: calc(var(--perspective-indent) * 6);
+}
+
+.scene3d:hover {
+  perspective-origin: 30% 75%;
+}
+
+.scene .unselected {
+  background-color: white;
+  color: #aaa;
+}
+
+.scene p {
+    margin-bottom: 0;
+}
