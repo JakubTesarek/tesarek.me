@@ -339,6 +339,11 @@ code {
     color: #444;
 }
 
+:not(pre) > code {
+    display: inline !important;
+    padding: 0 !important;
+}
+
 code i {
     font-style: normal;
     display: inline-block;
