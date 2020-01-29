@@ -55,7 +55,7 @@
                     <li>set bucket policy on main bucket to make documents public</li>
                     <li>enable static website hosting on main bucket</li>
                     <li>enable requests redirects from secondary bucket</li>
-                    <li>you can sync <code>local/*.md</code> with S3 using AWS-CLI: <code>aws s3 sync local s3://bucket.name --exclude "*" --include "*.md"</code></li>
+                    <li>you can sync <code class="bash">local/*.md</code> with S3 using AWS-CLI: <code class="bash">aws s3 sync local s3://bucket.name --exclude "*" --include "*.md"</code></li>
                 </ul>
 
                 <pre><code class="json"> {
@@ -127,14 +127,14 @@ exports.handler = (event, context, callback) => {
                     <li>
                         in workflow &gt; build settings &gt; environment variables fill in following variables
                         <ul>
-                            <li><code>AWS_ACCESS_KEY_ID</code></li>
-                            <li><code>AWS_SECRET_ACCESS_KEY</code></li>
-                            <li><code>AWS_DEFAULT_REGION</code></li>
+                            <li><code class="bash">AWS_ACCESS_KEY_ID</code></li>
+                            <li><code class="bash">AWS_SECRET_ACCESS_KEY</code></li>
+                            <li><code class="bash">AWS_DEFAULT_REGION</code></li>
                         </ul>
                     </li>
-                    <li>create directory <code>.circleci</code></li>
-                    <li>create file <code>.circleci/requirements.txt</code> with content: <code>awscli</code></li>
-                    <li>create file <code>.circleci/config.yml</code> with content:</li>
+                    <li>create directory <code class="bash">.circleci</code></li>
+                    <li>create file <code class="bash">.circleci/requirements.txt</code> with content: <code class="plain">awscli</code></li>
+                    <li>create file <code class="bash">.circleci/config.yml</code> with content:</li>
                 </ul>
 
                 <pre><code class="yaml">version: 2

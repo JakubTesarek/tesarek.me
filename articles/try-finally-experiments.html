@@ -32,7 +32,7 @@
             <article class="content">
                 <header>
                     <h1>Try/Finally experiments</h1>
-                    <p>Can you tell what would be the output of the code just by looking at it? Which <code>return</code>
+                    <p>Can you tell what would be the output of the code just by looking at it? Which <code class="python">return</code>
                         statement will win? And why?</p>
                 </header>
 
@@ -45,10 +45,10 @@
 print(test())</code></pre>
 
 
-                <p>It might seem counterintuitive but the output is <code>finally</code>. <code>Finnaly</code>
-                    statement is executed every time, no matter what happened in <code>try</code> block.</p>
+                <p>It might seem counterintuitive but the output is <code class="python">finally</code>. <code class="python">Finnaly</code>
+                    statement is executed every time, no matter what happened in <code class="python">try</code> block.</p>
 
-                <p>This lead me to do some more experiments with <code>try/finally</code>. First some really simple example:</p>
+                <p>This lead me to do some more experiments with <code class="python">try/finally</code>. First some really simple example:</p>
 
                 <pre><code class="python">try:
     print('try')
@@ -59,8 +59,8 @@ finally:
 # try
 # finally</code></pre>
 
-                <p>This shouldn't be surprising. First the code in <code>try</code> block is executed, than the <code>finally</code>.</p>
-                <p>What would happen if instead of priting from <code>try</code> block, we return the value?</p>
+                <p>This shouldn't be surprising. First the code in <code class="python">try</code> block is executed, than the <code class="python">finally</code>.</p>
+                <p>What would happen if instead of priting from <code class="python">try</code> block, we return the value?</p>
 
                 <pre><code class="python">def test():
     try:
@@ -74,7 +74,7 @@ print(test())
 # finally
 # try</code></pre>
 
-                <p>The output is reversed! It seems the function return value is put on hold while the <code>finally</code> block is executed.</p>
+                <p>The output is reversed! It seems the function return value is put on hold while the <code class="python">finally</code> block is executed.</p>
                 <p>It should not suprise us that all the behaviour we saw so far applies even if we introduce exceptions. But let's try anyway.</p>
 
                 <pre><code class="python">def test():
@@ -90,7 +90,7 @@ print(test())
 # output:
 # finally</code></pre>
 
-                <p>At this point we should not be surprised by this. But what would happen if we raise an exception from a <code>finally</code> block?</p>
+                <p>At this point we should not be surprised by this. But what would happen if we raise an exception from a <code class="python">finally</code> block?</p>
 
                 <pre><code class="python">def test():
     try:
@@ -127,7 +127,7 @@ print(test())
 #Exception </code></pre>
 
                 <p>And it does rewrites it and the function raises an exception instead of returning value. To test if not because exceptions
-                    take precedense over return value but because of the <code>finally</code> statement, we can try to switch the statements.</p>
+                    take precedense over return value but because of the <code class="python">finally</code> statement, we can try to switch the statements.</p>
 
                 <pre><code class="python">def test():
     try:
@@ -140,7 +140,7 @@ print(test())
 # output
 # finally</code></pre>
 
-                <p>We see that <code>finally</code> can even overwrite exception if we return value from it. Can it also rewrite recursion exception?</p>
+                <p>We see that <code class="python">finally</code> can even overwrite exception if we return value from it. Can it also rewrite recursion exception?</p>
                 <pre><code class="python">def recursion():
     recursion()
 
@@ -155,7 +155,7 @@ print(test())
 # output:
 # finally</code></pre>
 
-                <p>Yes, it works as expected. So what would happen if there was another recursion error in the <code>finally</code> block?</p>
+                <p>Yes, it works as expected. So what would happen if there was another recursion error in the <code class="python">finally</code> block?</p>
                 <pre><code class="python">def recursion():
     recursion()
 
@@ -194,7 +194,7 @@ def test():
 #  [Previous line repeated 994 more times]
 #RecursionError: maximum recursion depth exceeded</code></pre>
 
-            <p>Call of <code>recursion()</code> on line 6 raises an exception. It get's muted by the <code>finally</code>
+            <p>Call of <code class="python">recursion()</code> on line 6 raises an exception. It get's muted by the <code class="python">finally</code>
                 block which than generates exception on it's own on line 8. But we only start the recursion twice. Once on line
                 6 an once on line 8. What if we execute the recursions also recursively?</p>
 

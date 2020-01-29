@@ -65,7 +65,7 @@
 
                 <p>And because we already know that everything in Python is an object, we can deduce that everything in Python has a class.</p>
 
-                <p>To find out what class was used to create an object, we can use function <code>type()</code> <i>(it's not a regular function as we will find out)</i>.</p>
+                <p>To find out what class was used to create an object, we can use function <code class="python">type()</code> <i>(it's not a regular function as we will find out)</i>.</p>
 
                 <p>
                     For some objects it's easy to guess their class (type):
@@ -124,23 +124,23 @@ type(Klass)
 # &lt;class 'type'&gt;</code></pre>
                 </p>
 
-                <p>If you are not familiar with metaclasses, this probably surprised you. But it's correct, type of classes is called <code>type</code>.</p>
+                <p>If you are not familiar with metaclasses, this probably surprised you. But it's correct, type of classes is called <code class="python">type</code>.</p>
 
                 <p>
-                    It's probably good time to look at the function <code>type()</code> we kept calling all the time. As I suggested earlier, it's not a regular function.
+                    It's probably good time to look at the function <code class="python">type()</code> we kept calling all the time. As I suggested earlier, it's not a regular function.
 
                     <pre><code class="python">type(type)
 # &lt;class 'type'&gt;</code></pre>
                 </p>
 
-                <p>In fact, <code>type</code> is not a function. It's a class. And not only that it is its own type. It is a top level class used to create all other classes.
-                As with most classes, we can call its constructor to create new instances. And that's what we've been doing the whole time. Calling <code>type(12)</code>
-                simply creates a class from given arguments. When we pass number <code>12</code> for example, Python uses the value to figure out what class we want - in this case
-                it's <code>&lt;class 'int'&gt;</code> that already existed. But we can also use <code>type</code> to create a brand new classes.</p>
+                <p>In fact, <code class="python">type</code> is not a function. It's a class. And not only that it is its own type. It is a top level class used to create all other classes.
+                As with most classes, we can call its constructor to create new instances. And that's what we've been doing the whole time. Calling <code class="python">type(12)</code>
+                simply creates a class from given arguments. When we pass number <code class="python">12</code> for example, Python uses the value to figure out what class we want - in this case
+                it's <code class="python">&lt;class 'int'&gt;</code> that already existed. But we can also use <code class="python">type</code> to create a brand new classes.</p>
 
                 <h2>Creating classes in the runtime</h2>
                 <p>
-                    Most often we will use <code>type</code> with one argument to find out a type of some object. We can also use it to create new classes in the runtime by passing 3 arguments.
+                    Most often we will use <code class="python">type</code> with one argument to find out a type of some object. We can also use it to create new classes in the runtime by passing 3 arguments.
 
                     <pre><code class="python">type('Klass', (), {})
 # &lt;class '__main__.Klass'&gt;
@@ -154,13 +154,13 @@ Klass()
 
                 <h2>How does Python construct new classes?</h2>
                 <p>
-                    Have you ever think about what happens when you write <code>class MyClass(ParentClass): ...</code> in Python? We can simplify it to 5 steps:
+                    Have you ever think about what happens when you write <code class="python">class MyClass(ParentClass): ...</code> in Python? We can simplify it to 5 steps:
                     <ol>
-                        <li>Python sees <code>class</code> definition</li>
-                        <li>Determinates metaclass - either from named argument <code>metaclass</code> or default <code>type</code>
-                        <li>Reads list of base classes - either as positional arguments of default <code>object</code>
+                        <li>Python sees <code class="python">class</code> definition</li>
+                        <li>Determinates metaclass - either from named argument <code class="python">metaclass</code> or default <code class="python">type</code>
+                        <li>Reads list of base classes - either as positional arguments of default <code class="python">object</code>
                         <li>Reads attributes and methods
-                        <li>Internally calls <code>metaclass(name, bases, attributes)</code>
+                        <li>Internally calls <code class="python">metaclass(name, bases, attributes)</code>
                     </ol>
                     <pre><code class="python">class Troll(User, metaclass=type):
     def taunt(self):
@@ -173,7 +173,7 @@ Troll = type('Troll', (User,), {'taunt': <function 0x108b20510>})</code></pre>
 
                 <p>
                     As you can see, creating new class is similar to creating new instance of metaclass. In reality, instance initialization is
-                    little bit more complicated then that. In reality, calling <code>Class()</code> is a shortcut for calling <code>__new__</code> and <code>__init__</code>.
+                    little bit more complicated then that. In reality, calling <code class="python">Class()</code> is a shortcut for calling <code class="python">__new__</code> and <code class="python">__init__</code>.
                     The code above is therefore equivalent to this:
 
                     <pre><code class="python">Troll = type.__new__(type, 'Troll', {'taunt': <function 0x108b20510>})
@@ -198,12 +198,12 @@ class Person(models.Model):
     pronoun = models.CharField(max_length=300)</code></pre>
                 </p>
 
-                <p>When you create new instance of <code>Person</code> it automatically has setters and getters for <code>name</code>, <code>age</code> and <code>pronoun</code>.
+                <p>When you create new instance of <code class="python">Person</code> it automatically has setters and getters for <code class="python">name</code>, <code class="python">age</code> and <code class="python">pronoun</code>.
                     It also automatically validates the inputs and adds methods for saving the instance to database. Let's see how we can create something similar using metaclasses.</p>
 
                 <p>
-                    Django ORM has way too many features. We will limit ourselves to implementing a <code>Model</code> class and an <code>IntegerAttribute</code> that will validate that
-                    given value is an <code>int</code> bellow some maximum value. We will also allow the attribute to have some default value.
+                    Django ORM has way too many features. We will limit ourselves to implementing a <code class="python">Model</code> class and an <code class="python">IntegerAttribute</code> that will validate that
+                    given value is an <code class="python">int</code> bellow some maximum value. We will also allow the attribute to have some default value.
 
                     <pre><code class="python">Class IntegerAttribute:
     # This class will represent the integer attribute
@@ -234,7 +234,7 @@ class ModelMeta(type):
                 </p>
 
                 <p>
-                    If we inherit from <code>Model</code>, we will also automatically use its metaclass so we can now create <code>Person</code> class simply by sub-typing <code>Model</code>.
+                    If we inherit from <code class="python">Model</code>, we will also automatically use its metaclass so we can now create <code class="python">Person</code> class simply by sub-typing <code class="python">Model</code>.
                     <pre><code class="python">class Person(Model): pass</code></pre>
                 </p>
 
@@ -256,7 +256,7 @@ class Model(metaclass=ModelMeta): pass</code></pre>
                 </p>
 
                 <p>
-                    We can test all <code>IntegerAttributes</code> are removed:
+                    We can test all <code class="python">IntegerAttributes</code> are removed:
                     <pre><code class="python">class Person(Model):
     age = IntegerAttribute()
     name = 'Joe'
@@ -287,7 +287,7 @@ class Model(metaclass=ModelMeta): pass</code></pre>
                 </p>
 
                 <p>
-                    Now all instance of the class <code>User</code> have a <code>set_age</code> method.
+                    Now all instance of the class <code class="python">User</code> have a <code class="python">set_age</code> method.
                     <pre><code class="python">class User(Model):
     age = IntegerAttribute()
 
@@ -298,7 +298,7 @@ print(user.age)
                 </p>
 
                 <p>
-                    Similarly, to the setter we create a getter. Also, we will move both the setter and getter to the <code>IntegerAttribute</code>
+                    Similarly, to the setter we create a getter. Also, we will move both the setter and getter to the <code class="python">IntegerAttribute</code>
                     class where they belong. They can't be part of the class itself; we have to create them in the runtime.
                     <pre><code class="python">class IntegerAttribute:
 <i class="add">    def get_setter(self, name):
@@ -428,9 +428,9 @@ class Model(metaclass=ModelMeta): pass</pre></code>
                     Together we explored the possibilities of metaclasses in Python and we implemented simple model class. If you find this interesting,
                     you can continue a add some more features. Here are some ideas what to do.
                     <ul>
-                        <li>Add more attributes types like <code>StringAttribute</code>, <code>DateAttribute</code> etc.</li>
-                        <li>Implement relations so one instance of <code>Model</code> class can be an attribute of another</li>
-                        <li>Decorate setter and getter with <code>@property</code> and <code>@property.setter</code>
+                        <li>Add more attributes types like <code class="python">StringAttribute</code>, <code class="python">DateAttribute</code> etc.</li>
+                        <li>Implement relations so one instance of <code class="python">Model</code> class can be an attribute of another</li>
+                        <li>Decorate setter and getter with <code class="python">@property</code> and <code class="python">@property.setter</code>
                     </ul>
                 </p>
 

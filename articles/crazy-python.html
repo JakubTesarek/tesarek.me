@@ -106,7 +106,7 @@ x, y = y, x
                 <h2>Reversing a list</h2>
                 <p>
                     This is a well known trick and it's probably one of the first thing someone told when they tried to convince you Python is
-                    the best language in the world. Reversing a <code>list</code> or a <code>string</code> in Python is super simple.
+                    the best language in the world. Reversing a <code class="python">list</code> or a <code class="python">string</code> in Python is super simple.
                     <pre><code class="python">s = 'Hello World!'
 s[::-1]
 # '!dlroW olleH'</code></pre>
@@ -142,7 +142,7 @@ c.append(4)
 
                 <h2>Boolean is an integer</h2>
                 <p>
-                    <code>Bool</code> type inherits from <code>int</code> which can sometimes lead to weird bugs.
+                    <code class="python">Bool</code> type inherits from <code class="python">int</code> which can sometimes lead to weird bugs.
                     <pre><code class="python">isinstance(False, int) #True
 5 + True # 6</code></pre>
                 </p>
@@ -194,7 +194,7 @@ CClass().hello() #hello A</code></pre>
 
                 <h2>Try/Except/Finally/Else</h2>
                 <p>
-                    Even if you came to Python from different language, like me, you probably know about the optional <code>else</code> clause for loops.
+                    Even if you came to Python from different language, like me, you probably know about the optional <code class="python">else</code> clause for loops.
                     <pre><code class="python">for i in get_list():
     print(i)
 else:
@@ -202,7 +202,7 @@ else:
                 </p>
 
                 <p>
-                    But you might not have know that you can use <code>else</code> also in exception handling.
+                    But you might not have know that you can use <code class="python">else</code> also in exception handling.
                     <pre><code class="python">try:
     print('executed first')
 except:
@@ -217,12 +217,12 @@ finally:
                 <p>
                     Almost all beginner tutorials on conditions explain boolean operators something like this:
                     <blockquote>
-                        The expression <code>A and B</code> is true if both A is true and B is true, and false if either is false.
+                        The expression <code class="python">A and B</code> is <code class="python">True</code> if both <code class="python">A</code> is <code class="python">True</code> and <code class="python">B</code> is <code class="python">True</code>, and <code class="python">False</code> if either is <code class="python">False</code>.
                         <cite><a href="https://cscircles.cemc.uwaterloo.ca/9-else-and-or-not/">Computer Science Circles</a></cite>
                     </blockquote>
                 </p>
                 <p>
-                    It's nice, simple and absolutely wrong explanation. Result of boolean operations in Python is not a boolean but <code>False</code> or one of the operands.
+                    It's nice, simple and absolutely wrong explanation. Result of boolean operations in Python is not a boolean but <code class="python">False</code> or one of the operands.
                     <pre><code class="python">result = 2 &t; 1 and 'string'
 print(result) # string
 # Result of "and" operand is the last value</code></pre>
@@ -233,8 +233,8 @@ print(result) # [1, 2]
 
                 <h2>Returning from finally</h2>
                 <p>
-                    I wrote an <a href="https://tesarek.me/articles/try-finally-experiments">extensive article about returning from <code>finally</code></a> before but it's still worth mentioning here.
-                    Code in <code>finally</code> is always executed, even if you already returned from your function. If you then return again from the <code>finally</code> block, it rewrites the original
+                    I wrote an <a href="https://tesarek.me/articles/try-finally-experiments">extensive article about returning from <code class="python">finally</code></a> before but it's still worth mentioning here.
+                    Code in <code class="python">finally</code> is always executed, even if you already returned from your function. If you then return again from the <code class="python">finally</code> block, it rewrites the original
                     value.
                     <pre><code class="python">def test():
     try:
