@@ -1,72 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Try/Finally experiments | Jakub Tesárek</title>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Closer look at try/finally, how does it truly works">
+<head>
+	<title>Try/Finally experiments | Jakub Tesárek</title>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Closer look at try/finally, how does it truly works">
 
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
-        <link rel="stylesheet" href="/style/main.css">
-        <link rel="stylesheet" href="/style/color-brewer.css">
+	<link rel="stylesheet" href="/style/main.css">
+	<link rel="stylesheet" href="/style/color-brewer.css">
 
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155995840-1"></script>
-        <script type="text/javascript" src="/script/highlight.pack.js"></script>
-        <script type="text/javascript" src="/script/setup.js"></script>
-        <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us4.list-manage.com","uuid":"db9cdab3c81c5706fb0ede08a","lid":"44f897bb92","uniqueMethods":true}) })</script>
-    </head>
-    <body>
-        <header>
-            <menu>
-                <ul class="navigation">
-                    <li><a href="https://tesarek.me">Home</a></li>
-                    <li><a href="https://tesarek.me#publications">Publications</a></li>
-                    <li><a href="https://tesarek.us4.list-manage.com/subscribe/post?u=db9cdab3c81c5706fb0ede08a&id=44f897bb92">Subscribe</a></li>
-                </ul>
-            </menu>
-        </header>
-        <main>
-            <article class="content">
-                <header>
-                    <h1>Try/Finally experiments</h1>
-                    <p>Can you tell what would be the output of the code just by looking at it? Which <code class="python">return</code>
-                        statement will win? And why?</p>
-                </header>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155995840-1"></script>
+	<script src="/script/highlight.pack.js"></script>
+	<script src="/script/setup.js"></script>
+	<script src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+    <script>window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us4.list-manage.com","uuid":"db9cdab3c81c5706fb0ede08a","lid":"44f897bb92","uniqueMethods":true}) })</script>
+</head>
+<body>
+	<header>
+        <menu class="navigation">
+            <li><a href="https://tesarek.me">Home</a></li>
+            <li><a href="https://tesarek.me#publications">Publications</a></li>
+            <li><a href="https://tesarek.us4.list-manage.com/subscribe/post?u=db9cdab3c81c5706fb0ede08a&id=44f897bb92">Subscribe</a></li>
+		</menu>
+	</header>
+	<main>
+		<article class="content">
+			<header>
+				<h1>Try/Finally experiments</h1>
+				<p>Can you tell what would be the output of the code just by looking at it? Which
+					<code class="python">return</code> statement will win? And why?</p>
+			</header>
 
-                <pre><code class="python">def test():
-    try:
-        return 'try'
-    finally:
-        return 'finally'
+			<pre><code class="python">def test():
+	try:
+		return 'try'
+	finally:
+		return 'finally'
 
 print(test())</code></pre>
 
 
-                <p>It might seem counterintuitive but the output is <code class="python">finally</code>. <code class="python">Finnaly</code>
-                    statement is executed every time, no matter what happened in <code class="python">try</code> block.</p>
+			<p>It might seem counterintuitive but the output is <code class="python">finally</code>.
+				<code class="python">Finnaly</code> statement is executed every time, no matter what happened in
+				<code class="python">try</code> block.</p>
 
-                <p>This lead me to do some more experiments with <code class="python">try/finally</code>. First some really simple example:</p>
+			<p>This lead me to do some more experiments with <code class="python">try/finally</code>. First some really
+			simple example:</p>
 
-                <pre><code class="python">try:
-    print('try')
+			<pre><code class="python">try:
+	print('try')
 finally:
-    print('finally')
+	print('finally')
 
 # output:
 # try
 # finally</code></pre>
 
-                <p>This shouldn't be surprising. First the code in <code class="python">try</code> block is executed, than the <code class="python">finally</code>.</p>
-                <p>What would happen if instead of priting from <code class="python">try</code> block, we return the value?</p>
+			<p>This shouldn't be surprising. First the code in <code class="python">try</code> block is executed, than
+				the <code class="python">finally</code>.</p>
 
-                <pre><code class="python">def test():
-    try:
-        return 'try'
-    finally:
-        print('finally')
+			<p>What would happen if instead of priting from <code class="python">try</code> block, we return the value?</p>
+
+			<pre><code class="python">def test():
+	try:
+		return 'try'
+	finally:
+		print('finally')
 
 print(test())
 
@@ -74,138 +77,149 @@ print(test())
 # finally
 # try</code></pre>
 
-                <p>The output is reversed! It seems the function return value is put on hold while the <code class="python">finally</code> block is executed.</p>
-                <p>It should not suprise us that all the behaviour we saw so far applies even if we introduce exceptions. But let's try anyway.</p>
+			<p>The output is reversed! It seems the function return value is put on hold while the
+				<code class="python">finally</code> block is executed.</p>
 
-                <pre><code class="python">def test():
-    try:
-        raise Exception()
-    except:
-        return 'except'
-    finally:
-        return 'finally'
+			<p>It should not suprise us that all the behaviour we saw so far applies even if we introduce exceptions.
+				But let's try anyway.</p>
+
+			<pre><code class="python">def test():
+	try:
+		raise Exception()
+	except:
+		return 'except'
+	finally:
+		return 'finally'
 
 print(test())
 
 # output:
 # finally</code></pre>
 
-                <p>At this point we should not be surprised by this. But what would happen if we raise an exception from a <code class="python">finally</code> block?</p>
+			<p>At this point we should not be surprised by this. But what would happen if we raise an exception from a
+				<code class="python">finally</code> block?</p>
 
-                <pre><code class="python">def test():
-    try:
-        pass
-    finally:
-        raise Exception()
+			<pre><code class="python">def test():
+	try:
+		pass
+	finally:
+		raise Exception()
 
 print(test())
 
 # output:
 #Traceback (most recent call last):
-#  File "test.py", line 7, in <module>
-#    print(test())
+#  File "test.py", line 7, in &lt;module&gt;
+#	print(test())
 #  File "test6.py", line 5, in test
-#    raise Exception()
+#	raise Exception()
 #Exception</code></pre>
 
-                <p>An exception is simply propagated out. It that case, it should even rewrite the return value as we seen before.</p>
+			<p>An exception is simply propagated out. It that case, it should even rewrite the return value as we seen
+				before.</p>
 
-                <pre><code class="python">def test():
-    try:
-        return 'try'
-    finally:
-        raise Exception()
+			<pre><code class="python">def test():
+	try:
+		return 'try'
+	finally:
+		raise Exception()
 
 print(test())
 
 # output:
 #Traceback (most recent call last):
-#  File "test7.py", line 7, in <module>
-#    print(test())
+#  File "test7.py", line 7, in &lt;module&gt;
+#	print(test())
 #  File "test7.py", line 5, in test
-#    raise Exception()
+#	raise Exception()
 #Exception </code></pre>
 
-                <p>And it does rewrites it and the function raises an exception instead of returning value. To test if not because exceptions
-                    take precedense over return value but because of the <code class="python">finally</code> statement, we can try to switch the statements.</p>
+			<p>And it does rewrites it and the function raises an exception instead of returning value. To test if not
+				because exceptions take precedense over return value but because of the
+				<code class="python">finally</code> statement, we can try to switch the statements.</p>
 
-                <pre><code class="python">def test():
-    try:
-        raise Exception()
-    finally:
-        return 'finally'
+			<pre><code class="python">def test():
+	try:
+		raise Exception()
+	finally:
+		return 'finally'
 
 print(test())
 
 # output
 # finally</code></pre>
 
-                <p>We see that <code class="python">finally</code> can even overwrite exception if we return value from it. Can it also rewrite recursion exception?</p>
-                <pre><code class="python">def recursion():
-    recursion()
+			<p>We see that <code class="python">finally</code> can even overwrite exception if we return value from it.
+				Can it also rewrite recursion exception?</p>
+
+			<pre><code class="python">def recursion():
+	recursion()
 
 def test():
-    try:
-        recursion()
-    finally:
-        return 'finally'
+	try:
+		recursion()
+	finally:
+		return 'finally'
 
 print(test())
 
 # output:
 # finally</code></pre>
 
-                <p>Yes, it works as expected. So what would happen if there was another recursion error in the <code class="python">finally</code> block?</p>
-                <pre><code class="python">def recursion():
-    recursion()
+			<p>Yes, it works as expected. So what would happen if there was another recursion error in the
+				<code class="python">finally</code> block?</p>
+
+			<pre><code class="python">def recursion():
+	recursion()
 
 def test():
-    try:
-        recursion()
-    finally:
-        return recursion()
+	try:
+		recursion()
+	finally:
+		return recursion()
 
 # output:
 #Traceback (most recent call last):
 #  File "test.py", line 6, in test
-#    recursion()
+#	recursion()
 #  File "test.py", line 2, in recursion
-#    recursion()
+#	recursion()
 #  File "test.py", line 2, in recursion
-#    recursion()
+#	recursion()
 #  File "test.py", line 2, in recursion
-#    recursion()
+#	recursion()
 #  [Previous line repeated 994 more times]
 #RecursionError: maximum recursion depth exceeded
 #
 #During handling of the above exception, another exception occurred:
 #
 #Traceback (most recent call last):
-#  File "test.py", line 10, in <module>
-#    print(test())
+#  File "test.py", line 10, in &lt;module&gt;
+#	print(test())
 #  File "test.py", line 8, in test
-#    return recursion()
+#	return recursion()
 #  File "test.py", line 2, in recursion
-#    recursion()
+#	recursion()
 #  File "test.py", line 2, in recursion
-#    recursion()
+#	recursion()
 #  File "test.py", line 2, in recursion
-#    recursion()
+#	recursion()
 #  [Previous line repeated 994 more times]
 #RecursionError: maximum recursion depth exceeded</code></pre>
 
-            <p>Call of <code class="python">recursion()</code> on line 6 raises an exception. It get's muted by the <code class="python">finally</code>
-                block which than generates exception on it's own on line 8. But we only start the recursion twice. Once on line
-                6 an once on line 8. What if we execute the recursions also recursively?</p>
+		<p>Call of <code class="python">recursion()</code> on line 6 raises an exception. It get's muted by the
+			<code class="python">finally</code> block which than generates exception on it's own on line 8. But we only
+			start the recursion twice. Once on line 6 an once on line 8. What if we execute the recursions also
+			recursively?</p>
 
-            <pre><code class="python">def recursion():
-    recursion()
+		<pre><code class="python">def recursion():
+	recursion()
 
 def test():
-    try:
-        recursion()
-    finally:
-        test()
+	try:
+		recursion()
+	finally:
+		test()
 
 # output:
 # Fatal Python error: Cannot recover from stack overflow.
@@ -221,22 +235,23 @@ def test():
 #  ...
 # Abort trap: 6</code></pre>
 
-                <p>Stack overflow. We finally broke python.</p>
-                <aside>
-                    <p>Did you find an issue with this article? Please <a href="https://github.com/JakubTesarek/tesarek.me/issues/new">file a bug report</a>
-                        or even better, <a href="https://github.com/JakubTesarek/tesarek.me/edit/master/articles/try-finally-experiments.html">send a pull request</a>.
-                        Thank you!</a></p>
-                 </aside>
-            </article>
-        </main>
-        <footer>
-            <section>
-                <a class="icon external" href="mailto:jakub@tesarek.me">&#xf0e0;</a>
-                <a class="icon external" href="https://www.instagram.com/tesarekjakub/">&#xf16d;</a>
-                <a class="icon external" href="https://github.com/JakubTesarek">&#xf300;</a>
-                <a class="icon external" href="https://www.linkedin.com/in/jakubtesarek/">&#xf30c;</a>
-                <a class="icon external" href="https://twitter.com/JakubTesarek">&#xf304;</a>
-            </section>
-        </footer>
-    </body>
+			<p>Stack overflow. We finally broke python.</p>
+			<aside>
+				<p>Did you find an issue with this article? Please
+					<a href="https://github.com/JakubTesarek/tesarek.me/issues/new">file a bug report</a> or even
+					better, <a href="https://github.com/JakubTesarek/tesarek.me/edit/master/articles/try-finally-experiments.html">send a pull request</a>.
+					Thank you!</p>
+			 </aside>
+		</article>
+	</main>
+	<footer>
+		<section>
+			<a class="icon external" href="mailto:jakub@tesarek.me">&#xf0e0;</a>
+			<a class="icon external" href="https://www.instagram.com/tesarekjakub/">&#xf16d;</a>
+			<a class="icon external" href="https://github.com/JakubTesarek">&#xf300;</a>
+			<a class="icon external" href="https://www.linkedin.com/in/jakubtesarek/">&#xf30c;</a>
+			<a class="icon external" href="https://twitter.com/JakubTesarek">&#xf304;</a>
+		</section>
+	</footer>
+</body>
 </html>

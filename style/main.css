@@ -333,6 +333,10 @@ blockquote cite::before {
 }
 
 /* Articles - Code */
+pre {
+    tab-size: 4;
+}
+
 code {
     font-family: 'Source Code Pro', monospace;
     font-size: 95%;

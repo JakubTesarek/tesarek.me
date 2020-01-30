@@ -1,64 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>... Ellipsis | Jakub Tesárek</title>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="What is Python Ellipsis and misconceptions about it">
+<head>
+	<title>... Ellipsis | Jakub Tesárek</title>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="What is Python Ellipsis and misconceptions about it">
 
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
-        <link rel="stylesheet" href="/style/main.css">
-        <link rel="stylesheet" href="/style/color-brewer.css">
+	<link rel="stylesheet" href="/style/main.css">
+	<link rel="stylesheet" href="/style/color-brewer.css">
 
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155995840-1"></script>
-        <script type="text/javascript" src="/script/highlight.pack.js"></script>
-        <script type="text/javascript" src="/script/setup.js"></script>
-        <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us4.list-manage.com","uuid":"db9cdab3c81c5706fb0ede08a","lid":"44f897bb92","uniqueMethods":true}) })</script>
-    </head>
-    <body>
-        <header>
-            <menu>
-                <ul class="navigation">
-                    <li><a href="https://tesarek.me">Home</a></li>
-                    <li><a href="https://tesarek.me#publications">Publications</a></li>
-                    <li><a href="https://tesarek.us4.list-manage.com/subscribe/post?u=db9cdab3c81c5706fb0ede08a&id=44f897bb92">Subscribe</a></li>
-                </ul>
-            </menu>
-        </header>
-        <main>
-            <article class="content">
-                <header>
-                    <h1>...</h1>
-                    <p>Ellipsis is probably the least know literal in whole Python. I would guess most people don't even know it exists,
-                        let alone what it's good for. Let's learn everything we can about it together.</p>
-                </header>
-                <aside><p>This is a-2 part article. Today we'll learn what <code class="python">Ellipsis</code> is and some misconceptions about it. In part two we'll go some
-                    practical examples where <code class="python">Ellipsis</code> shines.</p></aside>
-                <p>Python documentation is very good and should be the first place to look for explanation of concepts you don't understand. Unfortunately,
-                    in case of Ellipsis, it doesn't tell us much.</p>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155995840-1"></script>
+	<script src="/script/highlight.pack.js"></script>
+	<script src="/script/setup.js"></script>
+	<script src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+    <script>window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us4.list-manage.com","uuid":"db9cdab3c81c5706fb0ede08a","lid":"44f897bb92","uniqueMethods":true}) })</script>
+</head>
+<body>
+	<header>
+        <menu class="navigation">
+            <li><a href="https://tesarek.me">Home</a></li>
+            <li><a href="https://tesarek.me#publications">Publications</a></li>
+            <li><a href="https://tesarek.us4.list-manage.com/subscribe/post?u=db9cdab3c81c5706fb0ede08a&id=44f897bb92">Subscribe</a></li>
+		</menu>
+	</header>
+	<main>
+		<article class="content">
+			<header>
+				<h1>...</h1>
+				<p>Ellipsis is probably the least know literal in whole Python. I would guess most people don't even
+				know it exists, let alone what it's good for. Let's learn everything we can about it together.</p>
+			</header>
 
-                <blockquote>
-                    <code class="python">Ellipsis</code><br>The same as the ellipsis literal "<code class="python">...</code>". Special value used mostly in conjunction with extended slicing syntax for user-defined container data types.
-                    <cite><a href="https://docs.python.org/library/constants.html#Ellipsis">https://docs.python.org/library/constants.html#Ellipsis</a></cite>
-                </blockquote>
+			<aside>
+				<p>This is a 2-part article. Today we'll learn what <code class="python">Ellipsis</code> is and some
+					misconceptions about it. In part two we'll go some practical examples where
+					<code class="python">Ellipsis</code> shines.</p>
+			</aside>
 
-                <p>When documentation is lacking, we have to do some explorations ourselves.</p>
+			<p>Python documentation is very good and should be the first place to look for explanation of concepts you
+				don't understand. Unfortunately, in case of Ellipsis, it doesn't tell us much.</p>
 
-                <h2>Experiments</h2>
-                <p>Documentation says <code class="python">Ellipsis</code> is equivalent to <code class="python">...</code> (three dots). Interactive python shows us, it's true.</p>
-                <pre><code class="python">&gt;&gt;&gt; ...
+			<blockquote>
+				<code class="python">Ellipsis</code>
+				<br>
+				The same as the ellipsis literal "<code class="python">...</code>". Special value used mostly in
+				conjunction with extended slicing syntax for user-defined container data types.
+				<cite><a href="https://docs.python.org/library/constants.html#Ellipsis">https://docs.python.org/library/constants.html#Ellipsis</a></cite>
+			</blockquote>
+
+			<p>When documentation is lacking, we have to do some explorations ourselves.</p>
+
+			<h2>Experiments</h2>
+			<p>Documentation says <code class="python">Ellipsis</code> is equivalent to <code class="python">...</code>
+			(three dots). Interactive python shows us, it's true.</p>
+
+			<pre><code class="python">&gt;&gt;&gt; ...
 Ellipsis
 
 &gt;&gt;&gt; Ellipsis is ...
 True</code></pre>
 
-                <p>We can do some other stuff with it. As I mentioned in my <a href="https://tesarek.me/articles/power-of-metaclasses">article about metaclasses</a> - everything is an object. Therefore, even <code class="python">Ellipsis</code> should
-                    have some methods and attributes we can inspect.</p>
+			<p>We can do some other stuff with it. As I mentioned in my
+				<a href="https://tesarek.me/articles/power-of-metaclasses">article about metaclasses</a> - everything is
+				an object. Therefore, even <code class="python">Ellipsis</code> should have some methods and attributes
+				we can inspect.</p>
 
-                <pre><code class="python">&gt;&gt;&gt; dir(...)
+			<pre><code class="python">&gt;&gt;&gt; dir(...)
 ['__class__',
  '__delattr__',
  '__dir__',
@@ -83,156 +94,190 @@ True</code></pre>
  '__str__',
  '__subclasshook__']</code></pre>
 
-                <p>This can lead to some interesting syntax weirdness.</p>
-                <pre><code class="python">&gt;&gt;&gt; ....__eq__(...)
+			<p>This can lead to some interesting syntax weirdness.</p>
+
+			<pre><code class="python">&gt;&gt;&gt; ....__eq__(...)
 True</code></pre>
 
-                <h3>Class of Ellipsis</h3>
-                <p>Another interesting thing about <code class="python">Ellipsis</code> is its class. Usually all classes of standard objects are directly callable.</p>
-                <pre><code class="python">&gt;&gt;&gt; type(False)
+			<h3>Class of Ellipsis</h3>
+			<p>Another interesting thing about <code class="python">Ellipsis</code> is its class. Usually all classes
+			of standard objects are directly callable.</p>
+
+			<pre><code class="python">&gt;&gt;&gt; type(False)
 &lt;class 'bool'&gt;
 
 &gt;&gt;&gt;bool()
 False</code></pre>
-                <p>This isn't true for <code class="python">Ellipsis</code>. The class seems to be inaccessible by name. But we can use a little trick.</p>
-                <pre><code class="python">&gt;&gt;&gt; type(...)
+
+			<p>This isn't true for <code class="python">Ellipsis</code>. The class seems to be inaccessible by name. But
+			we can use a little trick.</p>
+
+			<pre><code class="python">&gt;&gt;&gt; type(...)
 &lt;class 'ellipsis'&gt;
 &gt;&gt;&gt; ellipsis()
 
 Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
+  File "&lt;stdin&gt;", line 1, in &lt;module&gt;
 NameError: name 'ellipsis' is not defined
 
 &gt;&gt;&gt; type(...)()
 Ellipsis</code></pre>
 
-                <p>I was wondering, where does the class comes from. I was expecting <code class="python">builtins</code> and inspection of the class would suggest so.</p>
-                <pre><code class="python">&gt;&gt;&gt; type(...).__module__
+			<p>I was wondering, where does the class comes from. I was expecting <code class="python">builtins</code>
+			and inspection of the class would suggest so.</p>
+
+			<pre><code class="python">&gt;&gt;&gt; type(...).__module__
 'builtins'</code></pre>
 
-                <p>But it cannot be imported from there.</p>
-                <pre><code class="python">&gt;&gt;&gt; from builtins import ellipsis
+			<p>But it cannot be imported from there.</p>
+
+			<pre><code class="python">&gt;&gt;&gt; from builtins import ellipsis
 Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
+  File "&lt;stdin&gt;", line 1, in &lt;module&gt;
 ImportError: cannot import name 'ellipsis'</code></pre>
 
-                <p>And it's not even listed in the module. It only contains its instance.</p>
-                <pre><code class="python">&gt;&gt;&gt; import builtins
+			<p>And it's not even listed in the module. It only contains its instance.</p>
+			<pre><code class="python">&gt;&gt;&gt; import builtins
 &gt;&gt;&gt; 'Ellipsis' in dir(builtins)
 True
 
 &gt;&gt;&gt; 'ellipsis' in dir(builtins)
 False</code></pre>
 
-                <p>Definition of <code class="python">Ellipsis</code> is not very consistent with other constants. I believe it's because it's special status of being
-                    both a literal and an object at the same time.</p>
+			<p>Definition of <code class="python">Ellipsis</code> is not very consistent with other constants. I believe
+				it's because it's special status of being both a literal and an object at the same time.</p>
 
-                <h2>Not intended usage</h2>
-                <p>Documentation of <code class="python">Ellipsis</code> says its intended purpose is in slicing of array and matrices. We will go through that usage in detail in next article,
-                before we do so, let's look at some example of bad usage I found on the internet.</p>
+			<h2>Not intended usage</h2>
+			<p>Documentation of <code class="python">Ellipsis</code> says its intended purpose is in slicing of array
+				and matrices. We will go through that usage in detail in next article, before we do so, let's look at
+				some example of bad usage I found on the internet.</p>
 
-                <h3><code class="python">...</code> instead of <code class="python">pass</code></h3>
-                <p>Everyone knows they can use <code class="python">pass</code> to denotate an empty code block.</code>
-                <pre><code class="python">def empty_function():
-    pass</code></pre>
+			<h3><code class="python">...</code> instead of <code class="python">pass</code></h3>
+			<p>Everyone knows they can use <code class="python">pass</code> to denotate an empty code block.</p>
 
-                <p>Some people suggest we could use <code class="python">...</code> instead. I have to say that purely based on esthetics, I like it more.</p>
-                <pre><code class="python">def empty_function():
-    ...</code></pre>
+			<pre><code class="python">def empty_function():
+	pass</code></pre>
 
-                <p>This is possible not because of some magical properties of <code class="python">...</code> but because Python will accept almost anything, as long as the block isn't empty.</p>
+			<p>Some people suggest we could use <code class="python">...</code> instead. I have to say that purely based
+				on esthetics, I like it more.</p>
 
-                <pre><code class="python">def empty_function():
-    42</code></pre>
+			<pre><code class="python">def empty_function():
+	...</code></pre>
 
-                <p>Even just docstring is good enough.</p>
-                <pre><code class="python">def empty_function():
-    """ Does nothing """</code></pre>
+			<p>This is possible not because of some magical properties of <code class="python">...</code> but because
+				Python will accept almost anything, as long as the block isn't empty.</p>
 
-                <aside><p>Please never do this. Use <code class="python">pass</code> like other civilized people.</aside>
+			<pre><code class="python">def empty_function():
+	42</code></pre>
 
-                <h3><code class="python">...</code> used in imports</h3>
-                <p>This is not exactly bad usage, just a technical detail that might be a bit confusing. Imports in Python are parsed a bit differently from other parts of the code.
-                    We already established that <code class="python">... is Ellipsis</code>. Therefore, <code class="python">import Ellipsis</code> should be exactly the same as <code class="python">import ...</code>. But it isn't.<p>
+			<p>Even just docstring is good enough.</p>
 
-                <pre><code class="python">&gt;&gt;&gt; import Ellipsis
+			<pre><code class="python">def empty_function():
+	""" Does nothing """</code></pre>
+
+			<aside>
+				<p>Please never do this. Use <code class="python">pass</code> like other civilized people.
+			</aside>
+
+			<h3><code class="python">...</code> used in imports</h3>
+			<p>This is not exactly bad usage, just a technical detail that might be a bit confusing. Imports in Python
+				are parsed a bit differently from other parts of the code. We already established that
+				<code class="python">... is Ellipsis</code>. Therefore, <code class="python">import Ellipsis</code>
+				should be exactly the same as <code class="python">import ...</code>. But it isn't.<p>
+
+			<pre><code class="python">&gt;&gt;&gt; import Ellipsis
 Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
+  File "&lt;stdin&gt;", line 1, in &lt;module&gt;
 ModuleNotFoundError: No module named 'Ellipsis'
 
 &gt;&gt;&gt; import ...
-  File "<stdin>", line 1
-    import ...
-             ^
+  File "&lt;stdin&gt;", line 1
+	import ...
+			 ^
 SyntaxError: invalid syntax</code></pre>
 
-                <p>The reason is simple. When importing, token <code class="python">...</code> is translated to "two steps up in the package tree". We can use it to import
-                    modules from package by their relative path.</p>
+			<p>The reason is simple. When importing, token <code class="python">...</code> is translated to "two steps
+				up in the package tree". We can use it to import modules from package by their relative path.</p>
 
-                <p>Imagine a directory structure like this:</p>
-                <pre><code class="bash">$ tree .
+			<p>Imagine a directory structure like this:</p>
+
+			<pre><code class="bash">$ tree .
 .
 └── a
-    ├── a_mod.py
-    └── b
-        └── c
-            └── c_mod.py</pre></code>
+	├── a_mod.py
+	└── b
+		└── c
+			└── c_mod.py</code></pre>
 
-                <p><code class="python">c_mod.py</code> needs to import <code class="python">a_mod.py</code> from package <code class="python">a</code>. One way to do it is like this:</p>
-                <pre><code class="python"># module a/b/c/c_mod.py
+			<p><code class="python">c_mod.py</code> needs to import <code class="python">a_mod.py</code> from package
+				<code class="python">a</code>. One way to do it is like this:</p>
+
+			<pre><code class="python"># module a/b/c/c_mod.py
 from ... import a_mod</code></pre>
 
-                <pre><code class="python"># module a/a_mod.py
+			<pre><code class="python"># module a/a_mod.py
 print('module "a" was imported")</code></pre>
 
-                <p><code class="python">...</code> in this case doesn't mean <code class="python">Ellipses</code> but a relative path from current module two steps up.</p>
-                <pre><code class="python">&gt;&gt;&gt; from a.b.c import c_mod
+			<p><code class="python">...</code> in this case doesn't mean <code class="python">Ellipses</code> but a
+			relative path from current module two steps up.</p>
+
+			<pre><code class="python">&gt;&gt;&gt; from a.b.c import c_mod
 module "a" was imported</code></pre>
 
-                <h3><code class="python">...</code> used as <code class="python">Undefined</code></h3>
-                <p>Even authors of Python got trapped by <code class="python">...</code> before, namely when implementing <a href="https://www.python.org/dev/peps/pep-3134/">Exception Chaining</a>. It's
-                    a mechanism making it possible to mark one exception as a direct cause of another</a>.
-                <pre><code class="python">&gt;&gt;&gt; try:
-...     1/0
+			<h3><code class="python">...</code> used as <code class="python">Undefined</code></h3>
+			<p>Even authors of Python got trapped by <code class="python">...</code> before, namely when implementing
+				<a href="https://www.python.org/dev/peps/pep-3134/">Exception Chaining</a>. It's a mechanism making it
+				possible to mark one exception as a direct cause of another.</p>
+
+			<pre><code class="python">&gt;&gt;&gt; try:
+...	 1/0
 ... except ZeroDivisionError as e:
-...     raise Exception() from e
+...	 raise Exception() from e
 ...
 Traceback (most recent call last):
-  File "<stdin>", line 2, in <module>
+  File "&lt;stdin&gt;", line 2, in &lt;module&gt;
 ZeroDivisionError: division by zero
 
 The above exception was the direct cause of the following exception:
 
 Traceback (most recent call last):
-  File "<stdin>", line 4, in <module>
+  File "&lt;stdin&gt;", line 4, in &lt;module&gt;
 Exception</code></pre>
 
-                <aside><p>Notice the three dots at the beginning of lines in the example above. They have nothing to do with <code class="python">Ellipsis</code>. <a href="https://tesarek.me/articles/crazy-python">Python is sometimes weird.</a></p></aside>
+			<aside>
+				<p>Notice the three dots at the beginning of lines in the example above. They have nothing to do with
+					<code class="python">Ellipsis</code>.
+					<a href="https://tesarek.me/articles/crazy-python">Python is sometimes weird.</a></p>
+			</aside>
 
-                <p>Python deals with this by setting a <code class="python">__cause__</code> attribute on the second exception witch contains the exception that caused it. This all
-                    works fine but there is a dilemma; you can <code class="python">raise Exception() from None</code> or you can just <code class="python">raise Exception</code>.
-                    How do you differentiate between exceptions that don't have cause at all and exception caused by <code class="python">None</code>?</p>
-                <p><a href="https://www.python.org/dev/peps/pep-0409/#id12">PEP-409</a> tried to solve this by setting the <code class="python">__cause__</code> to <code class="python">Ellipsis</code> if it wasn't set. <a href="https://www.python.org/dev/peps/pep-0415/#id5">PEP-415</a> removed this behavior.
-                    You can read the reasoning behind these decisions in the PEPs.</p>
+			<p>Python deals with this by setting a <code class="python">__cause__</code> attribute on the second
+				exception witch contains the exception that caused it. This all works fine but there is a dilemma; you
+				can <code class="python">raise Exception() from None</code> or you can just
+				<code class="python">raise Exception</code>. How do you differentiate between exceptions that don't have
+				cause at all and exception caused by <code class="python">None</code>?</p>
 
+			<p><a href="https://www.python.org/dev/peps/pep-0409/#id12">PEP-409</a> tried to solve this by setting the
+				<code class="python">__cause__</code> to <code class="python">Ellipsis</code> if it wasn't set.
+				<a href="https://www.python.org/dev/peps/pep-0415/#id5">PEP-415</a> removed this behavior. You can read
+				the reasoning behind these decisions in the PEPs.</p>
 
-                <p><b>In next part we'll look at some practical examples and usage.</b></p>
-                <aside>
-                    <p>Did you find an issue with this article? Please <a href="https://github.com/JakubTesarek/tesarek.me/issues/new">file a bug report</a>
-                        or even better, <a href="https://github.com/JakubTesarek/tesarek.me/edit/master/articles/ellipsis.html">send a pull request</a>.
-                        Thank you!</a></p>
-                 </aside>
-
-            </article>
-        </main>
-        <footer>
-            <section>
-                <a class="icon external" href="mailto:jakub@tesarek.me">&#xf0e0;</a>
-                <a class="icon external" href="https://www.instagram.com/tesarekjakub/">&#xf16d;</a>
-                <a class="icon external" href="https://github.com/JakubTesarek">&#xf300;</a>
-                <a class="icon external" href="https://www.linkedin.com/in/jakubtesarek/">&#xf30c;</a>
-                <a class="icon external" href="https://twitter.com/JakubTesarek">&#xf304;</a>
-            </section>
-        </footer>
-    </body>
+			<p><b>In next part we'll look at some practical examples and usage.</b></p>
+			<aside>
+				<p>Did you find an issue with this article? Please
+					<a href="https://github.com/JakubTesarek/tesarek.me/issues/new">file a bug report</a> or even better,
+					<a href="https://github.com/JakubTesarek/tesarek.me/edit/master/articles/ellipsis.html">send a pull request</a>.
+					Thank you!</p>
+			 </aside>
+		</article>
+	</main>
+	<footer>
+		<section>
+			<a class="icon external" href="mailto:jakub@tesarek.me">&#xf0e0;</a>
+			<a class="icon external" href="https://www.instagram.com/tesarekjakub/">&#xf16d;</a>
+			<a class="icon external" href="https://github.com/JakubTesarek">&#xf300;</a>
+			<a class="icon external" href="https://www.linkedin.com/in/jakubtesarek/">&#xf30c;</a>
+			<a class="icon external" href="https://twitter.com/JakubTesarek">&#xf304;</a>
+		</section>
+	</footer>
+</body>
 </html>

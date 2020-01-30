@@ -1,107 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Story time: fuckups | Jakub Tesárek</title>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="3 crazy stories from my first devops job">
+	<head>
+		<title>Story time: fuckups | Jakub Tesárek</title>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="3 crazy stories from my first devops job">
 
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
-        <link rel="stylesheet" href="../style/main.css">
+		<link rel="stylesheet" href="../style/main.css">
 
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155995840-1"></script>
-        <script type="text/javascript" src="/script/setup.js"></script>
-        <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us4.list-manage.com","uuid":"db9cdab3c81c5706fb0ede08a","lid":"44f897bb92","uniqueMethods":true}) })</script>
-    </head>
-    <body>
-        <header>
-            <menu>
-                <ul class="navigation">
-                    <li><a href="https://tesarek.me">Home</a></li>
-                    <li><a href="https://tesarek.me#publications">Publications</a></li>
-                    <li><a href="https://tesarek.us4.list-manage.com/subscribe/post?u=db9cdab3c81c5706fb0ede08a&id=44f897bb92">Subscribe</a></li>
-                </ul>
-            </menu>
-        </header>
-        <main>
-            <article class="content">
-                <header>
-                    <h1>Story time: fuckups</h1>
-                    <p>Let me share with you 3 stories that happened during my first job as technical support and later as a developer. These were
-                        crazy times. None of us knew what we are really doing so we did a lot of mistakes. I picked 3 of the weirdest mistakes
-                        that I remember to this date.</p>
-                </header>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155995840-1"></script>
+		<script src="/script/setup.js"></script>
+		<script src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+        <script>window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us4.list-manage.com","uuid":"db9cdab3c81c5706fb0ede08a","lid":"44f897bb92","uniqueMethods":true}) })</script>
+	</head>
+	<body>
+		<header>
+            <menu class="navigation">
+                <li><a href="https://tesarek.me">Home</a></li>
+                <li><a href="https://tesarek.me#publications">Publications</a></li>
+                <li><a href="https://tesarek.us4.list-manage.com/subscribe/post?u=db9cdab3c81c5706fb0ede08a&id=44f897bb92">Subscribe</a></li>
+			</menu>
+		</header>
+		<main>
+			<article class="content">
+				<header>
+					<h1>Story time: fuckups</h1>
+					<p>Let me share with you 3 stories that happened during my first job as technical support and later
+						as a developer. These were crazy times. None of us knew what we are really doing so we did a lot
+						of mistakes. I picked 3 of the weirdest mistakes that I remember to this date.</p>
+				</header>
 
-                <aside>
-                    <p>Btw. the company I'm talking about expanded incredibly and ended up as one of the top tech companies in my country. So we had to
-                        do something right.</p>
-                </aside>
+				<aside>
+					<p>Btw. the company I'm talking about expanded incredibly and ended up as one of the top tech
+						companies in my country. So we had to do something right.</p>
+				</aside>
 
-                <h2>Let's remove everything</h2>
-                <p>In my very first job, somewhere around year 2011, we developed e-commerce software for small companies. At that time
-                    there were no good SAAS solutions so when the owners wanted to start their own e-commerce store, they decided to write
-                    it themselves. Their friends were asking them if they could spin another instance for them too. Soon the owners found out
-                    that providing e-commerce solution is way more profitable than running their own store. And that's how the company
-                    started. I joined about a year after the company started.</p>
-                <p>At that time, whenever we wanted to spin up another tenant, we created new directory on one of the servers and in it a symlink
-                    to shared PHP scripts. Then we copied the custom parts - styles, templates etc. and created new host in Apache pointing to
-                    that directory. Imagine server with thousands of directories each one containing a symlink to one shared directory with PHP scripts.
-                    It wasn't optimal solution.</p>
-                <p>One of the problems it caused was that we had no idea which tenants were running. We allowed people to create their trial store, but we
-                    had no process of removing them afterwards. One day one of the servers started running out of disk space. The decision was made
-                    to start removing old projects. One of our programmers wrote a PHP script that was set to run each day and should recursively
-                    remove old projects directories. Are you getting bad feeling about it yet?</p>
-                <p><b>He forgot to set the script, so it doesn't follow symlinks.</b> The first thing the script did was that it removed all the files
-                    in current directory and then in started going through all the sub directories. One of them was the symlinked PHP core.
-                    We didn't worry too much about permissions back then, so it removed the whole core.</p>
-                <p>One would expect that we would immediately start getting angry phone calls but no, everything looked fine. To speed up
-                    the page loading we used Memcache which kept all the PHP scripts in memory, so we didn't have to read them from the disc every time.
-                    So even though the script removed everything, the websites ran just fine. For about 3 hours. 3 hours was the cache TTL. Just before
-                    we left the office for the day, everything went down.</p>
-                <p>To this day I remember my surprise when I logged onto the server and everything was gone.</p>
+				<h2>Let's remove everything</h2>
+				<p>In my very first job, somewhere around year 2011, we developed e-commerce software for small
+					companies. At that time there were no good SAAS solutions so when the owners wanted to start their
+					own e-commerce store, they decided to write it themselves. Their friends were asking them if they
+					could spin another instance for them too. Soon the owners found out that providing e-commerce
+					solution is way more profitable than running their own store. And that's how the company started. I
+					joined about a year after the company started.</p>
 
-                <h2>Autoresponder gone wild</h2>
-                <p>When I started in this company, my job was to provide technical support for our customers. Usually clients sent us
-                    emails with their questions and requests and automated system created a new report. The system also automatically replied to that
-                    client that we received their message and either sent them their ticket number or informed them that their request was updated.</p>
-                <p>One Friday afternoon (I wasn't living in the office at that time yet, <a href="#birds">more on that later</a>) one client sent us a new request and
-                    left for a weekend. But before he did, he set an autoresponder in his mailbox that he's out of office. So, when we sent him his
-                    ticket number, his mail server responded with the automated message. We received the message and sent back message that we updated
-                    the request.</p>
-                <p>I must say, our system was quite optimized. It delivered a response to each email within seconds. On Monday morning we received a phone call
-                    from very unhappy client who complained about 15 000 emails in his mailbox.</p>
+				<p>At that time, whenever we wanted to spin up another tenant, we created new directory on one of the
+					servers and in it a symlink to shared PHP scripts. Then we copied the custom parts - styles,
+					templates etc. and created new host in Apache pointing to that directory. Imagine server with
+					thousands of directories each one containing a symlink to one shared directory with PHP scripts. It
+					wasn't optimal solution.</p>
 
-                <h2 id="birds">Birds</h2>
-                <p>As a technical support worker, I wasn't making much money, so I rented a room in a two-bedroom flat with some other guy to save money. Based on the smell
-                    and the fact that I saw him only once when he gave me the keys he probably died just after I moved in. It was horrible place with
-                    window just above a tram stop. I could barely sleep. Some days I didn't even go there, I just slept in the office. Over the time
-                    I was going there less and less. When I manager found out I'm basically living in the office, instead of firing me he bought me a mattress.
-                    The offices were set in a 4-bedroom family house - there was a shower, kitchen, Xbox and the company paid for
-                    cleaning services. Why go home when every day I could fall asleep to the soothing sound of servers?</p>
-                <p>One day I realized I wasn't home for 3 months and maybe I should stop paying the rent when I'm not using the room.
-                    I just had to stop by to collect rest of my stuff.
-                <p>First of all, I there was some of my clothes in the washing machine. The other guy didn't use it for 3 months! I told you he was dead. But that wasn't the worst thing.
-                    I forgot an opened window in my room and also an old laptop on the table, still plugged to the wall, running and generating heat. And there, in the middle of the keyboard
-                    was a pigeon nest with 2 eggs. I left everything as it was and left. Neither the dead guy nor the owner ever called me.</p>
+				<p>One of the problems it caused was that we had no idea which tenants were running. We allowed people
+					to create their trial store, but we had no process of removing them afterwards. One day one of the
+					servers started running out of disk space. The decision was made to start removing old projects. One
+					of our programmers wrote a PHP script that was set to run each day and should recursively remove old
+					projects directories. Are you getting bad feeling about it yet?</p>
 
-                <aside>
-                    <p>Did you find an issue with this article? Please <a href="https://github.com/JakubTesarek/tesarek.me/issues/new">file a bug report</a>
-                        or even better, <a href="https://github.com/JakubTesarek/tesarek.me/edit/master/articles/story-time-fuckups.html">send a pull request</a>.
-                        Thank you!</a></p>
-                 </aside>
-           </article>
-        </main>
-        <footer>
-            <section>
-                <a class="icon external" href="mailto:jakub@tesarek.me">&#xf0e0;</a>
-                <a class="icon external" href="https://www.instagram.com/tesarekjakub/">&#xf16d;</a>
-                <a class="icon external" href="https://github.com/JakubTesarek">&#xf300;</a>
-                <a class="icon external" href="https://www.linkedin.com/in/jakubtesarek/">&#xf30c;</a>
-                <a class="icon external" href="https://twitter.com/JakubTesarek">&#xf304;</a>
-            </section>
-        </footer>
-    </body>
+				<p><b>He forgot to set the script, so it doesn't follow symlinks.</b> The first thing the script did was
+					that it removed all the files in current directory and then in started going through all the sub
+					directories. One of them was the symlinked PHP core. We didn't worry too much about permissions back
+					then, so it removed the whole core.</p>
+
+				<p>One would expect that we would immediately start getting angry phone calls but no, everything looked
+					fine. To speed up the page loading we used Memcache which kept all the PHP scripts in memory, so we
+					didn't have to read them from the disc every time. So even though the script removed everything, the
+					websites ran just fine. For about 3 hours. 3 hours was the cache TTL. Just before we left the office
+					for the day, everything went down.</p>
+
+				<p>To this day I remember my surprise when I logged onto the server and everything was gone.</p>
+
+				<h2>Autoresponder gone wild</h2>
+				<p>When I started in this company, my job was to provide technical support for our customers. Usually
+					clients sent us emails with their questions and requests and automated system created a new report.
+					The system also automatically replied to that client that we received their message and either sent
+					them their ticket number or informed them that their request was updated.</p>
+
+				<p>One Friday afternoon (I wasn't living in the office at that time yet,
+					<a href="#birds">more on that later</a>) one client sent us a new request and left for a weekend.
+					But before he did, he set an autoresponder in his mailbox that he's out of office. So, when we sent
+					him his ticket number, his mail server responded with the automated message. We received the message
+					and sent back message that we updated the request.</p>
+
+				<p>I must say, our system was quite optimized. It delivered a response to each email within seconds. On
+					Monday morning we received a phone call from very unhappy client who complained about 15 000 emails
+					in his mailbox.</p>
+
+				<h2 id="birds">Birds</h2>
+				<p>As a technical support worker, I wasn't making much money, so I rented a room in a two-bedroom flat
+					with some other guy to save money. Based on the smell and the fact that I saw him only once when he
+					gave me the keys he probably died just after I moved in. It was horrible place with window just
+					above a tram stop. I could barely sleep. Some days I didn't even go there, I just slept in the office.
+					Over the time I was going there less and less. When I manager found out I'm basically living in the
+					office, instead of firing me he bought me a mattress. The offices were set in a 4-bedroom family
+					house - there was a shower, kitchen, Xbox and the company paid for cleaning services. Why go home
+					when every day I could fall asleep to the soothing sound of servers?</p>
+
+				<p>One day I realized I wasn't home for 3 months and maybe I should stop paying the rent when I'm not
+					using the room. I just had to stop by to collect rest of my stuff.</p>
+
+				<p>First of all, I there was some of my clothes in the washing machine. The other guy didn't use it for
+					3 months! I told you he was dead. But that wasn't the worst thing. I forgot an opened window in my
+					room and also an old laptop on the table, still plugged to the wall, running and generating heat.
+					And there, in the middle of the keyboard was a pigeon nest with 2 eggs. I left everything as it was
+					and left. Neither the dead guy nor the owner ever called me.</p>
+
+				<aside>
+					<p>Did you find an issue with this article? Please
+						<a href="https://github.com/JakubTesarek/tesarek.me/issues/new">file a bug report</a> or even
+						better, <a href="https://github.com/JakubTesarek/tesarek.me/edit/master/articles/story-time-fuckups.html">send a pull request</a>.
+						Thank you!</p>
+				 </aside>
+			</article>
+		</main>
+		<footer>
+			<section>
+				<a class="icon external" href="mailto:jakub@tesarek.me">&#xf0e0;</a>
+				<a class="icon external" href="https://www.instagram.com/tesarekjakub/">&#xf16d;</a>
+				<a class="icon external" href="https://github.com/JakubTesarek">&#xf300;</a>
+				<a class="icon external" href="https://www.linkedin.com/in/jakubtesarek/">&#xf30c;</a>
+				<a class="icon external" href="https://twitter.com/JakubTesarek">&#xf304;</a>
+			</section>
+		</footer>
+	</body>
 </html>
