@@ -61,6 +61,14 @@ function init_mailchimp() {
     })
 }
 
+function init_links() {
+    var links = document.querySelectorAll('a.external');
+    for(var i=0; i < links.length; i++) {
+        var link = links[i];
+        link.setAttribute('target', '_blank');
+    }
+}
+
 document.addEventListener('DOMContentLoaded', (event) => {
     var raw_content = document.body.getAttribute('data-content') || '';
     var content = raw_content.split(';');
@@ -69,6 +77,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         'async': '',
         'onload': 'init_ga()'
     });
+    init_links();
 
     if (content.includes('code')) {
         create_script('/script/highlight.pack.js', {
@@ -86,7 +95,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         init_videos();
     }
 
-    if (!content.includes('sub')) {
+    if (content.includes('sub')) {
         create_script(
             'https://downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js', {
             'data-dojo-config': 'usePlainJson: true, isDebug: false',

@@ -19,7 +19,7 @@
         <menu class="navigation">
             <li><a href="https://tesarek.me">Home</a></li>
             <li><a href="https://tesarek.me#publications">Publications</a></li>
-            <li><a href="https://tesarek.us4.list-manage.com/subscribe/post?u=db9cdab3c81c5706fb0ede08a&id=44f897bb92">Subscribe</a></li>
+            <li><a href="https://tesarek.us4.list-manage.com/subscribe/post?u=db9cdab3c81c5706fb0ede08a&id=44f897bb92" class="external">Subscribe</a></li>
 		</menu>
 	</header>
 	<main>
@@ -44,7 +44,7 @@
 				<br>
 				The same as the ellipsis literal "<code class="python">...</code>". Special value used mostly in
 				conjunction with extended slicing syntax for user-defined container data types.
-				<cite><a href="https://docs.python.org/library/constants.html#Ellipsis">https://docs.python.org/library/constants.html#Ellipsis</a></cite>
+				<cite><a href="https://docs.python.org/library/constants.html#Ellipsis" class="external">https://docs.python.org/library/constants.html#Ellipsis</a></cite>
 			</blockquote>
 
 			<p>When documentation is lacking, we have to do some explorations ourselves.</p>
@@ -60,7 +60,7 @@ Ellipsis
 True</code></pre>
 
 			<p>We can do some other stuff with it. As I mentioned in my
-				<a href="https://tesarek.me/articles/power-of-metaclasses">article about metaclasses</a> - everything is
+				<a href="/articles/power-of-metaclasses">article about metaclasses</a> - everything is
 				an object. Therefore, even <code class="python">Ellipsis</code> should have some methods and attributes
 				we can inspect.</p>
 
@@ -221,7 +221,7 @@ module "a" was imported</code></pre>
 
 			<h3><code class="python">...</code> used as <code class="python">Undefined</code></h3>
 			<p>Even authors of Python got trapped by <code class="python">...</code> before, namely when implementing
-				<a href="https://www.python.org/dev/peps/pep-3134/">Exception Chaining</a>. It's a mechanism making it
+				<a href="https://www.python.org/dev/peps/pep-3134/" class="external">Exception Chaining</a>. It's a mechanism making it
 				possible to mark one exception as a direct cause of another.</p>
 
 			<pre><code class="python">&gt;&gt;&gt; try:
@@ -242,7 +242,7 @@ Exception</code></pre>
 			<aside>
 				<p>Notice the three dots at the beginning of lines in the example above. They have nothing to do with
 					<code class="python">Ellipsis</code>.
-					<a href="https://tesarek.me/articles/crazy-python">Python is sometimes weird.</a></p>
+					<a href="/articles/crazy-python">Python is sometimes weird.</a></p>
 			</aside>
 
 			<p>Python deals with this by setting a <code class="python">__cause__</code> attribute on the second
@@ -251,23 +251,23 @@ Exception</code></pre>
 				<code class="python">raise Exception</code>. How do you differentiate between exceptions that don't have
 				cause at all and exception caused by <code class="python">None</code>?</p>
 
-			<p><a href="https://www.python.org/dev/peps/pep-0409/#id12">PEP-409</a> tried to solve this by setting the
+			<p><a href="https://www.python.org/dev/peps/pep-0409/#id12" class="external">PEP-409</a> tried to solve this by setting the
 				<code class="python">__cause__</code> to <code class="python">Ellipsis</code> if it wasn't set.
-				<a href="https://www.python.org/dev/peps/pep-0415/#id5">PEP-415</a> removed this behavior. You can read
+				<a href="https://www.python.org/dev/peps/pep-0415/#id5" class="external">PEP-415</a> removed this behavior. You can read
 				the reasoning behind these decisions in the PEPs.</p>
 
 			<p><b>In next part we'll look at some practical examples and usage.</b></p>
 			<aside>
 				<p>Did you find an issue with this article? Please
-					<a href="https://github.com/JakubTesarek/tesarek.me/issues/new">file a bug report</a> or even better,
-					<a href="https://github.com/JakubTesarek/tesarek.me/edit/master/articles/ellipsis.html">send a pull request</a>.
+					<a href="https://github.com/JakubTesarek/tesarek.me/issues/new" class="external">file a bug report</a> or even better,
+					<a href="https://github.com/JakubTesarek/tesarek.me/edit/master/articles/ellipsis.html" class="external">send a pull request</a>.
 					Thank you!</p>
 			 </aside>
 		</article>
 	</main>
 	<footer>
 		<section>
-			<a class="icon external" href="mailto:jakub@tesarek.me">&#xf0e0;</a>
+			<a class="icon" href="mailto:jakub@tesarek.me">&#xf0e0;</a>
 			<a class="icon external" href="https://www.instagram.com/tesarekjakub/">&#xf16d;</a>
 			<a class="icon external" href="https://github.com/JakubTesarek">&#xf300;</a>
 			<a class="icon external" href="https://www.linkedin.com/in/jakubtesarek/">&#xf30c;</a>

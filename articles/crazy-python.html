@@ -19,7 +19,7 @@
 		<menu class="navigation">
             <li><a href="https://tesarek.me">Home</a></li>
             <li><a href="https://tesarek.me#publications">Publications</a></li>
-            <li><a href="https://tesarek.us4.list-manage.com/subscribe/post?u=db9cdab3c81c5706fb0ede08a&id=44f897bb92">Subscribe</a></li>
+            <li><a href="https://tesarek.us4.list-manage.com/subscribe/post?u=db9cdab3c81c5706fb0ede08a&id=44f897bb92" class="external">Subscribe</a></li>
 		</menu>
 	</header>
 	<main>
@@ -28,7 +28,7 @@
 				<h1>Crazy Python</h1>
 				<p>Over the time I spent with Python, I discovered some weird quirks and funny tricks you can do. Some
 					of them are intentionally put in place by our
-					<a href="https://www.python.org/dev/peps/pep-0401/">Benevolent Dictator Emeritus Vacationing Indefinitely from the Language</a>,
+					<a href="https://www.python.org/dev/peps/pep-0401/" class="external">Benevolent Dictator Emeritus Vacationing Indefinitely from the Language</a>,
 					some of them are just a manifestation of how poetic Python is.</p>
 			</header>
 
@@ -122,7 +122,7 @@ c.append(4)
 
 			<h2>Literal attributes</h2>
 			<p>As I explained in the article
-				<a href="https://tesarek.me/articles/power-of-metaclasses">Power of metaclasses</a>, everything is an
+				<a href="/articles/power-of-metaclasses">Power of metaclasses</a>, everything is an
 				object. That means you can access attributes and methods of any variable or literal, even strings and
 				integers, using dot syntax.</p>
 			
@@ -155,7 +155,7 @@ c.append(4)
 
 			<h2>Metaclasses</h2>
 			<p>Metaclasses are a huge topic which I explain thoroughly in article
-				<a href="https://tesarek.me/articles/power-of-metaclasses">Power of metaclasses</a>. It's very easy to
+				<a href="/articles/power-of-metaclasses">Power of metaclasses</a>. It's very easy to
 				abuse. For example, many programmers struggle with inheritance; they're not sure in which order methods
 				are imported from parent classes. Why not make it easier for them and sort the inheritance tree 
 				alphabetically?</p>
@@ -215,7 +215,7 @@ finally:
 				<code class="python">A</code> is <code class="python">True</code> and <code class="python">B</code> is
 				<code class="python">True</code>, and <code class="python">False</code> if either is
 				<code class="python">False</code>.
-				<cite><a href="https://cscircles.cemc.uwaterloo.ca/9-else-and-or-not/">Computer Science Circles</a></cite>
+				<cite><a href="https://cscircles.cemc.uwaterloo.ca/9-else-and-or-not/" class="external">Computer Science Circles</a></cite>
 			</blockquote>
 
 			<p>It's nice, simple and absolutely wrong explanation. Result of boolean operations in Python is not a
@@ -230,7 +230,7 @@ print(result) # [1, 2]
 # Result of "or" operand is the first value that evaluates to True</code></pre>
 
 			<h2>Returning from finally</h2>
-			<p>I wrote an <a href="https://tesarek.me/articles/try-finally-experiments">extensive article about
+			<p>I wrote an <a href="/articles/try-finally-experiments">extensive article about
 				returning from <code class="python">finally</code></a> before but it's still worth mentioning here.
 				Code in <code class="python">finally</code> is always executed, even if you already returned from your
 				function. If you then return again from the <code class="python">finally</code> block, it rewrites the
@@ -249,15 +249,15 @@ print(test()) # finally</code></pre>
 
 			<aside>
 				<p>Did you find an issue with this article? Please
-					<a href="https://github.com/JakubTesarek/tesarek.me/issues/new">file a bug report</a> or even
-					better, <a href="https://github.com/JakubTesarek/tesarek.me/edit/master/articles/crazy-python.html">send a pull request</a>.
+					<a href="https://github.com/JakubTesarek/tesarek.me/issues/new" class="external">file a bug report</a> or even
+					better, <a href="https://github.com/JakubTesarek/tesarek.me/edit/master/articles/crazy-python.html" class="external">send a pull request</a>.
 					Thank you!</p>
 			</aside>
 		</article>
 	</main>
 	<footer>
 		<section>
-			<a class="icon external" href="mailto:jakub@tesarek.me">&#xf0e0;</a>
+			<a class="icon" href="mailto:jakub@tesarek.me">&#xf0e0;</a>
 			<a class="icon external" href="https://www.instagram.com/tesarekjakub/">&#xf16d;</a>
 			<a class="icon external" href="https://github.com/JakubTesarek">&#xf300;</a>
 			<a class="icon external" href="https://www.linkedin.com/in/jakubtesarek/">&#xf30c;</a>
