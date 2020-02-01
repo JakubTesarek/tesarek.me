@@ -41,6 +41,7 @@
     float: left;
     transform: rotateX(45deg);
     position: absolute;
+    outline: 1px solid #ccc;
 }
 
 .scene .index0 {
