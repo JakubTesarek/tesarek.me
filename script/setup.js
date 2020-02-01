@@ -6,9 +6,19 @@ function create_element(name, attributes) {
     return element;
 }
 
-function create_script(attributes) {
+function create_script(src, attributes) {
+    attributes = attributes || {};
+    attributes.src = src
     var script = create_element('script', attributes);
     document.head.insertBefore(script, document.head.firstChild);
+}
+
+function create_style(src) {
+    var style = create_element('link', {
+        'rel': 'stylesheet',
+        'href': src
+    });
+    document.head.insertBefore(style, document.head.firstChild);
 }
 
 function init_ga() {
@@ -51,22 +61,38 @@ function init_mailchimp() {
     })
 }
 
-// Initialize higlight.js
 document.addEventListener('DOMContentLoaded', (event) => {
-    create_script({
-        'src': '/script/highlight.pack.js',
-        'onload': 'init_hljs()'
-    });
-    create_script({
-        'src': 'https://www.googletagmanager.com/gtag/js?id=UA-155995840-1',
+    var raw_content = document.body.getAttribute('data-content') || '';
+    var content = raw_content.split(';');
+
+    create_script('https://www.googletagmanager.com/gtag/js?id=UA-155995840-1', {
+        'async': '',
         'onload': 'init_ga()'
     });
-    create_script({
-        'src': 'https://downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js',
-        'data-dojo-config': 'usePlainJson: true, isDebug: false',
-        'onload': 'init_mailchimp()'
-    });
 
-    init_videos();
+    if (content.includes('code')) {
+        create_script('/script/highlight.pack.js', {
+            'async': '',
+            'onload': 'init_hljs()'
+        });
+        create_style('/style/color-brewer.css');
+    }
+
+    if (content.includes('figures')) {
+        create_style('/style/figures.css');
+    }
+
+    if (content.includes('video')) {
+        init_videos();
+    }
+
+    if (!content.includes('sub')) {
+        create_script(
+            'https://downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js', {
+            'data-dojo-config': 'usePlainJson: true, isDebug: false',
+            'async': '',
+            'onload': 'init_mailchimp()'
+        });
+    }
 });
 
