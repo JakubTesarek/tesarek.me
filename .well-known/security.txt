@@ -1,0 +1,3 @@
+Contact: jakub@tesarek.me
+Preferred-Languages: en, cs
+Canonical: http://tesarek.me/.well-known/security.txt
