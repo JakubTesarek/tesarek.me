@@ -1,2 +1,1 @@
-awscli==1.16
-aws
+flask
