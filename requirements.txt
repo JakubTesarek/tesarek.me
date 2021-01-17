@@ -1,1 +1,16 @@
-flask
+gunicorn
+aiohttp
+aiohttp_session[secure]
+aiohttp_jinja2
+aiohttp_session_flash
+bcrypt
+pytest-aiohttp
+flake8
+flake8-colors
+flake8-eradicate
+flake8-print
+flake8-todo
+flake8-docstrings
+pep8-naming
+aiohttp-devtools
+aiohttp_debugtoolbar

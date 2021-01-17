@@ -1,6 +1,8 @@
-from flask import Flask
-app = Flask(__name__)
+"""Entry point for web application."""
 
-@app.route('/')
-def hello_world():
-    return 'Hello, World!'
+from web.app import WebApplication
+
+
+app = WebApplication({
+    'debug': True
+})
