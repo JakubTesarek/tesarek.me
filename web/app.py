@@ -5,7 +5,6 @@ import logging
 import traceback
 
 import aiohttp_jinja2
-import aiohttp_debugtoolbar
 import aiohttp_session
 import aiohttp_session_flash
 from aiohttp import web
@@ -51,18 +50,11 @@ class WebApplication(web.Application):
         self.setup_sessions()  # must be first of setup methods
         self.setup_error_handlers()
         self.setup_template_environment()
-        self.setup_debug_toolbar()  # must be last of setup methods
         self.add_routes()
 
     def setup_error_handlers(self):
         """Adds error handlers."""
         self.middlewares.append(error_handler)
-
-    def setup_debug_toolbar(self):
-        """Initializes debug toolbar if app runs in debug mode."""
-        if self.conf.get('debug'):  # pragma: no cover
-            # This must be called AFTER aiohttp_session middleware, it intercepts cookies
-            aiohttp_debugtoolbar.setup(self, intercept_redirects=False)
 
     def setup_template_environment(self):
         """Prepares template environment."""

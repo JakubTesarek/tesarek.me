@@ -13,4 +13,3 @@ flake8-todo
 flake8-docstrings
 pep8-naming
 aiohttp-devtools
-aiohttp_debugtoolbar
