@@ -3,7 +3,7 @@
 import asyncio
 import logging
 import traceback
-
+import base64
 import aiohttp_jinja2
 import aiohttp_session
 import aiohttp_session_flash
@@ -11,11 +11,11 @@ from aiohttp import web
 from aiohttp_session import SimpleCookieStorage
 from aiohttp_session.cookie_storage import EncryptedCookieStorage
 from jinja2 import PackageLoader, select_autoescape
+from web.db import Db
 
 from web import endpoints
 
 logger = logging.getLogger(__name__)
-
 
 
 @web.middleware
@@ -51,6 +51,11 @@ class WebApplication(web.Application):
         self.setup_error_handlers()
         self.setup_template_environment()
         self.add_routes()
+        self.setup_db()
+
+    def setup_db(self):
+        """Connect to DB."""
+        self.db = Db(self.conf['s3'])
 
     def setup_error_handlers(self):
         """Adds error handlers."""

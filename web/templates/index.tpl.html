@@ -1,1 +1,11 @@
-Hello world!
+{% extends 'layout.tpl.html' %}
+{% block content %}
+    <section class="content" id="publications">
+        {% for article in articles %}
+            <article>
+                <h3><a href="{{ url('article', stub=article.stub) }}">{{ article.title }}</a></h3>
+                <p>{{ article.abstract_html|safe }}</p>
+            </article>
+        {% endfor %}
+    </section>
+{% endblock %}

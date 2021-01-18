@@ -15,3 +15,4 @@ htmlcov
 
 # Local development
 venv
+local.conf.json

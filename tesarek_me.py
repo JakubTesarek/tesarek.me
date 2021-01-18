@@ -6,5 +6,6 @@ import os
 
 
 async def app():
+    """Create app."""
     conf = read_conf(os.environ.get('TESAREK_ME_CONF_PATH', 'local.conf.json'))
     return WebApplication(conf)

@@ -1,0 +1,10 @@
+{% extends 'layout.tpl.html' %}
+{% block meta_title %}{{ article.meta_title }}{% endblock %}
+{% block meta_description %}{{ article.meta_description }}{% endblock %}
+
+{% block content %}
+    <section class="content">
+        <h1>{{ article.title }}<h1>
+        {{ article.content_html|safe }}
+    </section>
+{% endblock %}

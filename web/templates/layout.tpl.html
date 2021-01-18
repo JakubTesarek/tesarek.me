@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% block meta_title %}Jakub Tesárek - Personal Website{% endblock %}</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="{% block meta_description %}Jakub Tesárek shares articles about programming, Python and DevOps{% endblock %}" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+    <link rel="stylesheet" href="/static/style/main.css" />
+</head>
+<body>
+    <header>
+        <menu class="navigation">
+            <li><a href="/">Home</a></li>
+            <li><a href="/whoami">Whoami</a></li>
+        </menu>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>
